@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Profile"
+    url: /profile/
   - title: "Category"
     url: /categories/
   - title: "Tag"
