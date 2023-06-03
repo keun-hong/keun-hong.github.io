@@ -12,9 +12,7 @@ author_profile: true
 - b
 - c
 
-
-
-![KH](../images/profile/KH-1685636221957-2.jpg)
+![KH](../images/profile/KH.jpg)
 
 ### International Conferences
 

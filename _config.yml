@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : # "Keun Hong Son"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : #"/images/KH.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an cancer & evolution biologist"
   location         : "South Korea"
   email            :
@@ -125,6 +125,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/new__hong/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw   fa-linkedin-in"
+      url: "https://www.linkedin.com/in/keun-hong-son-b05422174/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "newhong@snu.ac.kr"
@@ -285,5 +288,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      
+      search: true
 
 date_format: "%Y-%m-%d"
