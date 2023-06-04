@@ -2,10 +2,10 @@
 main:
   - title: "Profile"
     url: /profile/
-  - title: "Science"
-    url: /categories/
-  - title: "Everyday"
-    url: /tags/
+  - title: "Research"
+    url: /science/
+  - title: "Lab Life"
+    url: /lablife/
   - title: "Search"
     url: /search/
 
