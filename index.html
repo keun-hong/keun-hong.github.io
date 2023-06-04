@@ -1,4 +1,38 @@
 ---
 layout: home
 author_profile: true
+classes: wide
 ---
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>float style</title>
+ 
+        <style>
+            img{ float: left;}
+ 
+            .p2{ clear: both;}
+ 
+            /* float된 이미지와 요소의 마진을 주고 싶으면 */
+            /* float된 이미지에 margin을 적용 */
+            img{ margin-top: 0px; margin-right: 20px;}
+ 
+        </style>
+ 
+    </head>
+    <body>
+        <img src="images/index/KH_8by10.jpg" alt="image" width="250">
+        <b>
+            Hi! My name is Keun Hong. I am a cancer biologist.
+        </b>
+        <p>
+            I am a bioinformatician who strives to learn how we can use and develop computational models and methods to understand and control complex biological systems and treat disease.
+            I look at cancer as a systems-level disease and therefore believe that a global view of the multiple levels of dysfunction in cancer will best inform clinical management strategies.
+            I am training to become adept at using machine learning methods to leverage my research.
+        </p>
+
+        <!-- float에 의해 요소가 아래에 깔리는 것을 확인해보기 -->
+        <p2 class="p2"><br><br></p2>
+ 
+    </body>
+</html>
