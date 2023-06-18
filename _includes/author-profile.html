@@ -1,7 +1,10 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+<!--
+  상하 간격 조절을 위해, style margin
+-->
+<div itemscope itemtype="https://schema.org/Person" class="h-card" style="margin:0px 0px 0px 0px">
 
   {% if author.avatar %}
     <div class="author__avatar">
@@ -23,7 +26,10 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
+    <!--
+      버튼 색 변경을 위해, style 추가
+    -->
+    <button class="btn btn--primary" style="padding:10px 15px 10px 15px;">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
