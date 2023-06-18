@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "date"
-categories: p
-tags: a
+title: "First post"
+categories: LabLife
+tags: 
 author_profile: false
 #sidebar:
 #    nav: "counts"
 #classes: wide
 ---
 
-bb
+It's my first post test

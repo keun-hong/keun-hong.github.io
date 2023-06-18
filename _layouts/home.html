@@ -2,8 +2,11 @@
 layout: archive
 ---
 
+<!--
+  index.html 내용 들어가는 부분
+  즉, Introduction (사진과 글) 들어가는 곳
+-->
 {{ content }}
-
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
@@ -14,6 +17,9 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 
+<!--
+  Recent posts 내용 간격 조정을 위해, archive-single.html 수정
+-->
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
