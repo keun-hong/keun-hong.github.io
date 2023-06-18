@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "First post"
-categories: LabLife
-tags: test
+categories: lablife
+tags: lab
 author_profile: false
 #sidebar:
 #    nav: "counts"
