@@ -1,9 +1,15 @@
 ---
 layout: single
-title: "How to use the public NGS data?"
-categories: bioinformatics
-tags: public NGS 
+title: "[Public NGS data] Summary"
+categories: Bioinformatics
+tags: [public data, NGS]
 ---
+
+-- intro
+
+![pnas.2016289118fig07.jpg](G:\My%20Drive\02_Pipeline_code\01_Com\GitHub\keun-hong.github.io\images\2023-06-24-usage-public-data\3763b9aaa58a2bd4efdd5c9335b369b69a1bba41.jpg)
+
+
 
 ## Databases where NGS data is stored
 
@@ -40,3 +46,9 @@ Yes, there are various bioinformatics tools and software similar to Entrez Progr
 Remember, these tools require a good knowledge of programming to fully harness their potentials. You might want to consider your programming language of preference, the type of data you will be dealing with, and the specific functionality you need when choosing between these tools.
 
 ## Collection metadata and downloading data
+
+### 
+
+### Reference
+
+This article was written with help from ChatGPT.

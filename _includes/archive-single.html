@@ -19,19 +19,20 @@
     {% endif %}
     <!--
       Recent posts 게시물 제목, 상하단 간격 조절을 위해 style 추가
+      크기 조절을 위해 h2 -> h5
     -->
-    <h2 class="archive__item-title no_toc" itemprop="k" style="margin:0px 0px 5px 0px">
+    <h5 class="archive__item-title no_toc" itemprop="k" style="margin:0px 0px 5px 0px">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h2>
+    </h5>
     <!-- Recent posts 게시물 업로드 날짜 -->
     {% include page__meta.html type=include.type %}
     <!--
       Recent posts 게시물 일부 내용, 상하단 간격 조절을 위해 style 추가
     -->
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description"  style="margin:0px 0px 20px 0px">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description"  style="margin:0px 0px 10px 0px">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>

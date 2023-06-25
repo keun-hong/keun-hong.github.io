@@ -4,11 +4,11 @@ permalink: /profile/
 author_profile: true
 classes: wide
 ---
-<style>
+<style>    
     h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 5px;
     }
     .intro ul {
         margin-top: 4px;
@@ -52,7 +52,6 @@ classes: wide
         font-size:80%;
         padding-top: 5px;
     }
-
 </style>
 <!-- CSS -->
 <h3>Research Interests</h3> 

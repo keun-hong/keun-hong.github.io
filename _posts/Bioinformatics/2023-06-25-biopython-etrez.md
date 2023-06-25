@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "BioPython's Bio.Entrez module"
-categories: bioinformatics
-tags: lab
+title: "[Public NGS data] BioPython's Bio.Entrez module"
+categories: Bioinformatics
+tags: [lab, ]
 ---
 
 -- Intro
@@ -154,3 +154,15 @@ The `results` variable in this context is a dictionary that contains the respons
 The `IdList` is usually the most relevant piece of information if you're looking to gather specific IDs. Other fields are more relevant for understanding the context of the search or for more advanced usage.
 
 ---
+
+### 
+
+### Reference
+
+This article was written with help from ChatGPT.
+
+[biopython/Bio.Entrez]([Bio.Entrez package &mdash; Biopython 1.81 documentation](https://biopython.org/docs/latest/api/Bio.Entrez.html#))
+
+[incodom.kr/E-utility]([E-utility - 인코덤, 생물정보 전문위키](http://www.incodom.kr/E-utility))
+
+[incodom.kr/Biopython/Bio.Entrez]([Biopython/Bio.Entrez - 인코덤, 생물정보 전문위키](http://www.incodom.kr/Biopython/Bio.Entrez))
