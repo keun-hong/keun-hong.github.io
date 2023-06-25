@@ -137,3 +137,8 @@ classes: wide
     <strong><em>Cancers (Basal).</em></strong> 2018 (<a href="https://www.mdpi.com/2072-6694/10/9/317">Article</a>, <a href="https://www.mdpi.com/2072-6694/10/9/317/pdf?version=1536322358">PDF</a>)
     </p>
 </div>
+
+<div>
+    <a href="https://www.researchgate.net/profile/Keun-Hong-Son">ResearchGate</a><br>
+    <a href="https://loop.frontiersin.org/people/2356993/overview">Loop</a>
+</div>
