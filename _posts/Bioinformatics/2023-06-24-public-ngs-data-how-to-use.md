@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Public NGS data] Summary"
+title: "[Public NGS data] How to use?"
 categories: Bioinformatics
 tags: [public data, NGS]
 ---
