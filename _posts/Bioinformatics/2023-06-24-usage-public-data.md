@@ -5,11 +5,9 @@ categories: Bioinformatics
 tags: [public data, NGS]
 ---
 
+<img title="" src="../../images/2023-06-24-usage-public-data/32c3653149d805aab6f947aed24cc8dd3d212012.jpg" alt="loading-ag-245" width="300px" data-align="center">
+
 -- intro
-
-![pnas.2016289118fig07.jpg](G:\My%20Drive\02_Pipeline_code\01_Com\GitHub\keun-hong.github.io\images\2023-06-24-usage-public-data\3763b9aaa58a2bd4efdd5c9335b369b69a1bba41.jpg)
-
-
 
 ## Databases where NGS data is stored
 
