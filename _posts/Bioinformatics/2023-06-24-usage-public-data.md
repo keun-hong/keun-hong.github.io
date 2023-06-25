@@ -4,8 +4,9 @@ title: "[Public NGS data] Summary"
 categories: Bioinformatics
 tags: [public data, NGS]
 ---
-
+<!-->
 <img title="" src="../../images/2023-06-24-usage-public-data/32c3653149d805aab6f947aed24cc8dd3d212012.jpg" alt="loading-ag-245" width="300px" data-align="center">
+-->
 
 -- intro
 
