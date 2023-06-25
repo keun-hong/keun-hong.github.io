@@ -9,6 +9,8 @@ sidebar:
 classes: wide
 ---
 
+-- Intro
+
 ## Modules
 
 BioPython's Bio.Entrez module provides an interface to the NCBI's Entrez service, which allows you to search, retrieve, and download data from NCBI's databases. The major functions of Bio.Entrez are:
