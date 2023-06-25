@@ -3,11 +3,6 @@ layout: single
 title: "How to use the public NGS data?"
 categories: bioinformatics
 tags: public NGS 
-author_profile: false
-toc: true
-sidebar:
-    nav: "counts"
-# classes: wide
 ---
 
 ## Databases where NGS data is stored

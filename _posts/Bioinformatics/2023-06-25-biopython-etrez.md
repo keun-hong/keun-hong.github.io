@@ -3,11 +3,6 @@ layout: single
 title: "BioPython's Bio.Entrez module"
 categories: bioinformatics
 tags: lab
-author_profile: false
-
-sidebar:
-    nav: "counts"
-# classes: wide
 ---
 
 -- Intro
