@@ -10,7 +10,7 @@ Public databases are filled with a tremendous amount of NGS-based data that can 
 
 ## Databases where NGS data is stored
 
-<img title="" src="file:///C:/Users/thsrm/Desktop/INSDS.jpg" alt="loading-ag-764" data-align="center" width="240">
+<img title="" src="../../images/2023-06-24-public-ngs-data-how-to-use/c1d3fb40fe48b0d8640e9e16d6e12b788df7686a.jpg" alt="INSDC" data-align="center" width="200em">
 
 **International Nucleotide Sequence Database Collaboration ([INSDC](https://www.insdc.org/))** is a long-standing global collaboration among three primary databases that archive and distribute data from nucleotide sequencing:
 
