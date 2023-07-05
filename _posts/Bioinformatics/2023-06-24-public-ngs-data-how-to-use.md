@@ -47,6 +47,8 @@ Remember, these tools require a good knowledge of programming to fully harness t
 
 ## Collection metadata
 
+---
+
 ## Downloading raw .fastq data
 
 [FAIR enough? A perspective on the status of nucleotide sequence data and metadata on public archives | bioRxiv](https://www.biorxiv.org/content/10.1101/2021.09.23.461561v1.full)
