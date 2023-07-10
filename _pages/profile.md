@@ -87,9 +87,9 @@ classes: wide
 <div class="first-author">
     <img src="../images/profile/First_EpicDog.jpg" alt="image">
     <p>
-    <strong class="special-text">Integrative mapping of the dog epigenome: reference annotation for comparative inter-tissue and cross-species studies</strong><br><br>
+    <strong class="special-text">Integrative mapping of the dog epigenome: reference annotation for comparative intertissue and cross-species studies</strong><br><br>
     <strong>Son KH*</strong>, Aldonza MBD*, Nam AR*, Lee K, Lee J, Shin K, Kang K, &amp; Cho J&#8224;.<br>
-    <strong><em>Science Advances.</em></strong> 2023 (<a href="https://www.biorxiv.org/content/10.1101/2022.07.22.501075v1">BioRxiv</a>)
+    <strong><em>Science Advances.</em></strong> 2023 (<a href="https://www.science.org/doi/10.1126/sciadv.ade3399">Article</a>, <a href="https://www.science.org/doi/epdf/10.1126/sciadv.ade3399">PDF</a>)
     </p>
 </div>
 <div class="first-author">
