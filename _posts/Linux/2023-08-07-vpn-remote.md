@@ -9,4 +9,8 @@ Usually, as I show below , I work using a main windows labtop connecting to seve
 
 
 
-![loading-ag-795](G:\My Drive\02_Pipeline_code\01_Com\GitHub\keun-hong.github.io\for_post\2023-08-07-vpn-remote\pic1.jpg)
+
+
+
+
+![pic1.jpg](../../images/2023-08-07-vpn-remote/af1a3f3d0e4fcf809648d687127514371887eef9.jpg)
