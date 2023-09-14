@@ -61,8 +61,8 @@ classes: wide
         <p>tumor evolution, tumor microenvironment</p></li>
         <li>Comparative Biology (Cancer & Aging)
         <p>cross-species multi-omics (genomics, epigenomics, proteomics)</p></li>
-        <li>Stem Cell Engineering
-        <p>organoids, assembloids, extracellular matrix (ECM)</p></li>
+        <li>Evolutionary biology
+        <p>human medicine, genomic innovation</p></li>
     </ul><br>
     <h3>Education</h3>
     <ul>
