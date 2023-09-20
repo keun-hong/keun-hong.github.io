@@ -81,33 +81,38 @@ For the uninitiated, transitioning from BAM to FASTQ might sound like a daunting
    ```shell
    # Ensure you're in the directory containing your bam files
    echo "sample_id,mapped,index,file_type" > samplesheet.csv
-   for bam in *.bam;do pre=${bam%_sorted.bam}
+   for bam in *.bam;do pre=${bam%.bam}
        echo "${pre},${bam},,bam" >> samplesheet.csv
    done
    ```
    
    Your input file will resemble the format shown in this
-
-<center>
-    <img src="../../images/2023-09-19-bamtofq-nf-core/549ad552fe4654037effcfe66669ee0c6113ff4d.jpg" alt="image" width="350">
-    <br>
-</center>
+   
+   ```tex
+   sample_id,mapped,index,file_type
+   010015_0103,010015_0103.bam,,bam
+   010031_0103,010031_0103.bam,,bam
+   010031_0200,010031_0200.bam,,bam
+   010045_0103,010045_0103.bam,,bam
+   010072_0103,010072_0103.bam,,bam
+   010091_0103,010091_0103.bam,,bam
+   ```
 
 4. **Run the pipeline!!**
-
-Finally, it's time to run the pipeline:
-
-```shell
-nextflow run nf-core/bamtofastq \
-    -profile singularity \
-    --input samplesheet.csv \
-    --outdir ../01_bamtofastq \
-    --no_read_QC
-```
-
-I encountered an issue with the singularity image pull for FastQC. So, I bypassed this step using the --no_read_QC option.
-
-As the pipeline runs, you'll see key information and progress updates. Depending on your sample's size and count, the process might take a few hours. But, in the end, your much-awaited FASTQ files will be ready!
+   
+   Finally, it's time to run the pipeline:
+   
+   ```shell
+   nextflow run nf-core/bamtofastq \
+       -profile singularity \
+       --input samplesheet.csv \
+       --outdir ../01_bamtofastq \
+       --no_read_QC
+   ```
+   
+   I encountered an issue with the singularity image pull for FastQC. So, I bypassed this step using the --no_read_QC option.
+   
+   As the pipeline runs, you'll see key information and progress updates. Depending on your sample's size and count, the process might take a few hours. But, in the end, your much-awaited FASTQ files will be ready!
 
 ![02.jpg](../../images/2023-09-19-bamtofq-nf-core/f96af1acab2b8525238b86b708c917f0b8539daa.jpg)
 
