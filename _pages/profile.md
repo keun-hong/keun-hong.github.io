@@ -62,7 +62,7 @@ classes: wide
         <li>Comparative Biology (Cancer & Aging)
         <p>cross-species multi-omics (genomics, epigenomics, proteomics)</p></li>
         <li>Evolutionary biology
-        <p>human medicine, genomic innovation</p></li>
+        <p>human medicine, genomic innovation, cancer paradox</p></li>
     </ul><br>
     <h3>Education</h3>
     <ul>
