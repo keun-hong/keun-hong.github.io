@@ -19,8 +19,6 @@ If you've ever downloaded public NGS data from databases like TCGA or ICDC (refe
 - **Snapshot**: The bioinformatics community—bringing you top-tier, peer-reviewed analysis pipelines crafted in Nextflow.
 - **Learn More?** Here's a [tutorial](https://carpentries-incubator.github.io/workflows-nextflow/#:~:text=Nextflow%20is%20workflow%20management%20software,Docker%2C%20Singularity%2C%20and%20Conda) to get you started!
 
-
-
 ### Pipeline summary
 
 Alright, let's get down to the nitty-gritty. Here's a step-by-step summary of the [nf-core/bamtofastq](https://nf-co.re/bamtofastq) pipeline:
@@ -97,20 +95,20 @@ For the uninitiated, transitioning from BAM to FASTQ might sound like a daunting
 <br>
 
 4. **Run the pipeline!!**
-   
-   Finally, it's time to run the pipeline:
-   
-   ```shell
-   nextflow run nf-core/bamtofastq \
-       -profile singularity \
-       --input samplesheet.csv \
-       --outdir ../01_bamtofastq \
-       --no_read_QC
-   ```
-   
-   I encountered an issue with the singularity image pull for FastQC. So, I bypassed this step using the --no_read_QC option.
-   
-   As the pipeline runs, you'll see key information and progress updates. Depending on your sample's size and count, the process might take a few hours. But, in the end, your much-awaited FASTQ files will be ready!
+
+Finally, it's time to run the pipeline:
+
+```shell
+nextflow run nf-core/bamtofastq \
+    -profile singularity \
+    --input samplesheet.csv \
+    --outdir ../01_bamtofastq \
+    --no_read_QC
+```
+
+I encountered an issue with the singularity image pull for FastQC. So, I bypassed this step using the --no_read_QC option.
+
+As the pipeline runs, you'll see key information and progress updates. Depending on your sample's size and count, the process might take a few hours. But, in the end, your much-awaited FASTQ files will be ready!
 
 ![02.jpg](../../images/2023-09-19-bamtofq-nf-core/f96af1acab2b8525238b86b708c917f0b8539daa.jpg)
 
