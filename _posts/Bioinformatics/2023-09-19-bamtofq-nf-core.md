@@ -92,7 +92,6 @@ For the uninitiated, transitioning from BAM to FASTQ might sound like a daunting
     <img src="../../images/2023-09-19-bamtofq-nf-core/549ad552fe4654037effcfe66669ee0c6113ff4d.jpg" alt="image" width="350">
     <br>
 </center>
-<br>
 
 4. **Run the pipeline!!**
 
