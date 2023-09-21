@@ -58,17 +58,17 @@ classes: wide
 <div class="intro">
     <ul>
         <li>Cancer Biology (Tumor Ecology)
-        <p>tumor evolution, tumor microenvironment</p></li>
-        <li>Comparative Biology (Cancer & Aging)
+        <p>tumor evolution, tumor microenvironment, metastasis and relapse, immunity</p></li>
+        <li>Evolutionary and Comparative Biology (Cancer & Aging)
         <p>cross-species multi-omics (genomics, epigenomics, proteomics)</p></li>
-        <li>Evolutionary biology
-        <p>human medicine, genomic innovation, cancer paradox</p></li>
+        <li>Stem Cell Engineering
+        <p>organoids, assembloids, extracellular matrix (ECM)</p></li>
     </ul><br>
     <h3>Education</h3>
     <ul>
-        <li>Ph.D., Bioinformatics and cancer biology (2019 - )
+        <li>Ph.D., Biomedical Sciences (2019 - )
         <p>Seoul National University Veterinary Medicine, Seoul, Republic of Korea Advisor: Prof.Je-Yeol Cho</p></li>
-        <li>MS, Bioinformatics (2016 - 2018)
+        <li>MS, Microbiology  (2016 - 2018)
         <p>Dankook University, Cheonan, Republic of Korea Advisor: Prof. Keunsoo Kang</p></li>
         <li>BS, Microbiology (2010 -2016)
         <p>Dankook University, Cheonan, Republic of Korea</p></li>
