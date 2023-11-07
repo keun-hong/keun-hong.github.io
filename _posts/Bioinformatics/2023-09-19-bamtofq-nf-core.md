@@ -158,7 +158,7 @@ Here's a simple way to check using `samtools`:
    
    Usage for single-end reads:
    
-   ```sheel
+   ```shell
    samtools fastq input.bam > output.fastq
    ```
    
