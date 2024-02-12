@@ -52,7 +52,7 @@ classes: wide
         font-size:80%;
         padding-top: 5px;
     }
-    
+
 </style>
 <!-- CSS -->
 <h3>Research Interests</h3> 
