@@ -52,23 +52,6 @@ classes: wide
         font-size:80%;
         padding-top: 5px;
     }
-
-    /* 추가된 미디어 쿼리 */
-    @media (max-width: 768px) {
-        .first-author {
-            display: block;
-            text-align: left;
-        }
-        .first-author img {            
-            margin: 0 auto 15px; /* 이미지 하단 마진 추가, 자동 가로 마진으로 중앙 정렬 */
-            display: block; /* 이미지를 블록 레벨 요소로 설정 */
-            width: 100%; /* 이미지 너비를 부모 컨테이너에 맞게 조정 */
-            max-width: 300px; /* 최대 이미지 크기를 제한 */
-        }
-        .first-author p {
-            /* 텍스트에 대한 추가적인 스타일링이 필요하지 않음 */
-        }
-    }
     
 </style>
 <!-- CSS -->
