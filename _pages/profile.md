@@ -105,7 +105,7 @@ classes: wide
 <div class="first-author">
     <img src="../images/profile/First_EpicDog.jpg" alt="image">
     <p>
-    <strong class="special-text">Integrative mapping of the dog epigenome: reference annotation for comparative intertissue and cross-species studies</strong><br><br>
+    <strong class="special-text">Integrative mapping of the dog epigenome: reference annotation for comparative intertissue and cross-species studies</strong><br>
     <strong>Son KH&#8224;</strong>, Aldonza MBD&#8224;, Nam AR&#8224;, Lee K, Lee J, Shin K, Kang K, &amp; Cho J*.<br>
     <strong><em>Science Advances.</em></strong> 2023 (<a href="https://www.science.org/doi/10.1126/sciadv.ade3399">Article</a>, <a href="https://www.science.org/doi/epdf/10.1126/sciadv.ade3399">PDF</a>)
     </p>
@@ -113,7 +113,7 @@ classes: wide
 <div class="first-author">
     <img src="../images/profile/First_SMARCB1.jpg" alt="image">
     <p>
-    <strong class="special-text">Nucleoporin 210 Serves a Key Scaffold for SMARCB1 in Liver Cancer</strong><br><br>
+    <strong class="special-text">Nucleoporin 210 Serves a Key Scaffold for SMARCB1 in Liver Cancer</strong><br>
     Hong SH&#8224;, <strong>Son KH&#8224;</strong>, Ha SY, Wee  TI, Choi SK, Won JE, Han HD, Ro Y, Park Y, Eun JW, Nam SW, Han J, Kang K, &amp; You JS*.<br>
     <strong><em>Cancer Research.</em></strong> 2021 (<a href="https://aacrjournals.org/cancerres/article/81/2/356/648678/Nucleoporin-210-Serves-a-Key-Scaffold-for-SMARCB1">Article</a>, <a href="https://watermark.silverchair.com/356.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAq4wggKqBgkqhkiG9w0BBwagggKbMIIClwIBADCCApAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMAzOIhwS0TWN0ciuWAgEQgIICYYJOMDTAAaQbaeAbArnxFmeex1EOop1d9TNHCvLEePjeJjBBfdn_JVxfq76RJod_qK1uMtPhryFjzwfhy-igweWuMT8z2YBIl3ZCNSRgiJX3ph2X_5CxnByACCaCrp4Sdr0-3zU9gu00dot9g8il8_1NJX3h050usSrRJ1Zq5NeOg-BNO8H3EjWKspL42vdqJRt39yZ88YEnNj5NL1t4t-pLBilKwDCzqihNypuD6Ud84ezczrQIOQ27NhCZdqmUXf-7fM10-S6Zjddfa1eTVv_1cOw0XqaKpRnTX6a-wzNuk-MdfLXz3asTDdMQCY_yBQtnnZ7HNz0gHN2AVG5abDI9mnArLpAfu30lmNAsPoDNlXIAHTVPz2YmgZ9Gh3d09im3ytOW1SQsAMeQeZOwxJyM7VJVN9nAZLQUu2dLUkRd8il7B3NGXllGyd7uYt5Y3adCCMHOmqTirxS-Rmqw8zUTYE58fFHr8yrqie0LF0S6rLTjuNDE81NHktqtY77YvEh8QrtMwhEXSDPih0tpyfzYrkjr5yt6oEHbcnGHTEGPiev1REkDv8-P5hLZIHtV56fSvBDyCr-t-RfTg-fNs_9bkS1erbqv_-Ea-_59b5IhruM4FHnhPT1OmnCULTHV7w2uafYltD7BlJX1KSyJANM5Ds5HIdykTDlp_R2W-C-I2wRBPgAr-ThnLwqbNhB7DINcH1vE_-GRcvvWyOkYBBUurDeeGdRhuV8EIK1hHv46Ve-PHUKiZ0tgXT1ebMXfgVm6FRe8Bz-6dGVhOZ1pAs2OzjUAGPCtI9FanLFUXLY7DQ">PDF</a>)
     </p>
@@ -121,7 +121,7 @@ classes: wide
 <div class="first-author">
     <img src="../images/profile/First_RNA-seq.jpg" alt="image">
     <p>
-    <strong class="special-text">A Simple Guideline to Assess the Characteristics of RNA-Seq Data</strong><br><br>
+    <strong class="special-text">A Simple Guideline to Assess the Characteristics of RNA-Seq Data</strong><br>
     <strong>Son K&#8224;</strong>, Yu S, Shin W, Han K, &amp; Kang K*.<br>
     <strong><em>Biomed Res Int.</em></strong> 2018 (<a href="https://www.hindawi.com/journals/bmri/2018/2906292/">Article</a>, <a href="https://downloads.hindawi.com/journals/bmri/2018/2906292.pdf">PDF</a>)
     </p>
