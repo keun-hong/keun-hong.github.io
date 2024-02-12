@@ -2,12 +2,6 @@
 ---
 
 <!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}
@@ -36,6 +30,20 @@
     </div>
 
     {% include scripts.html %}
+    
+    <!-- Add the JavaScript for adjusting font size based on DPR -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var dpr = window.devicePixelRatio || 1; // Get the device pixel ratio
+        var baseFontSize = 16; // Define a base font size in pixels
+        var adjustedFontSize = baseFontSize * dpr; // Adjust the font size based on DPR
+
+        // Set a maximum font size limit if necessary
+        if (adjustedFontSize > 24) adjustedFontSize = 24;
+
+        document.documentElement.style.fontSize = adjustedFontSize + "px";
+      });
+    </script>
 
   </body>
 </html>
