@@ -12,23 +12,24 @@ classes: wide
                 align-items: top;
                 background-color: white;
                 color: black;
-                margin: 0px 0px 50px 0px;
+                margin: 0px 0px 0px 0px;
                 padding: 0px 10px 0px 0px;
             }
             .intro img {
-                width: 250px;
+                height: 300px;
                 margin-right: 15px;
                 border-radius: 2%;            
                 border: 1.5px solid black;
             }
             .intro p {
                 margin-top: 0px;
-                font-size: 75%;
+                font-size: 85%;
             }
             .special-text {
                 font-size: 140%;
             }
 
+            /*화면 크기에 따른 이미지와 글 배치 변경*/
             @media (max-width: 600px) {
                 .intro {
                     flex-direction: column;
@@ -38,7 +39,7 @@ classes: wide
                 .intro img {
                     margin-bottom: 15px; /* 이미지와 텍스트 사이의 간격 조정 */
                     width: auto; /* 이미지가 컨테이너의 너비에 맞게 조정되도록 함 */
-                    max-width: 50%; /* 이미지가 부모 요소를 넘어서지 않도록 함 */
+                    max-width: 60%; /* 이미지가 부모 요소를 넘어서지 않도록 함 */
                 }
                 .intro p {
                     /* 필요한 경우 추가 조정 */
@@ -51,7 +52,7 @@ classes: wide
         <div class="intro">
             <img src="images/index/KH_8by10.jpg" alt="image">
             <p>
-            <strong class="special-text">Hi! My name is Keun Hong. I am a cancer biologist.</strong><br><br>
+            <strong class="special-text">Hi! My name is Keun Hong. I am a cancer biologist.</strong><br>
             I am a PhD candidate in biomedical sciences at Seoul National University (the lab of <a href="https://vetbio.snu.ac.kr/">Prof. Je-Yoel Cho</a>). I have strong technical backgrounds in computational biology, and molecular & cell biology.<br><br>
             I am generally interested in cancer biology, especially in how tumor cells systemically interact within tumors, with their microenvironment, and with other distant organs, and how such interaction can drive their pathobiology and overall response to therapies. In the grander scheme, I am interested in exploring this biology across different species using comparative biology approaches (humans and animals) to innovate solutions for clinical use.
             </p>

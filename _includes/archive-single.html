@@ -9,7 +9,6 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -19,15 +18,15 @@
     {% endif %}
     <!--
       Recent posts 게시물 제목, 상하단 간격 조절을 위해 style 추가
-      크기 조절을 위해 h2 -> h6
+      크기 조절을 위해 font-size: --em 추가
     -->
-    <h6 class="archive__item-title no_toc" itemprop="k" style="margin:0px 0px 5px 0px">
+    <h2 class="archive__item-title no_toc" itemprop="k" style="margin:0px 0px 5px 0px; font-size: 0.85em;">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h6>
+    </h2>
     <!-- Recent posts 게시물 업로드 날짜 -->
     {% include page__meta.html type=include.type %}
     <!--
