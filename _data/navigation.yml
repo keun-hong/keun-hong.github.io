@@ -2,10 +2,12 @@
 main:
   - title: "Profile"
     url: /profile/
-  - title: "Category"
+  - title: "Blog"
     url: /categories/
-  - title: "Tag"
-    url: /tags/
+#  - title: "Tag"
+#    url: /tags/
+  - title: "Archives"
+    url: /year-archive/
   - title: "Search"
     url: /search/
 
