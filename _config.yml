@@ -128,7 +128,7 @@ author:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@new__hong"
     - label: "LinkedIn"
-      icon: "fab fa-fw   fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/keun-hong-son-b05422174/"
     #- label: "Email"
       # icon: "fas fa-fw fa-envelope-square"
