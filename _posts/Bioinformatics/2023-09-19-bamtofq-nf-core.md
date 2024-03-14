@@ -70,8 +70,9 @@ For the uninitiated, transitioning from BAM to FASTQ might sound like a daunting
    Here's how I did it with version singularity-3.8.6:
    
    ```shell
+   # version 3.8.6
    wget https://anaconda.org/conda-forge/singularity/3.8.6/download/linux-64/singularity-3.8.6-h9c2343c_0.tar.bz2
-   conda install linux-64/singularity-3.8.6-h9c2343c_0.tar.bz2
+   conda install singularity-3.8.6-h9c2343c_0.tar.bz2
    ```
 
 3. **Preparing Your Input**

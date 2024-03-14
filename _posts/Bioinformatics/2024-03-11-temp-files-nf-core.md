@@ -5,8 +5,6 @@ categories: Bioinformatics
 tags: [troubleshooting, nextflow, nf-core]
 ---
 
---
-
 ### Problem Description
 
 When I ran the nf-core RNA-seq pipeline, big size temporary files named "rootf-*" (> 10Gb) were generated in root folder (/tmp). Because there isn't enough space in root partition, the location for temporary files have to be chnaged.
@@ -134,7 +132,7 @@ sudo apt-get install -y \
    zlib1g-dev
 ```
 
-**Because SingularityCE is written in Go, Go was installed and set up my environmetn.**
+**Because SingularityCE is written in Go, Go was installed and set up my environment.**
 
 ```bash
 cd /usr/local
