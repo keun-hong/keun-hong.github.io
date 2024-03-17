@@ -31,7 +31,7 @@ nf-core download --help
 ```bash
 # 4. Download Singularity images of a pipeline
 # Usage: nf-core download [OPTIONS] <pipeline name>
-nf-core download quantms -r 1.2.0 -x none -s singularity -u amend
+nf-core download quantms -r 1.2.0 -d -x none -s singularity -u amend
 ```
 
 ![](../../images/2024-03-13-nf-core-singularity-img/2024-03-14-23-22-55-image.png)

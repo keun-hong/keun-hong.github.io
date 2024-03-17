@@ -25,21 +25,23 @@ tags: [proteomics]
 
 
 
-#### Label-Free Quantification (LFQ):
+### Quantitative Proteomics Data:
 
-LFQ is a method in mass spectrometry-based proteomics that enables the quantification of proteins without the need to label or modify them chemically. It's based on the intensity of the MS signals of peptides identified from the proteins in different samples.
+1. **Label-Free Quantification (LFQ):**
+   LFQ is a method in mass spectrometry-based proteomics that enables the quantification of proteins without the need to label or modify them chemically. It's based on the intensity of the MS signals of peptides identified from the proteins in different samples.
 
-#### DDA-LFQ:
+2. **DDA-LFQ:**
+   DDA stands for **Data-Dependent Acquisition**. In this method, the mass spectrometer selects the most abundant precursor ions from a survey scan for fragmentation and further MS/MS analysis. DDA-LFQ uses this approach for protein identification and then quantifies the proteins based on the intensity of the precursor ions in a label-free manner.
 
-DDA stands for **Data-Dependent Acquisition**. In this method, the mass spectrometer selects the most abundant precursor ions from a survey scan for fragmentation and further MS/MS analysis. DDA-LFQ uses this approach for protein identification and then quantifies the proteins based on the intensity of the precursor ions in a label-free manner.
+3. **DDA-Isobaric Labeling:**
+   This method uses isobaric tags (like TMT or iTRAQ) to label peptides. In DDA, specific precursor ions are selected for MS/MS analysis. The fragmentation releases the isobaric tags, allowing for quantification of peptides/proteins across different samples in a multiplexed fashion.
 
-#### DDA-Isobaric Labeling:
+4. **DIA-LFQ:**
+   DIA stands for **Data-Independent Acquisition**. Unlike DDA, DIA doesn't select specific precursor ions. Instead, it systematically fragments ions within a given mass range. This approach generates a more comprehensive dataset as it is not limited to the most abundant species. DIA-LFQ quantifies proteins based on the intensity of all fragmented ions in the mass range. 
 
-This method uses isobaric tags (like TMT or iTRAQ) to label peptides. In DDA, specific precursor ions are selected for MS/MS analysis. The fragmentation releases the isobaric tags, allowing for quantification of peptides/proteins across different samples in a multiplexed fashion.
 
-### DIA-LFQ:
 
-DIA stands for **Data-Independent Acquisition**. Unlike DDA, DIA doesn't select specific precursor ions. Instead, it systematically fragments ions within a given mass range. This approach generates a more comprehensive dataset as it is not limited to the most abundant species. DIA-LFQ quantifies proteins based on the intensity of all fragmented ions in the mass range.
+
 
 ### Pipelines in nf-core
 
