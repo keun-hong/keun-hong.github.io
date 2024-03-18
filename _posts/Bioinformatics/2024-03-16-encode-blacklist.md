@@ -25,9 +25,7 @@ Generating the ENCODE Blacklist involves an automated procedure to systematicall
 
 6. **List Compilation**: Compile the identified regions into a list, which forms the ENCODE Blacklist. This list is used to filter out these problematic regions during the analysis of high-throughput sequencing data.
 
-This automated method for generating the blacklist is essential for ensuring that high-throughput sequencing data, especially from techniques like ChIP-seq, are analyzed accurately, without the interference of regions that could skew the results due to technical artifacts rather than biological significance.
-
-<br>
+This automated method for generating the blacklist is essential for ensuring that high-throughput sequencing data, especially from techniques like ChIP-seq, are analyzed accurately, without the interference of regions that could skew the results due to technical artifacts rather than biological significance.<br>
 
 ### History
 
@@ -74,4 +72,4 @@ cp -r demo/mappability/ ../
 ./Blacklist chrUn_GL456392
 ```
 
-This article was written with help from ChatGPT v4.
+<br>This article was written with help from ChatGPT v4.
