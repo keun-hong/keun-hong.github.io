@@ -13,7 +13,7 @@ tags: [proteomics]
 
 **111 tissues/cell lines** - [1502_N) Integrative analysis of 111 reference human epigenomes](![https://www.nature.com/articles/nature14248]())
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-21-53-45-image.png)<br>
+![](../../images/2024-03-17-epigenome-map/2024-03-17-21-53-45-image.png)
 
 #### Mouse
 
