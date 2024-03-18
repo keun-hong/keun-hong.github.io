@@ -5,8 +5,6 @@ categories: Bioinformatics
 tags: [proteomics]
 ---
 
-Ref.: https://www.nature.com/articles/s41598-019-45839-z#Sec1
-
 ### Definition and overview of the process
 
 **Blacklist**: In genomics, a "blacklist" generally refers to a list of genomic regions that are known to produce unreliable or artifact signals in sequencing experiments. These regions are typically excluded from analysis to avoid misinterpretation of data. Blacklists can be specific to different types of experiments or organisms, and their composition can vary based on the criteria used to identify problematic regions.
@@ -29,17 +27,21 @@ Generating the ENCODE Blacklist involves an automated procedure to systematicall
 
 This automated method for generating the blacklist is essential for ensuring that high-throughput sequencing data, especially from techniques like ChIP-seq, are analyzed accurately, without the interference of regions that could skew the results due to technical artifacts rather than biological significance.
 
+<br>
+
 ### History
 
 **Past - Duke Excluded Regions (DER)**: manually curated on the *Homo sapiens* (human) genome assembly GRCh37 (hereafter referred to as hg19) to cover a large number of repeat elements in the genome, particularly rRNA, alpha satellites, and other simple repeats.
 
 **Present -  ENCODE Data Analysis Center (DAC) blacklisted regions**: include regions of high signal that presumably represent unannotated repeats in the genome
 
+<br>
+
 ### Download of the Blacklist files
 
 Link: [**ENCODE Blacklist files (human and mouse**)](https://www.encodeproject.org/annotations/ENCSR636HFF/),
 
-### 
+<br>
 
 ### How to generate Blacklist
 
