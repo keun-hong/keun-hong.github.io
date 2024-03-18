@@ -19,13 +19,17 @@ tags: [proteomics]
 
 **12 tissues, 8 developmental stages** - [2007_N) An atlas of dynamic chromatin landscapes in mouse fetal development](https://www.nature.com/articles/s41586-020-2093-3)
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-21-50-40-image.png)<br>
+![](../../images/2024-03-17-epigenome-map/2024-03-17-21-50-40-image.png)
+
+**123 cell types and primary tissues** - [1411_N) A comparative encyclopedia of DNA elements in the mouse genome](https://www.nature.com/articles/nature13992)
+
+![](../../images/2024-03-17-epigenome-map/2024-03-18-22-02-54-image.png)
 
 #### Dog
 
 **11 tissues from beagle breed** - [2307_SciAdv) Integrative mapping of the dog epigenome: Reference annotation for comparative intertissue and cross-species studies](https://www.science.org/doi/full/10.1126/sciadv.ade3399?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)
 
-![](../../images/2024-03-17-epigenome-map/2024-03-18-21-00-10-image.png)<br>
+![](../../images/2024-03-17-epigenome-map/2024-03-18-21-00-10-image.png)
 
 #### Farm animals - Pig, Cattle & Chicken
 
@@ -39,7 +43,7 @@ tags: [proteomics]
 
 **Eight tissues from Pig, Cattle & Chicken** - [2103_Ncom) Functional annotations of three domestic animal genomes provide vital resources for comparative and agricultural research](https://www.nature.com/articles/s41467-021-22100-8)
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-22-49-32-image.png)<br>
+![](../../images/2024-03-17-epigenome-map/2024-03-17-22-49-32-image.png)
 
 #### Grains - Rice & Wheat
 
@@ -49,7 +53,7 @@ tags: [proteomics]
 
 **Wheat** - [1907_GB) The bread wheat epigenomic map reveals distinct chromatin architectural and evolutionary features of functional genetic elements](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1746-8)
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-22-11-26-image.png)<br>
+![](../../images/2024-03-17-epigenome-map/2024-03-17-22-11-26-image.png)
 
 #### Comparative
 
@@ -59,7 +63,7 @@ tags: [proteomics]
 
 **Embryos from five species** - [2111_SciAdv) Evolutionary epigenomic analyses in mammalian early embryos reveal species-specific innovations and conserved principles of imprinting](https://www.science.org/doi/10.1126/sciadv.abi6178)
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-22-26-21-image.png)<br>
+![](../../images/2024-03-17-epigenome-map/2024-03-17-22-26-21-image.png)
 
 #### Disease
 

@@ -173,4 +173,4 @@ export VERSION=4.1.0 && # adjust this as necessary \
 
 - Package management system ([Conda](https://docs.conda.io/en/latest/))
 
-This blog was written with help from ChatGPT.
+<br>This blog was written with help from ChatGPT.

@@ -23,8 +23,6 @@ tags: [proteomics]
 
 8. **Protein Structure Data**: 3D structural data of proteins obtained through methods like X-ray crystallography or cryo-electron microscopy, but not typically through mass spectrometry.
 
-
-
 ### Quantitative Proteomics Data:
 
 1. **Label-Free Quantification (LFQ):**
@@ -38,10 +36,6 @@ tags: [proteomics]
 
 4. **DIA-LFQ:**
    DIA stands for **Data-Independent Acquisition**. Unlike DDA, DIA doesn't select specific precursor ions. Instead, it systematically fragments ions within a given mass range. This approach generates a more comprehensive dataset as it is not limited to the most abundant species. DIA-LFQ quantifies proteins based on the intensity of all fragmented ions in the mass range. 
-
-
-
-
 
 ### Pipelines in nf-core
 
@@ -60,6 +54,4 @@ tags: [proteomics]
 
 6. **ddamsproteomics**: This pipeline is for quantitative shotgun MS proteomics. Shotgun proteomics is an approach where proteins are digested into peptides and then analyzed via mass spectrometry to identify and quantify the proteins in a sample.
 
-
-
-This article was written with help from ChatGPT v4.
+<br>This article was written with help from ChatGPT v4.
