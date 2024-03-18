@@ -99,35 +99,6 @@ caper run chip.wdl -i "${INPUT_JSON}" --singularity --max-concurrent-tasks 1
 }
 ```
 
-```bash
-# Move to raw files folder.
-cd 00_raw/
-
-# Make input files.
-for fq in *_1.fq.gz;do
-    pre=${fq%_1.fq.gz}
-
-    echo "{
-        'chip.title' : '$pre',
-        'chip.description' : '$pre',
-
-        'chip.pipeline_type' : 'histone',
-        'chip.aligner' : 'bowtie2',
-        'chip.align_only' : false,
-        'chip.true_rep_only' : false,
-
-        'chip.genome_tsv' : 'encd-genome_hg38/hg38.tsv',
-
-        'chip.paired_end' : true,
-        'chip.ctl_paired_end' : true,
-        'chip.always_use_pooled_ctl' : true,
-
-        'chip.fastqs_rep1_R1' : [ '${pre}_1.fq.gz' ],
-        'chip.fastqs_rep1_R2' : [ '${pre}_2.fq.gz' ],
-    }" > ${pre}.json
-done
-```
-
 ### 5. Run the pipeline
 
 ```bash
@@ -136,5 +107,3 @@ for fq in *_1.fq.gz;do
     caper run chip.wdl -i ${pre}.json --singularity
 done
 ```
-
- 
