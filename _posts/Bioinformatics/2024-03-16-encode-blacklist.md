@@ -31,15 +31,15 @@ This automated method for generating the blacklist is essential for ensuring tha
 
 **Past - Duke Excluded Regions (DER)**: manually curated on the *Homo sapiens* (human) genome assembly GRCh37 (hereafter referred to as hg19) to cover a large number of repeat elements in the genome, particularly rRNA, alpha satellites, and other simple repeats.
 
-**Present -  ENCODE Data Analysis Center (DAC) blacklisted regions**: include regions of high signal that presumably represent unannotated repeats in the genome
-
-<br>
+**Present -  ENCODE Data Analysis Center (DAC) blacklisted regions**: include regions of high signal that presumably represent unannotated repeats in the genome<br>
 
 ### Download of the Blacklist files
 
-Link: [**ENCODE Blacklist files (human and mouse**)](https://www.encodeproject.org/annotations/ENCSR636HFF/),
+- [**ENCODE Blacklist files (human and mouse**)](https://www.encodeproject.org/annotations/ENCSR636HFF/)
 
-<br>
+- <br>
+
+
 
 ### How to generate Blacklist
 

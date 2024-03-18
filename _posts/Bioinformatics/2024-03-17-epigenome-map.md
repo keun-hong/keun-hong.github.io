@@ -13,48 +13,33 @@ tags: [proteomics]
 
 **111 tissues/cell lines** - [1502_N) Integrative analysis of 111 reference human epigenomes](![https://www.nature.com/articles/nature14248]())
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-21-53-45-image.png)
-
-
+![](../../images/2024-03-17-epigenome-map/2024-03-17-21-53-45-image.png)<br>
 
 #### Mouse
 
 **12 tissues, 8 developmental stages** - [2007_N) An atlas of dynamic chromatin landscapes in mouse fetal development](https://www.nature.com/articles/s41586-020-2093-3)
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-21-50-40-image.png)
-
-
+![](../../images/2024-03-17-epigenome-map/2024-03-17-21-50-40-image.png)<br>
 
 #### Dog
 
 **11 tissues from beagle breed** - [2307_SciAdv) Integrative mapping of the dog epigenome: Reference annotation for comparative intertissue and cross-species studies](https://www.science.org/doi/full/10.1126/sciadv.ade3399?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)
 
-
-
-![](../../images/2024-03-17-epigenome-map/2024-03-18-21-00-10-image.png)
-
-
+![](../../images/2024-03-17-epigenome-map/2024-03-18-21-00-10-image.png)<br>
 
 #### Farm animals - Pig, Cattle & Chicken
 
 **14 tissues from a pig breed** - [2102_Ncom) Pig genome functional annotation enhances the biological interpretation of complex traits and human disease](https://www.nature.com/articles/s41467-021-26153-7?proof=tExtended)
 
-
-
 ![](../../images/2024-03-17-epigenome-map/2024-03-17-21-33-15-image.png)
 
 **12 tissues from four pig breeds** - [2104_Ncom) A compendium and comparative epigenomics analysis of cis-regulatory elements in the pig genome](https://www.nature.com/articles/s41467-021-22448-x#Sec11)
-
-
 
 ![](../../images/2024-03-17-epigenome-map/2024-03-17-21-37-38-image.png)
 
 **Eight tissues from Pig, Cattle & Chicken** - [2103_Ncom) Functional annotations of three domestic animal genomes provide vital resources for comparative and agricultural research](https://www.nature.com/articles/s41467-021-22100-8)
 
-
-![](../../images/2024-03-17-epigenome-map/2024-03-17-22-49-32-image.png)
-
-
+![](../../images/2024-03-17-epigenome-map/2024-03-17-22-49-32-image.png)<br>
 
 #### Grains - Rice & Wheat
 
@@ -64,9 +49,7 @@ tags: [proteomics]
 
 **Wheat** - [1907_GB) The bread wheat epigenomic map reveals distinct chromatin architectural and evolutionary features of functional genetic elements](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1746-8)
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-22-11-26-image.png)
-
-
+![](../../images/2024-03-17-epigenome-map/2024-03-17-22-11-26-image.png)<br>
 
 #### Comparative
 
@@ -76,9 +59,7 @@ tags: [proteomics]
 
 **Embryos from five species** - [2111_SciAdv) Evolutionary epigenomic analyses in mammalian early embryos reveal species-specific innovations and conserved principles of imprinting](https://www.science.org/doi/10.1126/sciadv.abi6178)
 
-![](../../images/2024-03-17-epigenome-map/2024-03-17-22-26-21-image.png)
-
-
+![](../../images/2024-03-17-epigenome-map/2024-03-17-22-26-21-image.png)<br>
 
 #### Disease
 
@@ -94,6 +75,4 @@ tags: [proteomics]
 
 ![](../../images/2024-03-17-epigenome-map/2024-03-17-22-43-35-image.png)
 
-
-
-This article was written with help from ChatGPT v4.
+<br>This article was written with help from ChatGPT v4.
