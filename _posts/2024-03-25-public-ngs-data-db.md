@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[DB] INSDC: Where are the public NGS data stored?"
-categories: Bioinformatics
+categories: Bioinformatic
 tags: [public data, NGS]
 ---
 
