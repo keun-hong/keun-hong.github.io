@@ -62,9 +62,7 @@ The information verified in each DB was as follows.
 
 ### 3. Strategies for gathering information of public data
 
-1. Manual Search:
-   [NCBI's Entrez Global Query Cross-Database Search System](https://www.ncbi.nlm.nih.gov/sites/gquery)
-   [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/) / [BioSample](https://www.ncbi.nlm.nih.gov/biosample/) / [SRA](https://www.ncbi.nlm.nih.gov/sra) / [GEO](https://www.ncbi.nlm.nih.gov/geo/)
+1. Manual Search:<br>[NCBI's Entrez Global Query Cross-Database Search System](https://www.ncbi.nlm.nih.gov/sites/gquery)<br>[BioProject](https://www.ncbi.nlm.nih.gov/bioproject/) / [BioSample](https://www.ncbi.nlm.nih.gov/biosample/) / [SRA](https://www.ncbi.nlm.nih.gov/sra) / [GEO](https://www.ncbi.nlm.nih.gov/geo/)
 
 2. Programmatic Access:
    **E-utilities** are a set of server-side scripts provided by NCBI for programmatically accessing their databases. These tools allow users to perform automated searches, downloads, and analysis of data from NCBI's various databases, including <u>GenBank, PubMed, GEO, and SRA</u>. E-utilities are particularly useful for researchers who need to handle large datasets or automate repetitive tasks. They use a standard web protocol (HTTP) for queries, making them accessible from any programming environment that can send HTTP requests.
@@ -93,12 +91,9 @@ By applying the search rules likes `boolean operator (AND, OR, NOT)` or `fields 
 ((canis lupus familiaris[Organism]) AND genomic[Source]) AND ChIP-seq[Strategy]
 ```
 
- In the SRA DB, there are 20 fields we can use: `Access, Accession, Aligned, Author, BioProject, BioSample, Filter, Layout, Mbases, Modification Date, Organism, Platform, Properties, Publication Date, ReadLength, Selection, Source, Strategy, Text Word, Title`.  Indexes that can be used in each field are found in [Advanced search](https://www.ncbi.nlm.nih.gov/sra/advanced); click the **"show index list"** button. Useful fields are described below.
-`Organism`: homo sapiens, mus musculus, canis lupus familiaris, etc.
-`Strategy`: wgs, wxs, rna seq, chip seq, ata seq, etc.
-`Source`: genomic, transcriptomic, other, etc.
-`Selection`: cdna, chip, mnase, cage, other, etc.
-`Layout`: paired or single.
+ In the SRA DB, there are 20 fields we can use: `Access, Accession, Aligned, Author, BioProject, BioSample, Filter, Layout, Mbases, Modification Date, Organism, Platform, Properties, Publication Date, ReadLength, Selection, Source, Strategy, Text Word, Title`. 
+
+Indexes that can be used in each field are found in [Advanced search](https://www.ncbi.nlm.nih.gov/sra/advanced); click the **"show index list"** button. Useful fields are described below.<br>`Organism`: homo sapiens, mus musculus, canis lupus familiaris, etc.<br>`Strategy`: wgs, wxs, rna seq, chip seq, ata seq, etc.<br>`Source`: genomic, transcriptomic, other, etc.<br>`Selection`: cdna, chip, mnase, cage, other, etc.<br>`Layout`: paired or single.
 
 ### 3-2. Data gathering with BioPython-Entrez
 
