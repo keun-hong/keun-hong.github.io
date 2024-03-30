@@ -28,8 +28,6 @@ These three organizations exchange data on a daily basis to ensure that they all
 
 ### 2. Structure of DBs (BioProject, BioSample, SRA & GEO)
 
-To utilize the public data within DBs, it is essential first to understand the structure of the DBs (BioProject, BioSample, SRA, and GEO), and then select the appropriate DB to gather information according to your needs. These DBs are interconnected, and the descriptions for each are as follows.
-
 To effectively use public data within databases, one must first comprehend the structure of the databases such as BioProject, BioSample, SRA, and GEO, and then choose the appropriate database to collect information tailored to specific needs. These databases are interconnected, with each having the following descriptions:
 
 - **BioProject** is a DB for information on the biological project's scope and purpose and can link to various datasets across different NCBI databases.
@@ -42,17 +40,19 @@ To effectively use public data within databases, one must first comprehend the s
 
 These DBs indeed share a relationship where data from one can be linked to another. For example, raw data in the **SRA** may be part of a larger project detailed in **BioProject**, and samples used for generating such data may be described in **BioSample**. The processed results from these data could then be stored in **GEO**.
 
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-18-14-05-image.png)
+
 In the process of making my multi-omics data public ([Son KH et al., SciAdv, 2023](https://www.science.org/doi/full/10.1126/sciadv.ade3399?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)), including RNA-seq, ChIP-seq, and MBD-seq, I prepared and submitted the required metadata spreadsheet to the **GEO**. A few days later, I was able to verify that IDs for the project and sample data had been issued in the structure illustrated in the image below.
 
-![](../../images/2024-03-19-public-ngs-data-db/2024-03-21-02-51-32-image.png)
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-17-30-52-image.png)
 
 The information verified in each DB was as follows.
 
-![](../../images/2024-03-19-public-ngs-data-db/2024-03-20-23-33-22-image.png)
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-16-11-43-image.png)
 
-![](../../images/2024-03-19-public-ngs-data-db/2024-03-20-23-33-34-image.png)
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-18-12-04-image.png)
 
-![](../../images/2024-03-19-public-ngs-data-db/2024-03-20-23-33-42-image.png)
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-16-12-05-image.png)
 
 [Another example](https://www.ccgproject.org/data-ncbi) of handling a variety of data types is as follows.
 
@@ -63,7 +63,7 @@ The information verified in each DB was as follows.
 1. Manual Search:
 - [NCBI's Entrez Global Query Cross-Database Search System](https://www.ncbi.nlm.nih.gov/sites/gquery)
 
-- [BioProject]([Home - BioProject - NCBI](https://www.ncbi.nlm.nih.gov/bioproject/)) / [SRA]([Home - SRA - NCBI](https://www.ncbi.nlm.nih.gov/sra)) / [GEO]([Home - GEO - NCBI](https://www.ncbi.nlm.nih.gov/geo/))
+- [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/) / [BioSample](https://www.ncbi.nlm.nih.gov/biosample/) / [SRA](https://www.ncbi.nlm.nih.gov/sra) / [GEO](https://www.ncbi.nlm.nih.gov/geo/)
 2. Programmatic Access:
    
    - **E-utilities** are a set of server-side scripts provided by NCBI for programmatically accessing their databases. These tools allow users to perform automated searches, downloads, and analysis of data from NCBI's various databases, including <u>GenBank, PubMed, GEO, and SRA</u>. E-utilities are particularly useful for researchers who need to handle large datasets or automate repetitive tasks. They use a standard web protocol (HTTP) for queries, making them accessible from any programming environment that can send HTTP requests.
@@ -74,9 +74,33 @@ The information verified in each DB was as follows.
 
 4. Research Publications
 
-#### Manual Search
+### 3-1 Manual Search
 
-### 4. Data gathering with BioPython-Entrez
+If you search for several keywords in the [NCBI's Entrez Global Query Cross-Database Search System](https://www.ncbi.nlm.nih.gov/sites/gquery), you can view the comprehensive number of results.
+
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-29-03-51-18-image.png)
+
+[BioProject](https://www.ncbi.nlm.nih.gov/bioproject/) / [BioSample](https://www.ncbi.nlm.nih.gov/biosample/) / [SRA](https://www.ncbi.nlm.nih.gov/sra) / [GEO](https://www.ncbi.nlm.nih.gov/geo/)
+
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-29-04-14-07-image.png)
+
+Typically, when we submit NGS-based generated data, there are two options: `GEO or SRA`. If both raw and processed data are submitted to `GEO`, IDs for other three DBs are automatically issued. But, If only raw data is submitted to `SRA`, a `GEO` ID is not issued. For this reason, `SRA` and `BioProject (BioSample)` are initially investigated to collect as much data as possible.
+
+By applying the search rules likes `boolean operator (AND, OR, NOT)` or `fields (ex. Organoism, Source, etc)` found in [Search in SRA Entrez](https://www.ncbi.nlm.nih.gov/sra/docs/srasearch/), you can search for the data you need more efficiently and accurately.
+
+```tex
+# Example
+((canis lupus familiaris[Organism]) AND genomic[Source]) AND ChIP-seq[Strategy]
+```
+
+ In the SRA DB, there are 20 fields we can use: `Access, Accession, Aligned, Author, BioProject, BioSample, Filter, Layout, Mbases, Modification Date, Organism, Platform, Properties, Publication Date, ReadLength, Selection, Source, Strategy, Text Word, Title`.  Indexes that can be used in each field are found in [Advanced search](https://www.ncbi.nlm.nih.gov/sra/advanced); click the **"show index list"** button. Useful fields are described below.
+`Organism`: homo sapiens, mus musculus, canis lupus familiaris, etc.
+`Strategy`: wgs, wxs, rna seq, chip seq, ata seq, etc.
+`Source`: genomic, transcriptomic, other, etc.
+`Selection`: cdna, chip, mnase, cage, other, etc.
+`Layout`: paired or single.
+
+### 3-2. Data gathering with BioPython-Entrez
 
 Link: [**biopython/Bio.Entrez**](https://biopython.org/docs/latest/api/Bio.Entrez.html#)
 
@@ -196,4 +220,4 @@ The `IdList` is usually the most relevant piece of information if you're looking
 
 [Biopython/Bio.Entrez](https://incodom.kr/Biopython/Bio.Entrez)
 
-<br>This article was written with help from ChatGPT.1
+<br>This article was written with help from ChatGPTv4
