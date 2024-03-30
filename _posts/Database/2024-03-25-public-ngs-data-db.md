@@ -9,7 +9,7 @@ Public databases are filled with a tremendous amount of NGS-based data that can 
 
 ### 1. Major DBs where NGS data are stored
 
-<img title="" src="../../images/2024-03-25-public-ngs-data-db/07291e1b06fce0cdd59ce3f5e6d232aac9bc50c0.jpg" alt="ba611094db12660f91351980976dfab70119c929.jpg" width="380" data-align="center">
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-31-00-28-39-image.png)
 
 **International Nucleotide Sequence Database Collaboration ([INSDC](https://www.insdc.org/); [M Arita et al., NAR, 2021](https://academic.oup.com/nar/article/49/D1/D121/5964076?login=false))** is a long-standing global collaboration among three primary databases that archive and distribute data from nucleotide sequencing:
 
@@ -24,7 +24,7 @@ These three organizations exchange data on a daily basis to ensure that they all
 
 
 
-![2024-03-21-01-07-05-image.png](../../images/2024-03-25-public-ngs-data-db/9f09b47a5f395cbefe4d149da10fa90799be0124.png)
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-31-00-29-15-image.png)
 
 [Ref. Gene Expression Repositories Explained](https://www.ccdatalab.org/blog/gene-expression-repositories-explained)
 
@@ -63,14 +63,12 @@ The information verified in each DB was as follows.
 ### 3. Strategies for gathering information of public data
 
 1. Manual Search:
-- [NCBI's Entrez Global Query Cross-Database Search System](https://www.ncbi.nlm.nih.gov/sites/gquery)
+   [NCBI's Entrez Global Query Cross-Database Search System](https://www.ncbi.nlm.nih.gov/sites/gquery)
+   [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/) / [BioSample](https://www.ncbi.nlm.nih.gov/biosample/) / [SRA](https://www.ncbi.nlm.nih.gov/sra) / [GEO](https://www.ncbi.nlm.nih.gov/geo/)
 
-- [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/) / [BioSample](https://www.ncbi.nlm.nih.gov/biosample/) / [SRA](https://www.ncbi.nlm.nih.gov/sra) / [GEO](https://www.ncbi.nlm.nih.gov/geo/)
 2. Programmatic Access:
-   
-   - **E-utilities** are a set of server-side scripts provided by NCBI for programmatically accessing their databases. These tools allow users to perform automated searches, downloads, and analysis of data from NCBI's various databases, including <u>GenBank, PubMed, GEO, and SRA</u>. E-utilities are particularly useful for researchers who need to handle large datasets or automate repetitive tasks. They use a standard web protocol (HTTP) for queries, making them accessible from any programming environment that can send HTTP requests.
-   
-   - **SRA Toolkit** is developed by NCBI specifically for <u>working with data from the Sequence Read Archive (SRA)</u>. This toolkit provides utilities for downloading, converting, and analyzing the vast amount of sequencing data stored in SRA. It's a crucial tool for researchers dealing with high-throughput sequencing data, as it simplifies the process of accessing and manipulating large-scale genomic datasets. The toolkit supports various formats and allows for efficient data management, especially in large-scale genomic projects.
+   **E-utilities** are a set of server-side scripts provided by NCBI for programmatically accessing their databases. These tools allow users to perform automated searches, downloads, and analysis of data from NCBI's various databases, including <u>GenBank, PubMed, GEO, and SRA</u>. E-utilities are particularly useful for researchers who need to handle large datasets or automate repetitive tasks. They use a standard web protocol (HTTP) for queries, making them accessible from any programming environment that can send HTTP requests.
+   **SRA Toolkit** is developed by NCBI specifically for <u>working with data from the Sequence Read Archive (SRA)</u>. This toolkit provides utilities for downloading, converting, and analyzing the vast amount of sequencing data stored in SRA. It's a crucial tool for researchers dealing with high-throughput sequencing data, as it simplifies the process of accessing and manipulating large-scale genomic datasets. The toolkit supports various formats and allows for efficient data management, especially in large-scale genomic projects.
 
 3. APIs: Some third-party bioinformatics tools and platforms (ex. **BioPython-Entrez**)
 
@@ -84,7 +82,7 @@ If you search for several keywords in the [NCBI's Entrez Global Query Cross-Data
 
 [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/) / [BioSample](https://www.ncbi.nlm.nih.gov/biosample/) / [SRA](https://www.ncbi.nlm.nih.gov/sra) / [GEO](https://www.ncbi.nlm.nih.gov/geo/)
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-29-04-14-07-image.png)
+![](../../images/2024-03-25-public-ngs-data-db/2024-03-31-00-32-32-image.png)
 
 Typically, when we submit NGS-based generated data, there are two options: `GEO or SRA`. If both raw and processed data are submitted to `GEO`, IDs for other three DBs are automatically issued. But, If only raw data is submitted to `SRA`, a `GEO` ID is not issued. For this reason, `SRA` and `BioProject (BioSample)` are initially investigated to collect as much data as possible.
 
