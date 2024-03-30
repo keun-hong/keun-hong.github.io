@@ -9,7 +9,7 @@ Public databases are filled with a tremendous amount of NGS-based data that can 
 
 ### 1. Major DBs where NGS data are stored
 
-<img title="" src="../../images/2024-03-19-public-ngs-data-db/ba611094db12660f91351980976dfab70119c929.jpg" alt="c1d3fb40fe48b0d8640e9e16d6e12b788df7686a.jpg" width="421" data-align="center">
+<img title="" src="../../images/2024-03-25-public-ngs-data-db/07291e1b06fce0cdd59ce3f5e6d232aac9bc50c0.jpg" alt="ba611094db12660f91351980976dfab70119c929.jpg" width="380" data-align="center">
 
 **International Nucleotide Sequence Database Collaboration ([INSDC](https://www.insdc.org/); [M Arita et al., NAR, 2021](https://academic.oup.com/nar/article/49/D1/D121/5964076?login=false))** is a long-standing global collaboration among three primary databases that archive and distribute data from nucleotide sequencing:
 
@@ -22,7 +22,9 @@ Public databases are filled with a tremendous amount of NGS-based data that can 
 
 These three organizations exchange data on a daily basis to ensure that they all hold the same comprehensive collection of sequence data. They follow the same conventions for data content and format to ensure consistent and high-quality data. The INSDC covers the full spectrum of data raw reads, alignment, assembly, and functional annotation.
 
-![](../../images/2024-03-19-public-ngs-data-db/2024-03-21-01-07-05-image.png)
+
+
+![2024-03-21-01-07-05-image.png](../../images/2024-03-25-public-ngs-data-db/9f09b47a5f395cbefe4d149da10fa90799be0124.png)
 
 [Ref. Gene Expression Repositories Explained](https://www.ccdatalab.org/blog/gene-expression-repositories-explained)
 
@@ -56,7 +58,7 @@ The information verified in each DB was as follows.
 
 [Another example](https://www.ccgproject.org/data-ncbi) of handling a variety of data types is as follows.
 
-![CCGP_NCBI_Organization_v2.png](../../images/2024-03-19-public-ngs-data-db/192b4b9046980f6a7e5b39bc06e0955c0331ab2c.png)
+![192b4b9046980f6a7e5b39bc06e0955c0331ab2c.png](../../images/2024-03-25-public-ngs-data-db/2b8ebea5ceb92c650e2a22e9fdb24920d6337ef4.png)
 
 ### 3. Strategies for gathering information of public data
 
