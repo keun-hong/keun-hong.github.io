@@ -3,6 +3,7 @@ layout: single
 title: "[Bioinfo] Blacklisted regions in the genome"
 categories: Bioinformatics
 tags: [proteomics]
+
 ---
 
 ### Definition
@@ -37,13 +38,17 @@ This automated method for generating the blacklist is essential for ensuring tha
 
 ### Download of the Blacklist files
 
-[**ENCODE Blacklist (hg38, hg19, mm10, ce11, ce10, dm6 & dm3) - Ref. 1-2**](https://github.com/Boyle-Lab/Blacklist/tree/master/lists)<br>[**Historical ENCODE Blacklist (hg38, hg19 & mm10) - Ref. 3**](https://www.encodeproject.org/annotations/ENCSR636HFF/)<br>[**CUT&RUN suspect list (hg38, T2T, mm38) - Ref. 4**](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-023-03027-3/MediaObjects/13059_2023_3027_MOESM2_ESM.xlsx)
+- [**ENCODE Blacklist (hg38, hg19, mm10, ce11, ce10, dm6 & dm3) - Ref. 1-2**](https://github.com/Boyle-Lab/Blacklist/tree/master/lists)
+
+- [**Historical ENCODE Blacklist (hg38, hg19 & mm10) - Ref. 3**](https://www.encodeproject.org/annotations/ENCSR636HFF/)
+
+- [**CUT&RUN suspect list (hg38, T2T, mm38) - Ref. 4**](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-023-03027-3/MediaObjects/13059_2023_3027_MOESM2_ESM.xlsx)
 
 ### How to generate Blacklist
 
 Link: [**GitHub - Boyle-Lab/Blacklist: Application for making ENCODE Blacklists**](https://github.com/Boyle-Lab/Blacklist/)
 
-#### Installation
+**Installation**
 
 ```bash
 # 1. Clone the repository adn submodules
@@ -73,6 +78,14 @@ cp -r demo/mappability/ ./
 
 ### Reference
 
-[**1906_SciRep) The ENCODE Blacklist: Identification of Problematic Regions of the Genome**](https://www.nature.com/articles/s41598-019-45839-z)<br>[**hg19-blacklist-README**](https://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/hg19-blacklist-README.pdf)<br>[**1109_Bioinfo) False positive peaks in ChIP-seq and other sequencing-based functional assays caused by unannotated high copy number regions**](https://academic.oup.com/bioinformatics/article/27/15/2144/404749?login=false)<br>[**2309_GB) The CUT&RUN suspect list of problematic regions of the genome**](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03027-3)<br>[**1809_NAR) Umap and Bismap: quantifying genome and methylome mappability**](https://academic.oup.com/nar/article/46/20/e120/5086676?login=false)
+1. [**1906_SciRep) The ENCODE Blacklist: Identification of Problematic Regions of the Genome**](https://www.nature.com/articles/s41598-019-45839-z)
+
+2. [**hg19-blacklist-README**](https://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/hg19-blacklist-README.pdf)
+
+3. [**1109_Bioinfo) False positive peaks in ChIP-seq and other sequencing-based functional assays caused by unannotated high copy number regions**](https://academic.oup.com/bioinformatics/article/27/15/2144/404749?login=false)
+
+4. [**2309_GB) The CUT&RUN suspect list of problematic regions of the genome**](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03027-3)
+
+5. [**1809_NAR) Umap and Bismap: quantifying genome and methylome mappability**](https://academic.oup.com/nar/article/46/20/e120/5086676?login=false)
 
 <br>This article was written with help from ChatGPT v4.
