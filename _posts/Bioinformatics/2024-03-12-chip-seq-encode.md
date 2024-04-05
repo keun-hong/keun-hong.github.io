@@ -107,3 +107,7 @@ for fq in *_1.fq.gz;do
     caper run chip.wdl -i ${pre}.json --singularity
 done
 ```
+
+### Reference
+
+[2304_bRx) The ENCODE Uniform Analysis Pipelines](https://www.biorxiv.org/content/10.1101/2023.04.04.535623v1.full)

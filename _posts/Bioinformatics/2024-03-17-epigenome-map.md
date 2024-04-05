@@ -78,5 +78,3 @@ tags: [proteomics]
 **Atypical teratoid rhabdoid tumors (ATRT)** - [1901_CanC) Comprehensive Analysis of Chromatin States in Atypical Teratoid/Rhabdoid Tumor Identifies Diverging Roles for SWI/SNF and Polycomb in Gene Regulation](https://www.sciencedirect.com/science/article/pii/S153561081830535X)
 
 ![](../../images/2024-03-17-epigenome-map/2024-03-17-22-43-35-image.png)
-
-<br>This article was written with help from ChatGPT v4.

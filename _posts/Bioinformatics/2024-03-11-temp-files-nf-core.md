@@ -172,5 +172,3 @@ export VERSION=4.1.0 && # adjust this as necessary \
 - Container engine ([Docker](https://www.docker.com/), [Singularity](https://sylabs.io/), [Podman](https://podman.io/), [Charliecloud](https://hpc.github.io/charliecloud/) & [Shifter](https://www.nersc.gov/research-and-development/user-defined-images/))
 
 - Package management system ([Conda](https://docs.conda.io/en/latest/))
-
-<br>This blog was written with help from ChatGPT.
