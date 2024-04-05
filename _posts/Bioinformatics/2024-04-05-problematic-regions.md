@@ -58,10 +58,7 @@ Understanding problematic regions and mappability is crucial for accurate genomi
 
 ### Reference
 
-[UCSC Problematic Regions tracks (GRCh38/hg38)](https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=2085777710_cG7fOciiX5UkBnNjpWwmGeAaLMw7&g=problematicSuper&hgTracksConfigPage=configure)
-[UCSC Problematic Regions tracks (GRCh37/hg19)](https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=2085772932_rUYMafXlv64Lk7kLe4ozMEQcJpNr&g=problematic&hgTracksConfigPage=configure)
-[UCSC Mappability tracks (GRCh38/hg38)](https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=2085964354_bgEjxal88GxBb7DP8Amw5PKsI1WH&db=hg38&c=chr21&g=mappability)
-[UCSC Mappability tracks (GRCh37/hg19)](https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=2085772932_rUYMafXlv64Lk7kLe4ozMEQcJpNr&db=hg19&c=chr21&g=wgEncodeMapability)
+[UCSC Problematic Regions tracks (GRCh38/hg38)](https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=2085777710_cG7fOciiX5UkBnNjpWwmGeAaLMw7&g=problematicSuper&hgTracksConfigPage=configure)<br>[UCSC Problematic Regions tracks (GRCh37/hg19)](https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=2085772932_rUYMafXlv64Lk7kLe4ozMEQcJpNr&g=problematic&hgTracksConfigPage=configure)<br>[UCSC Mappability tracks (GRCh38/hg38)](https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=2085964354_bgEjxal88GxBb7DP8Amw5PKsI1WH&db=hg38&c=chr21&g=mappability)<br>[UCSC Mappability tracks (GRCh37/hg19)](https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=2085772932_rUYMafXlv64Lk7kLe4ozMEQcJpNr&db=hg19&c=chr21&g=wgEncodeMapability)
 
 <br>
 
