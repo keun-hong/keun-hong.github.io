@@ -167,7 +167,7 @@ export VERSION=4.1.0 && # adjust this as necessary \
 
 - HPS excution scheduler ([Slurm](https://slurm.schedmd.com/quickstart.html), [SGE](https://docs.oracle.com/cd/E19680-01/html/821-1541/ciagcgha.html#scrolltoc), [PBS](https://www.openpbs.org/) & [LSF](https://www.ibm.com/support/knowledgecenter/en/SSWRJV_10.1.0/lsf_welcome/lsf_welcome.html) )
 
-- Cloud compute infrastructure  ([AWS Batch](https://aws.amazon.com/batch/) & [Google Cloud](https://cloud.google.com/)
+- Cloud compute infrastructure  ([AWS Batch](https://aws.amazon.com/batch/) & [Google Cloud](https://cloud.google.com/))
 
 - Container engine ([Docker](https://www.docker.com/), [Singularity](https://sylabs.io/), [Podman](https://podman.io/), [Charliecloud](https://hpc.github.io/charliecloud/) & [Shifter](https://www.nersc.gov/research-and-development/user-defined-images/))
 

@@ -9,7 +9,7 @@ Public databases are filled with a tremendous amount of NGS-based data that can 
 
 ### 1. Major DBs where NGS data are stored
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-31-00-28-39-image.png)
+![2024-03-31-00-28-39-image.png](../../images/2024-04-09-public-ngs-data-db/99bcbcb67643425c18f0777918c0fa7384e0463d.png)
 
 **International Nucleotide Sequence Database Collaboration ([INSDC](https://www.insdc.org/); [M Arita et al., NAR, 2021](https://academic.oup.com/nar/article/49/D1/D121/5964076?login=false))** is a long-standing global collaboration among three primary databases that archive and distribute data from nucleotide sequencing:
 
@@ -22,7 +22,7 @@ Public databases are filled with a tremendous amount of NGS-based data that can 
 
 These three organizations exchange data on a daily basis to ensure that they all hold the same comprehensive collection of sequence data. They follow the same conventions for data content and format to ensure consistent and high-quality data. The INSDC covers the full spectrum of data raw reads, alignment, assembly, and functional annotation.
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-31-00-29-15-image.png)
+![2024-03-31-00-29-15-image.png](../../images/2024-04-09-public-ngs-data-db/d131e48f3f2200136275ee74570fed939f9b72d4.png)
 
 [Ref. Gene Expression Repositories Explained](https://www.ccdatalab.org/blog/gene-expression-repositories-explained)
 
@@ -40,23 +40,23 @@ To effectively use public data within databases, one must first comprehend the s
 
 These DBs indeed share a relationship where data from one can be linked to another. For example, raw data in the **SRA** may be part of a larger project detailed in **BioProject**, and samples used for generating such data may be described in **BioSample**. The processed results from these data could then be stored in **GEO**.
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-18-14-05-image.png)
+![2024-03-30-18-14-05-image.png](../../images/2024-04-09-public-ngs-data-db/62e034ce3f61f305f456db065b8106a130f0d9f9.png)
 
 In the process of making my multi-omics data public ([Son KH et al., SciAdv, 2023](https://www.science.org/doi/full/10.1126/sciadv.ade3399?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)), including RNA-seq, ChIP-seq, and MBD-seq, I prepared and submitted the required metadata spreadsheet to the **GEO**. A few days later, I was able to verify that IDs for the project and sample data had been issued in the structure illustrated in the image below.
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-17-30-52-image.png)
+![2024-03-30-17-30-52-image.png](../../images/2024-04-09-public-ngs-data-db/01a7d1a2947d36956749706f105ccaa029996491.png)
 
 The information verified in each DB was as follows.
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-16-11-43-image.png)
+![2024-03-30-16-11-43-image.png](../../images/2024-04-09-public-ngs-data-db/aa04df7c16da408a2d60b1df883fd456c858c292.png)
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-18-12-04-image.png)
+![2024-03-30-18-12-04-image.png](../../images/2024-04-09-public-ngs-data-db/30339208c25170813613d531721e7279555f2c78.png)
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-30-16-12-05-image.png)
+![2024-03-30-16-12-05-image.png](../../images/2024-04-09-public-ngs-data-db/fa88203643be314fd51ecbdd755ae43b62d992fc.png)
 
 [Another example](https://www.ccgproject.org/data-ncbi) of handling a variety of data types is as follows.
 
-![192b4b9046980f6a7e5b39bc06e0955c0331ab2c.png](../../images/2024-03-25-public-ngs-data-db/2b8ebea5ceb92c650e2a22e9fdb24920d6337ef4.png)
+![2b8ebea5ceb92c650e2a22e9fdb24920d6337ef4.png](../../images/2024-04-09-public-ngs-data-db/82c51926d0a995478187105869221edec00d3e4d.png)
 
 ### 3. Strategies for gathering information of public data
 
@@ -72,11 +72,11 @@ The information verified in each DB was as follows.
 
 If you search for several keywords in the [NCBI's Entrez Global Query Cross-Database Search System](https://www.ncbi.nlm.nih.gov/sites/gquery), you can view the comprehensive number of results.
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-29-03-51-18-image.png)
+![2024-03-29-03-51-18-image.png](../../images/2024-04-09-public-ngs-data-db/d166f1e42dc4961f15862a770bff4775012e5e13.png)
 
 [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/) / [BioSample](https://www.ncbi.nlm.nih.gov/biosample/) / [SRA](https://www.ncbi.nlm.nih.gov/sra) / [GEO](https://www.ncbi.nlm.nih.gov/geo/)
 
-![](../../images/2024-03-25-public-ngs-data-db/2024-03-31-00-32-32-image.png)
+![2024-03-31-00-32-32-image.png](../../images/2024-04-09-public-ngs-data-db/351ad03e82ed369a72458911c70c74b73c15396b.png)
 
 Typically, when we submit NGS-based generated data, there are two options: `GEO or SRA`. If both raw and processed data are submitted to `GEO`, IDs for other three DBs are automatically issued. But, If only raw data is submitted to `SRA`, a `GEO` ID is not issued. For this reason, `SRA` and `BioProject (BioSample)` are initially investigated to collect as much data as possible.
 
@@ -99,114 +99,126 @@ Link: [**biopython/Bio.Entrez**](https://biopython.org/docs/latest/api/Bio.Entre
 
 BioPython's Bio.Entrez module provides an interface to the NCBI's Entrez service, which allows you to search, retrieve, and download data from NCBI's databases. The major functions of Bio.Entrez are:
 
-1. **`Entrez.esearch()`** is used to search an NCBI database. You provide it with a database to search and a search term, and it returns a list of IDs of records that match the search.
+1. **`Entrez.info()`** is your window into the vast world of biological data stored in NCBI's Entrez databases. With this function, you can quickly access essential details about each database, such as its description and available fields. It's like peeking into a library catalog to see what books are available before diving into your research. This information helps you tailor your queries and streamline your data retrieval process, ensuring you get the most relevant and useful results for your studies. So, next time you're gearing up to explore the wealth of biological knowledge, don't forget to start with Entrez.info(). It's your trusty guide in navigating the NCBI's treasure trove of data!
 
-2. **`Entrez.efetch()`** is used to download full records from a list of IDs. You provide it with a database and the IDs of the records you want to download, and it returns those records in a format that you specify.
+2. **`Entrez.read()`** is used to parse an XML file returned by any of the other Entrez functions. It's typically used to parse the output of `esearch()` and `esummary()`.
 
-3. **`Entrez.epost()`** is used to upload a list of IDs to the NCBI server. You provide it with a database and a list of IDs, and it returns a query key and web environment string that you can use in subsequent calls to `efetch()` or `elink()`.
+3. **`Entrez.esearch()`** is used to search an NCBI database. You provide it with a database to search and a search term, and it returns a list of IDs of records that match the search.
 
-4. **`Entrez.esummary()`** retrieves summaries from a list of IDs. You provide it with a database and the IDs of the records you want summaries of, and it returns those summaries.
+4. **`Entrez.efetch()`** is used to download full records from a list of IDs. You provide it with a database and the IDs of the records you want to download, and it returns those records in a format that you specify.
 
-5. **`Entrez.elink()`** is used to find related records in the database. You provide it with a database and a list of IDs, and it returns a list of IDs of related records.
+#### Entrez.info() & .read()
 
-6. **`Entrez.egquery()`** is used to search for your term in all databases and return the number of results in each one.
+Here's a full list of databases you can use in NCBI with the 'db' parameter in
 
-7. **`Entrez.eread()`** is used to parse the XML output from any of the other functions. It is often used in conjunction with `efetch()`.
+```python
+# First, import necessary libraries.
+from Bio import Entrez
+import xmltodict
+import json
 
-8. **`Entrez.read()`** is used to parse an XML file returned by any of the other Entrez functions. It's typically used to parse the output of `esearch()` and `esummary()`.
+# Next, always tell NCBI who you are by providing an email address.
+Entrez.email = "your.email@example.com"  # Always tell NCBI who you are
 
-9. **`Entrez.efilter()`** is used to use the Entrez filtering system with your search. This is a more advanced feature.
+# We can confirm all of the databases that can be searched.
+handle = Entrez.einfo()
+record = Entrez.read(handle)
+print('# "db" parameter')
+print(record["DbList"])
+```
 
-Each function has different options that you can use to refine your searches, specify the format of your results, and more.
+![2024-04-09-19-41-18-image.png](../../images/2024-04-09-public-ngs-data-db/93324d5b1f2c7a3dc2feaa9dcd93cf071f571905.png)
 
 #### Entrez.esearch()
 
-First, import necessary libraries.
+Here, `query` is a string of keywords you're interested in. It might look like **"homo sapiens[Organism] AND RNA-Seq[Strategy]"**. For the db parameter, use "bioproject" for BioProject, "gds" for GEO, and "sra" for SRA.
 
 ```python
-from Bio import Entrez
-```
-
-Next, always tell NCBI who you are by providing an email address.
-
-```python
-Entrez.email = "your.email@example.com"  # Always tell NCBI who you are
-```
-
-Then, use Entrez.esearch() function to search a database of interest. For instance, if you are interested in BioProject, you would do:
-
-```python
+# Then, use Entrez.esearch() function to search a database of interest.
+# For instance, if you are interested in SRA, you would do:
 def search(query):
-    handle = Entrez.esearch(db="bioproject",  # Database to search
+    handle = Entrez.esearch(db="sra",  # Database to search
                             term=query,  # Search term
-                            retmax=1000  # Number of results to return
+                            retmax=3  # Number of results to return
                             )
     record = Entrez.read(handle)
     return record
-```
 
-Here, `query` is a string of keywords you're interested in. It might look like "homo sapiens[Organism] AND RNA-Seq[Strategy]". For the db parameter, use "bioproject" for BioProject, "gds" for GEO, and "sra" for SRA.
-
-Next, to call this function:
-
-```python
+# Next, to call this function:
 results = search("your_keywords_here")
-```
 
-The IDs returned by this search are in `results['IdList']`.
-
-```python
+# The IDs returned by this search are in `results['IdList']`.
 print(results['IdList'])
 ```
 
-This gives you a list of IDs related to your keywords.
+![2024-04-09-19-58-48-image.png](../../images/2024-04-09-public-ngs-data-db/e9bfddee479eadf62eb5552d38eb8cfb2872ae75.png)
 
-Make sure to replace "[your.email@example.com](mailto:your.email@example.com)" and "your_keywords_here" with your actual email and keywords, respectively.
-
-Also, please note that due to restrictions on the number of queries that can be sent to NCBI servers, if you are going to use this script for heavy usage, consider using NCBI API keys and include it in your queries like `Entrez.api_key = "YourAPIKey"`.
-
-Finally, when writing and running these scripts, make sure you are abiding by the terms and conditions of the databases from which you are retrieving data.
-
-#### 'db' parameter
-
-here's a full list of databases you can use in NCBI with the 'db' parameter in `Entrez.esearch()`
+#### Entrez.fetch()
 
 ```python
-handle = Entrez.einfo()
-record = Entrez.read(handle)
-record["DbList"]
+# Then, use Entrez.fetch() function to fetch the metadata of searched IDs.
+def fetch(ls_id):
+    df = pd.DataFrame()
+
+    for id in ls_id:
+        handle = Entrez.efetch(db="sra",
+                               id=id,
+                               rettype="gb",
+                               retmode="text"
+                              )
+        # convert xml to dataframe format
+        xml_data = handle.read()
+        dict_data = xmltodict.parse(xml_data)
+        json_data = json.dumps(dict_data)
+        df_tmp = pd.json_normalize(json.loads(json_data))
+        # remove complex words in column names
+        df_tmp.columns = df_tmp.columns.str.replace('EXPERIMENT_PACKAGE_SET.EXPERIMENT_PACKAGE.', '')
+        df_tmp.index = [id]
+        # merge dataframes
+        df = pd.concat([df, df_tmp], axis=0)
+
+    return df
+
+# After calling the function, we can confirm the table of metadata
+df_out = fetch(results['IdList'])
+df_out.T
 ```
 
-['pubmed', 'protein', 'nuccore', 'ipg', 'nucleotide', 'structure', 'genome', 'annotinfo', 'assembly', '**bioproject**', '**biosample**', 'blastdbinfo', 'books', 'cdd', 'clinvar', 'gap', 'gapplus', 'grasp', 'dbvar', 'gene', '**gds**', 'geoprofiles', 'medgen', 'mesh', 'nlmcatalog', 'omim', 'orgtrack', 'pmc', 'popset', 'proteinclusters', 'pcassay', 'protfam', 'pccompound', 'pcsubstance', 'seqannot', 'snp', '**sra**', 'taxonomy', 'biocollections', 'gtr']
+![2024-04-09-19-57-07-image.png](../../images/2024-04-09-public-ngs-data-db/de29d5cc5967826887514dda1e850e3992602f72.png)
 
-#### Variables in output
+Using this functions, I wrote a personalized code for searching and fetching the metadata from SRA database. You can find it on my GitHub repository at [keun-hong/sra-meta-fetch](https://github.com/keun-hong/sra-meta-fetch).
 
-The `results` variable in this context is a dictionary that contains the response from the NCBI server for your search query. The dictionary contains several fields. The key fields are:
+### Other tools for fetching metadata
 
-1. **Count**: The total number of results that match your search query in the database.
+If you have accession numbers for the public data you need, you can easily gather metadata using various software tools as listed below.
 
-2. **RetMax**: The maximum number of results returned from your query. This is set by you in the `retmax` argument of the `esearch()` function. If `RetMax` is less than `Count`, it means there are more results available than you have retrieved in this request.you
+#### nf-core/ngsfetch
 
-3. **RetStart**: This represents the starting index of returned results. It is useful when you want to paginate through results.
+[nf-core/fetchngs](https://nf-co.re/fetchngs/1.12.0/docs/usage)  
+[GitHub - nf-core/fetchngs](https://github.com/nf-core/fetchngs?tab=readme-ov-file)
 
-4. **<mark>IdList</mark>**: This is a list of the unique identifiers for each of the returned records. These are the IDs you will likely be most interested in, as you can use them to fetch detailed records.
+![nf-core-fetchngs_metro_map_grey.png](../../images/2024-04-09-public-ngs-data-db/68bcba03ce9493b6fa69dfafb62d2927ad62b50b.png)
 
-5. **TranslationSet**: This contains a set of translations for your q
+#### ffq
 
-6. uery. For instance, if you search for a common name of an organism, the TranslationSet might contain the scientific name.
+[2301_Bioinfo) Metadata retrieval from sequence databases with *ffq*](https://academic.oup.com/bioinformatics/article/39/1/btac667/6971839) [GitHub - pachterlab/ffq](https://github.com/pachterlab/ffq)
 
-7. **TranslationStack**: This is a history stack of the search, which contains the search terms and their translations.
+![68747470733a2f2f646f63732e676f6f676c652e636f6d2f64726177696e67732f642f652f32504143582d317651774b493333755f716a61702d515539545f76366f5a3945484c54787279423445494f544e6f6445575756465669776863414e70546d425155345a72535f.png](../../images/2024-04-09-public-ngs-data-db/2aa23e9f17c3688a52ee95c8ea441b1c7928a1a1.png)
 
-8. **QueryTranslation**: This is the final, fully translated version of your search query.
+#### GEOfetch
 
-The `IdList` is usually the most relevant piece of information if you're looking to gather specific IDs. Other fields are more relevant for understanding the context of the search or for more advanced usage.
+[2303_Bioinfo) GEOfetch: a command-line tool for downloading data and standardized metadata from GEO and SRA](https://academic.oup.com/bioinformatics/article/39/3/btad069/7066913?login=false)  
+[GEOfetch - PEPkit: the bio data management toolkit](https://pep.databio.org/geofetch/)
 
----
+![btad069f1.jpeg](../../images/2024-04-09-public-ngs-data-db/4567353f47245f2d1cc8691fca7e8e0a76ea7767.jpeg)
+
+#### pysradb
+
+[1904_F1000) pysradb: A Python package to query next-generation sequencing metadata and data from NCBI Sequence Read Archive](https://f1000research.com/articles/8-532/v1)  
+[GitHub - saketkc/pysradb](https://github.com/saketkc/pysradb)
+
+![448a74a1af94df4020168e138eeb8d42fbd77b97.png](../../images/2024-04-09-public-ngs-data-db/ee28b22a3457c8174bb607579b5d89b73a059ef2.png)
 
 ### Reference
 
-[biopython/Bio.Entrez](https://biopython.org/docs/latest/api/Bio.Entrez.html#)
-
-[incodom.kr/E-utility](http://www.incodom.kr/E-utility)
-
-[Biopython/Bio.Entrez](https://incodom.kr/Biopython/Bio.Entrez)
+[biopython/Bio.Entrez](https://biopython.org/docs/latest/api/Bio.Entrez.html#)<br>[incodom.kr/E-utility](http://www.incodom.kr/E-utility)<br>[Biopython/Bio.Entrez](https://incodom.kr/Biopython/Bio.Entrez)
