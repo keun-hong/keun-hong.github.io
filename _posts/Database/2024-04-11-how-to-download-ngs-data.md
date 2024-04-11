@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[DB] INSDC: How to download .fasstq formatted raw data"
+title: "[DB] INSDC: How to download NGS-based raw data"
 categories: Database
 tags: [public data, NGS, nextflow, nf-core]
 ---
@@ -80,4 +80,4 @@ Link: [fetchngs: Results](https://nf-co.re/fetchngs/1.12.0/results/fetchngs/resu
 
 ### Reference
 
-[2109_Nmet) Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers](https://www.nature.com/articles/s41592-021-01254-9)
+[2109_Nmeth) Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers](https://www.nature.com/articles/s41592-021-01254-9)<br>[2002_Nbiotech) The nf-core framework for community-curated bioinformatics pipelines](https://www.nature.com/articles/s41587-020-0439-x)
