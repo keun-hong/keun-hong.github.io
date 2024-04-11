@@ -78,16 +78,4 @@ cp -r demo/mappability/ ./
 
 ### Reference
 
-1. [1906_SciRep) The ENCODE Blacklist: Identification of Problematic Regions of the Genome](https://www.nature.com/articles/s41598-019-45839-z)
-
-2. [hg19-blacklist-README](https://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/hg19-blacklist-README.pdf)
-
-3. [1109_Bioinfo) False positive peaks in ChIP-seq and other sequencing-based functional assays caused by unannotated high copy number regions](https://academic.oup.com/bioinformatics/article/27/15/2144/404749?login=false)
-
-4. [2309_GB) The CUT&RUN suspect list of problematic regions of the genome](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03027-3)
-
-5. [1809_NAR) Umap and Bismap: quantifying genome and methylome mappability](https://academic.oup.com/nar/article/46/20/e120/5086676?login=false)
-
-6. [2304_Bioinfo) excluderanges: exclusion sets for T2T-CHM13, GRCm39, and other genome assemblies](https://academic.oup.com/bioinformatics/article/39/4/btad198/7126418?login=false)
-
-<br>This article was written with help from ChatGPT v4.
+1/ [1906_SciRep) The ENCODE Blacklist: Identification of Problematic Regions of the Genome](https://www.nature.com/articles/s41598-019-45839-z)<br>2/ [hg19-blacklist-README](https://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/hg19-blacklist-README.pdf)<br>3/ [1109_Bioinfo) False positive peaks in ChIP-seq and other sequencing-based functional assays caused by unannotated high copy number regions](https://academic.oup.com/bioinformatics/article/27/15/2144/404749?login=false)<br>4/ [2309_GB) The CUT&RUN suspect list of problematic regions of the genome](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03027-3)
