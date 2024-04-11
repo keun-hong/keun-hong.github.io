@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[DB] INSDC: How to download NGS-based raw data"
+title: "[DB] INSDC: How to download NGS raw data"
 categories: Database
 tags: [public data, NGS, nextflow, nf-core]
 ---
