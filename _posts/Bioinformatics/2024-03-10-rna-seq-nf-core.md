@@ -33,7 +33,7 @@ done
 
 **Output format**
 
-```textile
+```tex
 sample,fastq_1,fastq_2,strandedness
 BC_0002,BC_0002_1.fq.gz,BC_0002_2.fq.gz,auto
 BC_0004,BC_0004_1.fq.gz,BC_0004_2.fq.gz,auto
