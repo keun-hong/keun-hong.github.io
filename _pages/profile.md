@@ -74,10 +74,10 @@ classes: wide
 <h3>Research Interests</h3> 
 <div class="intro">
     <ul>
-        <li>Cancer Biology (Tumor Ecology)
-        <p>tumor evolution, tumor microenvironment, metastasis and relapse, immunity</p></li>
         <li>Evolutionary and Comparative Biology (Cancer & Aging)
         <p>cross-species, genomic innovation</p></li>
+        <li>Cancer Biology (Tumor Ecology)
+        <p>tumor evolution, tumor microenvironment, metastasis and relapse, immunity</p></li>
         <li>Computational biology
         <p>integrative multi-omics (genomics, epigenomics, proteomics), machine learning</p></li>
     </ul><br>
