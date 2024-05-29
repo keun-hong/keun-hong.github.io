@@ -3,6 +3,8 @@ layout: single
 title: "[Bioinfo] BAM to FASTQ using nf-core pipeline"
 categories: Bioinformatics
 tags: [data processing, nextflow, nf-core]
+header:
+  teaser: /images/thumnail/2023-09-19-bamtofq-nf-core.png
 ---
 
 If you've ever downloaded public NGS data from databases like TCGA or ICDC (refer the previous post), you know that these usually come in a "bam" format. While bam is great, sometimes you need to flex your bioinformatic muscles and run these datasets through a custom pipeline. This usually means converting bam to the fastq format. Today, I'll instroduce this transformation process using the incredible nf-core pipeline powered by Nextflow.

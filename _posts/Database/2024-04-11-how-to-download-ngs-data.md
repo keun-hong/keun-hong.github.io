@@ -3,6 +3,8 @@ layout: single
 title: "[DB] INSDC: How to download NGS raw data"
 categories: Database
 tags: [public data, NGS, nextflow, nf-core]
+header:
+  teaser: /images/thumnail/2024-04-11-how-to-download-ngs-data.png
 ---
 
 In my [previous post](https://keun-hong.github.io/database/public-ngs-data-db/), I described how to specifically search for public NGS-based data and fetch metadata from INSDC database. Today I hope to talk with you about how to download the selected raw data.

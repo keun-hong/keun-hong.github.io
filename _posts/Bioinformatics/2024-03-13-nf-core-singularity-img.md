@@ -3,6 +3,8 @@ layout: single
 title: "[Bioinfo] Downloading the Singularity images of nf-core pipeline"
 categories: Bioinformatics
 tags: [nf-core, singularity]
+header:
+  teaser: /images/thumnail/2024-03-13-nf-core-singularity-img.png
 ---
 
 When running nf-core pipelines for the first time, I frequently encounter errors while pulling the Singularity image.

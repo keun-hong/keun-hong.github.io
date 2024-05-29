@@ -3,6 +3,8 @@ layout: single
 title: "[Setup] Remote Work: Overcoming SSH Blocks"
 categories: Network
 tags: [linux, windows, ssh, vpn]
+header:
+  teaser: /images/thumnail/2023-09-07-vpn-remote.png
 ---
 
 ## Bridging Computers with SSH through VPN

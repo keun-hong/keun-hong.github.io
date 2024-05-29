@@ -3,6 +3,8 @@ layout: single
 title: "[Bioinfo] Proteomic data and nf-core pipelines"
 categories: Bioinformatics
 tags: [proteomics]
+header:
+  teaser: /images/thumnail/2024-03-14-lcms-proteomic-data.png
 ---
 
 ### Types of Proteomic Data:

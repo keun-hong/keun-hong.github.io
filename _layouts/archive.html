@@ -2,6 +2,32 @@
 layout: default
 ---
 
+<style>
+  .archive__item-header {
+    display: flex;
+    justify-content: space-between; /* 텍스트와 썸네일을 양 끝에 배치 */
+    align-items: flex-start; /* 상단 정렬 */
+  }
+
+  .archive__item-text {
+      flex-grow: 1; /* 텍스트 부분이 가능한 공간을 차지하도록 */
+      margin-right: 10px; /* 텍스트와 썸네일 사이의 간격 */
+  }
+
+  .archive__item-thumbnail {
+      flex-shrink: 0; /* 썸네일이 축소되지 않도록 */
+  }
+
+  .archive__item-thumbnail img {
+      width: 7rem;  /* 썸네일 크기 조정 */
+      height: 5.25rem; /* 썸네일 크기 조정 */
+      object-fit: cover;
+      border-radius: 3%;
+  }
+</style>
+  
+  
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}

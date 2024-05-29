@@ -3,6 +3,8 @@ layout: single
 title: "[DB] Diverse genome annotations in UCSC browser"
 categories: Database
 tags: [annotation, ucsc]
+header:
+  teaser: /images/thumnail/2024-04-06-uscs-annotations.png
 ---
 
 In the quest to understand how genomes are regulated and function, and their implications in disease, researchers worldwide undertake diverse studies to annotate genomes of various species with different objectives and methodologies. The **UCSC Genome Browser serves as a centralized hub** where the culmination of these key research findings is readily accessible. Here's how you can access this invaluable information.

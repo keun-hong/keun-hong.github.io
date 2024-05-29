@@ -3,6 +3,8 @@ layout: single
 title: "[DB] INSDC: Where are the public NGS data stored?"
 categories: Database
 tags: [public data, NGS]
+header:
+  teaser: /images/thumnail/2024-04-09-public-ngs-data-db.png
 ---
 
 Public databases are filled with a tremendous amount of NGS-based data that can be used for research brainstorming, storyboarding, target selection, and validation. **However, finding, identifying, and downloading adequate raw data can be a difficult task.** In this post, I will introduce you to the process of effectively using public NGS-based data.

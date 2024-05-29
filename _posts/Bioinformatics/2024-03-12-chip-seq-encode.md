@@ -3,6 +3,8 @@ layout: single
 title: "[Bioinfo] ChIP-seq data processing using ENCODE pipeline"
 categories: Bioinformatics
 tags: [data processing, ENCODE]
+header:
+  teaser: /images/thumnail/2024-03-12-chip-seq-ENCODE.png
 ---
 
 Link: [**GitHub - ENCODE3 ChIP-seq pipeline**](https://github.com/ENCODE-DCC/chip-seq-pipeline2?tab=readme-ov-file) & [**Google Docs**](https://docs.google.com/document/d/1lG_Rd7fnYgRpSIqrIfuVlAz2dW1VaSQThzk836Db99c/edit#heading=h.9ecc41kilcvq)

@@ -3,6 +3,8 @@ layout: single
 title: "[Bioinfo] RNA-seq data processing using nf-core pipeline"
 categories: Bioinformatics
 tags: [data processing, nextflow, nf-core]
+header:
+  teaser: /images/thumnail/2024-03-10-rna-seq-nf-core.png
 ---
 
 Link: [**nf-core rnaseq pipeline**](https://nf-co.re/rnaseq)

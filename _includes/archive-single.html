@@ -20,19 +20,25 @@
       Recent posts 게시물 제목, 상하단 간격 조절을 위해 style 추가
       크기 조절을 위해 font-size: --em 추가
     -->
-    <h2 class="archive__item-title no_toc" itemprop="k" style="margin:0px 0px 5px 0px; font-size: 0.85em;">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+    <div class="archive__item-header">
+      <div class="archive__item-text">
+        <h2 class="archive__item-title no_toc" itemprop="k" style="margin:0px 0px 5px 0px; font-size: 0.85em;">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {% else %}
+            <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h2>
+        <!-- Recent posts 게시물 업로드 날짜 -->
+        {% include page__meta.html type=include.type %}
+        {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 100 }}</p>{% endif %}
+      </div>
+      {% if teaser and include.type != "grid" %}
+        <div class="archive__item-thumbnail">
+          <img src="{{ teaser | relative_url }}" alt="">
+        </div>
       {% endif %}
-    </h2>
-    <!-- Recent posts 게시물 업로드 날짜 -->
-    {% include page__meta.html type=include.type %}
-    <!--
-      Recent posts 게시물 일부 내용 삭제를위해 주석처리, 상하단 간격 조절을 위해 style 추가
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-    -->
+    </div>
     <p style="margin:0px 0px 10px 0px"></p>
   </article>
 </div>

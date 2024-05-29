@@ -135,8 +135,6 @@ sudo apt-get install -y \
 **Because SingularityCE is written in Go, Go was installed and set up my environment.**
 
 ```bash
-cd /usr/local
-
 # Download files and locate 
 export VERSION=1.21.6 OS=linux ARCH=amd64 && \
     wget https://dl.google.com/go/go$VERSION.$OS-$ARCH.tar.gz && \

@@ -3,7 +3,8 @@ layout: single
 title: "[Bioinfo] Blacklisted regions in the genome"
 categories: Bioinformatics
 tags: [proteomics]
-
+header:
+  teaser: /images/thumnail/2024-03-16-encode-blacklist.png
 ---
 
 ### Definition
@@ -43,6 +44,12 @@ This automated method for generating the blacklist is essential for ensuring tha
 - [Historical ENCODE Blacklist (hg38, hg19 & mm10) - Ref. 3](https://www.encodeproject.org/annotations/ENCSR636HFF/)
 
 - [CUT&RUN suspect list (hg38, T2T, mm38) - Ref. 4](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-023-03027-3/MediaObjects/13059_2023_3027_MOESM2_ESM.xlsx)
+
+    nf-core chip-seq Blacklist v1, 2, 3
+
+- https://nf-co.re/chipseq/2.0.0/docs/usage
+
+- https://www.encodeproject.org/documents/cbaffa9e-2e42-434e-8b88-f04619c57080/@@download/attachment/README.txt
 
 ### How to generate Blacklist
 

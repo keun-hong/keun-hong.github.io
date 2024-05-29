@@ -3,6 +3,8 @@ layout: single
 title: "[Bioinfo] Reference epigenome map: chromatin states"
 categories: Bioinformatics
 tags: [proteomics]
+header:
+  teaser: /images/thumnail/2024-03-17-epigenome-map.png
 ---
 
 **Chromatin states** in the field of epigenomics refer to <u>the organization and modification of chromatin</u>, which is a complex of DNA and proteins found in cells. These states play a crucial role in regulating gene expression and can influence various cellular processes. Understanding chromatin states is essential in epigenomics, as they provide <u>insights into how genetic information is regulated and expressed in different cellular contexts.</u>

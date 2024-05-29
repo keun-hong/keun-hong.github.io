@@ -49,9 +49,13 @@ classes: wide
         </style>
     </head>
     
+    <!--
+    사진 상대 경로에서 절대 경로로 변경
+    "images/index/KH_8by10.jpg"  ->  "{{ site.baseurl }}/images/index/KH_8by10.jpg"
+    -->
     <body>
         <div class="intro">
-            <img src="images/index/KH_8by10.jpg" alt="image">
+            <img src="{{ site.baseurl }}/images/index/KH_8by10.jpg" alt="image">
             <p>
             <strong class="special-text">Hi! My name is Keun Hong. I'm an evolutionary and cancer biologist.</strong><br>
             I am a PhD candidate in biomedical sciences at Seoul National University (the lab of <a href="https://vetbio.snu.ac.kr/">Prof. Je-Yoel Cho</a>). I have strong technical backgrounds in computational biology, and molecular & cell biology.<br>

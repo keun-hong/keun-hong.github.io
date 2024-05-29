@@ -3,7 +3,8 @@ layout: single
 title: "[Bioinfo] Problematic regions and Mappability in genomic analysis"
 categories: Bioinformatics
 tags: [genomic,ucsc, encode]
-
+header:
+  teaser: /images/thumnail/2024-04-05-problematic-regions.png
 ---
 
 In my [previous post](https://keun-hong.github.io/bioinformatics/encode-blacklist/), we delved into the concept of Blacklist regions in genomes. Expanding on this, today's focus is on broader "Problematic Regions" and the crucial concept of "Mappability" in genomic analysis.
