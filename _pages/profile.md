@@ -88,7 +88,7 @@ classes: wide
         <li>MS, Microbiology  (2016 - 2018)
         <p>Dankook University, Cheonan, Republic of Korea<br>Advisor: Prof. Keunsoo Kang</p></li>
         <li>BS, Microbiology (2010 -2016)
-        <p>Dankook University, Cheonan, Republic of Korea</p></li>
+        <p>Dankook University, Cheonan, Republic of Korea<br>Advisor: Prof. Keunsoo Kang</p></li>
     </ul><br>
     <h3>Honors & Awards</h3>
     <ul>
