@@ -84,9 +84,9 @@ classes: wide
     <h3>Education</h3>
     <ul>
         <li>Ph.D., Biomedical Sciences (2019 - )
-        <p>Seoul National University Veterinary Medicine, Seoul, Republic of Korea Advisor: Prof.Je-Yeol Cho</p></li>
+        <p>Seoul National University Veterinary Medicine, Seoul, Republic of Korea<br>Advisor: Prof. Je-Yeol Cho</p></li>
         <li>MS, Microbiology  (2016 - 2018)
-        <p>Dankook University, Cheonan, Republic of Korea Advisor: Prof. Keunsoo Kang</p></li>
+        <p>Dankook University, Cheonan, Republic of Korea<br>Advisor: Prof. Keunsoo Kang</p></li>
         <li>BS, Microbiology (2010 -2016)
         <p>Dankook University, Cheonan, Republic of Korea</p></li>
     </ul><br>
