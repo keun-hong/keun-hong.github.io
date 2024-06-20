@@ -106,7 +106,7 @@ classes: wide
     <p>
     <strong class="special-text">Integrative mapping of the dog epigenome: reference annotation for comparative intertissue and cross-species studies</strong><br>
     <strong>Son KH&#8224;</strong>, Aldonza MBD&#8224;, Nam AR&#8224;, Lee K, Lee J, Shin K, Kang K, &amp; Cho J*.<br>
-    <strong><em>Science Advances.</em></strong> 2023 (<a href="https://www.science.org/doi/10.1126/sciadv.ade3399">Article</a>, <a href="https://www.science.org/doi/epdf/10.1126/sciadv.ade3399">PDF</a>)
+    <strong><em>Science Advances.</em></strong> 2023 (<a href="https://www.science.org/doi/10.1126/sciadv.ade3399">Article</a>, <a href="https://www.science.org/doi/epdf/10.1126/sciadv.ade3399">PDF</a>, <a href="https://github.com/keun-hong/dog-reference-epigenome">Github</a>)
     </p>
 </div>
 <div class="first-author">
