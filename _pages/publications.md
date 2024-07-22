@@ -141,8 +141,6 @@ classes: wide
 </div>
 
 
-
-
 <div class="gray-box">
     <h3>Co-Authored Publications</h3>
 </div>

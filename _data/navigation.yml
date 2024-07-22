@@ -3,7 +3,7 @@ main:
   - title: "Profile"
     url: /profile/
   - title: "Publications"
-    url: /Publications/
+    url: /publications/
   - title: "Blog"
     url: /categories/
 #  - title: "Tag"
