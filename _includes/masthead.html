@@ -18,6 +18,7 @@
             </li>
           {%- endfor -%}
         </ul>
+        <!-- _config.yml에서 search: true 하더라도, navigation에 돋보기 표시 뜨지 않게 하기위해 주석처리함
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
@@ -28,7 +29,8 @@
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
         </button>
-        <ul class="hidden-links hidden"></ul>
+        <ul class="hidden-links hidden"></ul>   -->
+        
       </nav>
     </div>
   </div>
