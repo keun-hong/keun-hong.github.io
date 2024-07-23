@@ -26,9 +26,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <!--
-      버튼 색 변경을 위해, style 추가
-    -->
+    <!-- To change the color of button, style added -->
     <button class="btn btn--primary" style="padding:10px 15px 10px 15px;">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}

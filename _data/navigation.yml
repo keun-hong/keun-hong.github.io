@@ -6,18 +6,18 @@ main:
     url: /publications/
   - title: "Blog"
     url: /categories/
-#  - title: "Tag"
-#    url: /tags/
+  #- title: "Tag"
+  #  url: /tags/
   - title: "Archives"
     url: /year-archive/
-#  - title: "Search"
-#    url: /search/
+  #- title: "Search"
+  #  url: /search/
 
 counts:
   - title: "Category"
     use: true
-#  - title: "Tag"
-#    use: false
+  - title: "Tag"
+    use: false
 
 
 
