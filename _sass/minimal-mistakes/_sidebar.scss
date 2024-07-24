@@ -189,7 +189,9 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  // 버튼을 left-align하기 위해 설정 변경
+  // display: table-cell;
+  display: flex;  // Change to flexbox layout
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
@@ -242,9 +244,13 @@
 .author__urls {
   display: none;
   position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  // 버튼을 왼쪽 정렬하니, 항목들이 right-align되는 문제를 해결하기 위해 설정 변경
+  // right: 0;
+  // margin-top: 15px;
+  left: 0; // Aligns the dropdown to the left
+  top: 100%; // Places the dropdown below the button
+  margin-top: 5px; // Adjust the margin as needed
+  padding: 7px;
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
