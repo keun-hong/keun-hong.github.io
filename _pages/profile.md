@@ -138,6 +138,32 @@ classes: wide
                 <li>Graduate Assistant (2016-2017), Department of Microbiology, Dankook Univ.</li>
             </ul>
         </div>
+        <h3 class="toggle-button" onclick="toggleVisibility('honors-awards', this)">
+            Honors & Awards
+            <i class="fas fa-chevron-right"></i>
+        </h3>
+        <div id="honors-awards" class="toggle-content">
+            <ul>
+                <li>Selected as <a href="https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=88641&authorId=41749#!/list" target="_blank" style="color: inherit; ">"한국을 빛낸 사람들 (한빛사)"</a> (People Who Shined Korea) (2023), BRIC</li>
+                <li><a href="../images/profile/2022_KSMCB_Young_Investigator.jpg" target="_blank" style="color: inherit; ">Young Scientist Award</a> (2022), KSMCB 2022</li>
+                <li><a href="#" onclick="openModal('../images/profile/2022_KSMCB_oral.png'); return false;" style="color: inherit;">Oral</a></li>
+                <li><a href="../images/profile/2022_ERD_award.png" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2022), SNU College of Veterinary Medicine ERD Day</li>
+            </ul>
+        </div>
+        <h3 class="toggle-button" onclick="toggleVisibility('memberships', this)">
+            Professional Memberships
+            <i class="fas fa-chevron-right"></i>
+        </h3>
+        <div id="memberships" class="toggle-content">
+            <ul>
+                <li>Associate Member (2024-), <a href="https://www.aacr.org/" target="_blank" style="color: inherit; ">American Society for Cancer Research (AACR)</a></li>
+                <li>Collaborating Member (2022-), <a href="https://www.humancellatlas.org/" target="_blank" style="color: inherit; ">Human Cell Atlas</a></li>
+                <li>Student Member (2022-), <a href="https://www.ksmcb.or.kr/eng/" target="_blank" style="color: inherit; ">Korean Society for Molecular and Cellular Biology (KSMCB)</a></li>
+                <li>Student Member (2021-), <a href="http://www.khupo.org/" target="_blank" style="color: inherit; ">The Korean Human Proteome Organization (KHUPO)</a></li>
+                <li>Student Member (2016-), <a href="https://kogo.or.kr/index.asp" target="_blank" style="color: inherit; ">Korea Genome Organization (KOGO)</a></li>
+                <li>Student Member (2015-), <a href="https://www.ksbmb.or.kr/html/?pmode=english" target="_blank" style="color: inherit; ">Korean Society for Biochemistry and Molecular Biology (KSBMB)</a></li>
+            </ul>
+        </div>
         <h3 class="toggle-button" onclick="toggleVisibility('int_conf', this)">
             International Conferences
             <i class="fas fa-chevron-right"></i>
@@ -158,32 +184,6 @@ classes: wide
                 Topic: Comparative mammalian and dog genomics</li>
                 <li><a href="../images/profile/2023_Invited_The_Hook.png" target="_blank" style="color: inherit; ">Invited talk</a> (2023), The 1st THE HOOK One-Day Camp (AI+BIO) for High School Students (Seoul, KR)<br>
                 Topic: Comparative genomics for genomic innovation</li>
-            </ul>
-        </div>
-        <h3 class="toggle-button" onclick="toggleVisibility('memberships', this)">
-            Professional Memberships
-            <i class="fas fa-chevron-right"></i>
-        </h3>
-        <div id="memberships" class="toggle-content">
-            <ul>
-                <li>Associate Member (2024-), <a href="https://www.aacr.org/" target="_blank" style="color: inherit; ">American Society for Cancer Research (AACR)</a></li>
-                <li>Collaborating Member (2022-), <a href="https://www.humancellatlas.org/" target="_blank" style="color: inherit; ">Human Cell Atlas</a></li>
-                <li>Student Member (2022-), <a href="https://www.ksmcb.or.kr/eng/" target="_blank" style="color: inherit; ">Korean Society for Molecular and Cellular Biology (KSMCB)</a></li>
-                <li>Student Member (2021-), <a href="http://www.khupo.org/" target="_blank" style="color: inherit; ">The Korean Human Proteome Organization (KHUPO)</a></li>
-                <li>Student Member (2016-), <a href="https://kogo.or.kr/index.asp" target="_blank" style="color: inherit; ">Korea Genome Organization (KOGO)</a></li>
-                <li>Student Member (2015-), <a href="https://www.ksbmb.or.kr/html/?pmode=english" target="_blank" style="color: inherit; ">Korean Society for Biochemistry and Molecular Biology (KSBMB)</a></li>
-            </ul>
-        </div>
-        <h3 class="toggle-button" onclick="toggleVisibility('honors-awards', this)">
-            Honors & Awards
-            <i class="fas fa-chevron-right"></i>
-        </h3>
-        <div id="honors-awards" class="toggle-content">
-            <ul>
-                <li>Selected as <a href="https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=88641&authorId=41749#!/list" target="_blank" style="color: inherit; ">"한국을 빛낸 사람들 (한빛사)"</a> (People Who Shined Korea) (2023), BRIC</li>
-                <li><a href="../images/profile/2022_KSMCB_Young_Investigator.jpg" target="_blank" style="color: inherit; ">Young Scientist Award</a> (2022), KSMCB 2022</li>
-                <li><a href="#" onclick="openModal('../images/profile/2022_KSMCB_oral.png'); return false;" style="color: inherit;">Oral</a></li>
-                <li><a href="../images/profile/2022_ERD_award.png" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2022), SNU College of Veterinary Medicine ERD Day</li>
             </ul>
         </div>
         <h3 class="toggle-button" onclick="toggleVisibility('review', this)">
