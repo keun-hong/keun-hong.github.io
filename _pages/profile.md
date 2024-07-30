@@ -146,7 +146,6 @@ classes: wide
             <ul>
                 <li>Selected as <a href="https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=88641&authorId=41749#!/list" target="_blank" style="color: inherit; ">"한국을 빛낸 사람들 (한빛사)"</a> (People Who Shined Korea) (2023), BRIC</li>
                 <li><a href="../images/profile/2022_KSMCB_Young_Investigator.jpg" target="_blank" style="color: inherit; ">Young Scientist Award</a> (2022), KSMCB 2022</li>
-                <li><a href="#" onclick="openModal('../images/profile/2022_KSMCB_oral.png'); return false;" style="color: inherit;">Oral</a></li>
                 <li><a href="../images/profile/2022_ERD_award.png" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2022), SNU College of Veterinary Medicine ERD Day</li>
             </ul>
         </div>
