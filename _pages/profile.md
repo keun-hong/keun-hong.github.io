@@ -162,7 +162,7 @@ classes: wide
                 <li>Collaborating Member (2022-), <a href="https://kbiox.net/" target="_blank" style="color: inherit; ">K-BIOX</a></li>
                 <li>Student Member (2022-), <a href="https://www.ksmcb.or.kr/eng/" target="_blank" style="color: inherit; ">Korean Society for Molecular and Cellular Biology (KSMCB)</a></li>
                 <li>Student Member (2021-), <a href="http://www.khupo.org/" target="_blank" style="color: inherit; ">The Korean Human Proteome Organization (KHUPO)</a></li>
-                <li>Associate Member (2021-), <a href="http://www.khupo.org/" target="_blank" style="color: inherit; ">Korean Society of Veterinary Science</a></li>
+                <li>Associate Member (2021-), <a href="https://www.ksvs.or.kr/" target="_blank" style="color: inherit; ">Korean Society of Veterinary Science</a></li>
                 <li>Student Member (2016-), <a href="https://kogo.or.kr/index.asp" target="_blank" style="color: inherit; ">Korea Genome Organization (KOGO)</a></li>
                 <li>Student Member (2015-), <a href="https://www.ksbmb.or.kr/html/?pmode=english" target="_blank" style="color: inherit; ">Korean Society for Biochemistry and Molecular Biology (KSBMB)</a></li>
             </ul>
