@@ -156,10 +156,13 @@ classes: wide
         </h3>
         <div id="memberships" class="toggle-content">
             <ul>
+                <li>Student Member (2024-), <a href="https://www.favamember.org/" target="_blank" style="color: inherit; ">Federation of Asian Veterinary Associations (FAVA)</a></li>
                 <li>Associate Member (2024-), <a href="https://www.aacr.org/" target="_blank" style="color: inherit; ">American Society for Cancer Research (AACR)</a></li>
                 <li>Collaborating Member (2022-), <a href="https://www.humancellatlas.org/" target="_blank" style="color: inherit; ">Human Cell Atlas</a></li>
+                <li>Collaborating Member (2022-), <a href="https://kbiox.net/" target="_blank" style="color: inherit; ">K-BIOX</a></li>
                 <li>Student Member (2022-), <a href="https://www.ksmcb.or.kr/eng/" target="_blank" style="color: inherit; ">Korean Society for Molecular and Cellular Biology (KSMCB)</a></li>
                 <li>Student Member (2021-), <a href="http://www.khupo.org/" target="_blank" style="color: inherit; ">The Korean Human Proteome Organization (KHUPO)</a></li>
+                <li>Associate Member (2021-), <a href="http://www.khupo.org/" target="_blank" style="color: inherit; ">Korean Society of Veterinary Science</a></li>
                 <li>Student Member (2016-), <a href="https://kogo.or.kr/index.asp" target="_blank" style="color: inherit; ">Korea Genome Organization (KOGO)</a></li>
                 <li>Student Member (2015-), <a href="https://www.ksbmb.or.kr/html/?pmode=english" target="_blank" style="color: inherit; ">Korean Society for Biochemistry and Molecular Biology (KSBMB)</a></li>
             </ul>
