@@ -26,7 +26,7 @@ One particular workstation is situated in a university setting. Unfortunately, t
 </center>
 <br>
 
-After extensive research and testing, I stumbled upon a solution. If both computers run on Linux OS (as opposed to Windows), "AnyDesk" can allocate a local IP through its VPN (Virtual Private Network) feature. Using this method, I managed to establish a bridge connection between the two Linux computers via VPN. This allowed for SSH access, just as I had hoped.
+After extensive testing, I stumbled upon a solution. If both computers run on Linux OS (as opposed to Windows), "AnyDesk" can allocate a local IP through its VPN (Virtual Private Network) feature. Using this method, I managed to establish a bridge connection between the two Linux computers via VPN. This allowed for SSH access, just as I had hoped.
 
 <center>
     <img src="../../images/2023-09-07-vpn-remote/401efaf1de7f2a459548cfc9d94206ee57be889c.jpg" alt="pic3.jpg" width="450">

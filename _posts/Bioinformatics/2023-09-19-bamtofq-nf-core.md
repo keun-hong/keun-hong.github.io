@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2023-09-19-bamtofq-nf-core.png
 ---
 
-If you've ever downloaded public NGS data from databases like TCGA or ICDC (refer the previous post), you know that these usually come in a "bam" format. While bam is great, sometimes you need to flex your bioinformatic muscles and run these datasets through a custom pipeline. This usually means converting bam to the fastq format. Today, I'll instroduce this transformation process using the incredible nf-core pipeline powered by Nextflow.
+If you've ever downloaded public NGS data from databases like TCGA or ICDC ([previous post](https://keun-hong.github.io/database/db-icdc/)), you know that these usually come in a "bam" format. While bam is great, sometimes you need to flex your bioinformatic muscles and run these datasets through a custom pipeline. This usually means converting BAM to the FASTQ format. Today, I'll introduce this transformation process using the incredible nf-core pipeline powered by Nextflow.
 
 ### Nextflow and nf-core
 
@@ -42,8 +42,9 @@ Alright, let's get down to the nitty-gritty. Here's a step-by-step summary of th
 
 For the uninitiated, transitioning from BAM to FASTQ might sound like a daunting task. Fret not! Here's a detailed guide using the nf-core pipeline.
 
-1. **Setting Up the Environment**:
-   Before the conversion, you'll need to set up your bioinformatics environment. Let's begin with installing Nextflow using the conda environment:
+1. **Setting Up the Environment**
+   Before the conversion, you'll need to set up your bioinformatics environment. Let's begin with installing Nextflow using the conda environment
+   
    **a. Configure Conda Channels**
    First, I'll assume you're using the conda environment.
    Run these commands to add the necessary channels:
