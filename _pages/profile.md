@@ -132,7 +132,7 @@ classes: wide
             <ul>
                 <li>Facility Manager (2021-2023), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
                 <li>Website Manager (2020-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
-                <li>NAS Sever Manager (2019-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
+                <li><a href="https://keun-hong.github.io/lablife/nas/" target="_blank" style="color: inherit; ">NAS Sever Manager</a> (2019-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
                 <li>Teaching Assistant (2019-2022), Biochemistry (Undergrad course), College of Veterinary Medicine, Seoul National Univ.</li>
                 <li>Teaching Assistant (2017), Statistics using SPSS (Undergrad course), Department of Microbiology, Dankook Univ.</li>
                 <li>Graduate Assistant (2016-2017), Department of Microbiology, Dankook Univ.</li>
