@@ -108,8 +108,6 @@ Using Cookiecutter to create a Python package template is a great first step. On
 - **Purpose**: Ensures that your development environment has all the necessary packages required for development and testing.
 - **Steps**:
 
-
-
 ```bash
 # 1. Create a Virtual Environment
 python -m venv venv 
@@ -120,8 +118,6 @@ pip install -r requirements_dev.txt
 # When you want to deactivate
 deactivate
 ```
-
-
 
 it is highly recommended to conduct development within a virtual environment. Using a virtual environment has several significant benefits, particularly for Python development, where <mark>dependency management and project isolation are crucial</mark>. Here’s a detailed explanation of why you should use a virtual environment and the benefits it offers:
 
@@ -409,3 +405,183 @@ python -m mypackage
   - 프로젝트의 저작권 정보 및 사용 권한을 명확히 합니다.
 
 이 외에도 각 프로젝트의 성격과 필요에 따라 다양한 구성 파일과 스크립트 파일들이 사용될 수 있습니다. 이러한 파일들을 적절히 관리하고 구성하는 것은 프로
+
+
+
+# Bioconda
+
+To distribute your package through Bioconda, you'll need to follow the specific guidelines and processes set by the Bioconda project. Here's a step-by-step guide to help you get your package into Bioconda:
+
+### 1. Fork and Clone the Bioconda Recipes Repository
+
+First, fork the [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) repository on GitHub, and then clone your fork to your local machine:
+
+```bash
+git clone https://github.com/<your-username>/bioconda-recipes.git
+cd bioconda-recipes
+
+```
+
+
+
+Replace `<your-username>` with your GitHub username.
+
+### 2. Set Up the Bioconda Environment
+
+Bioconda has a specific environment setup to ensure consistency across builds. You need to set up this environment:
+
+```bash
+conda create -n bioconda python=3.8
+conda activate bioconda
+conda install -c conda-forge -c bioconda bioconda-utils
+
+```
+
+### 3. Create a Recipe for Your Package
+
+Navigate to the `recipes` directory and create a new directory for your package:
+
+```bash
+cd recipes
+mkdir gencube
+cd gencube
+
+```
+
+Create a `meta.yaml` file with the following content:
+
+```yaml
+{% set version = "0.9.1" %}
+
+package:
+  name: "gencube"
+  version: "{{ version }}"
+
+source:
+  url: https://files.pythonhosted.org/packages/13/af/3d1d8c464a73057afe1835e9b7294c971f71e0959a076203e8cca1205830/gencube-{{ version }}.tar.gz
+  sha256: <put_the_correct_sha256_here>
+
+build:
+  noarch: python
+  number: 0
+
+requirements:
+  host:
+    - python >=3.6
+    - pip
+  run:
+    - python >=3.6
+    - biopython >=1.79
+    - pandas >=1.0.0
+    - numpy >=1.21.0,<2
+    - requests >=2.25.1
+    - urllib3 >=1.26.5
+    - xmltodict >=0.12.0
+    - beautifulsoup4 >=4.9.3
+    - tqdm >=4.61.2
+    - tabulate >=0.8.9
+
+test:
+  imports:
+    - gencube
+  commands:
+    - gencube --help  # Replace this with an actual command to test your tool
+
+about:
+  home: "https://keun-hong.github.io/"
+  license: "MIT"
+  license_file: "LICENSE"
+  summary: "GenCube enables researchers to search for, download, and unify genome assemblies and diverse types of annotations, and retrieve metadata for sequencing-based experimental data suitable for specific requirements."
+  description: |
+    GenCube enables researchers to search for, download, and unify genome assemblies and diverse types of annotations, and retrieve metadata for sequencing-based experimental data suitable for specific requirements.
+  dev_url: "https://github.com/keun-hong/gencube"
+  doc_url: "https://github.com/keun-hong/gencube"
+  doc_source_url: "https://github.com/keun-hong/gencube"
+  license_family: "MIT"
+  license_file: "LICENSE"
+
+extra:
+  recipe-maintainers:
+    - "keunhongson"
+  identifiers:
+    - biotools:gencube
+  edam:
+    topic: Data_Handling
+    operation: Data_Handling
+andling
+    operation: Data_Handling
+
+```
+
+Replace `<put_the_correct_sha256_here>` with the SHA256 checksum of your tarball. You can get the checksum using:
+
+```bash
+wget https://files.pythonhosted.org/packages/13/af/3d1d8c464a73057afe1835e9b7294c971f71e0959a076203e8cca1205830/gencube-0.9.1.tar.gz
+sha256sum gencube-0.9.1.tar.gz
+
+```
+
+### 4. Test Your Recipe
+
+Before submitting your recipe, you should test it locally:
+
+```bash
+bioconda-utils build recipes config.yml --packages gencube
+
+
+```
+
+### 5. Commit and Push Your Changes
+
+Add, commit, and push your changes to your forked repository:
+
+```bash
+git add recipes/gencube
+git commit -m "Add gencube recipe"
+git push origin master
+
+```
+
+### 6. Create a Pull Request
+
+Go to the original [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) repository and create a pull request from your fork.
+
+### 7. Follow Up
+
+Bioconda maintainers will review your pull request. They may suggest changes or improvements. Be sure to respond to their comments and make any necessary adjustments.
+
+### Example Command Sequence
+
+```bash
+# Fork and clone the bioconda-recipes repository
+git clone https://github.com/<your-username>/bioconda-recipes.git
+cd bioconda-recipes
+
+# Set up the bioconda environment
+conda create -n bioconda python=3.8
+conda activate bioconda
+conda install -c conda-forge -c bioconda bioconda-utils
+
+# Create a recipe for gencube
+cd recipes
+mkdir gencube
+cd gencube
+
+# Create the meta.yaml file
+nano meta.yaml
+# (Copy the provided meta.yaml content into this file)
+
+# Test the recipe
+bioconda-utils build recipes config.yml --packages gencube
+
+# Commit and push your changes
+git add recipes/gencube
+git commit -m "Add gencube recipe"
+git push origin master
+
+# Create a pull request on GitHub
+# (Go to your fork and create a pull request to the bioconda/bioconda-recipes repository)
+
+```
+
+By following these steps, you can get your package added to Bioconda, making it available for installation using `conda`. If you encounter any issues or have further questions, feel free to ask!
