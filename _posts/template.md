@@ -7,4 +7,4 @@ header:
   teaser: /images/thumnail/
 ---
 
-This article was written with help from ChatGPT v4.
+--

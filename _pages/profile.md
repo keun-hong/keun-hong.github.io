@@ -96,9 +96,9 @@ classes: wide
         <ul>
             <li>PhD candidate, Veterinary Biomedical Sciences (2019-)
             <p>Comparative Medicine Disease Research Center (CDRC), Seoul National University, Seoul, KR</p></li>
-            <li>MS, Microbiology  (2016-2018)
+            <li>MS, Microbiology and biotechnology  (2016-2018)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
-            <li>BS, Microbiology (2010-2016)
+            <li>BS, Microbiology and biotechnology (2010-2016)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
         </ul>
         <br>
@@ -133,8 +133,9 @@ classes: wide
                 <li>Facility Manager (2021-2023), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
                 <li>Website Manager (2020-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
                 <li><a href="https://keun-hong.github.io/lablife/nas/" target="_blank" style="color: inherit; ">NAS Sever Manager</a> (2019-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
-                <li>Teaching Assistant (2019-2022), Biochemistry (Undergrad course), College of Veterinary Medicine, Seoul National Univ.</li>
-                <li>Teaching Assistant (2017), Statistics using SPSS (Undergrad course), Department of Microbiology, Dankook Univ.</li>
+                <li>Teaching Assistant (2019-2022), Biochemistry, College of Veterinary Medicine, Seoul National Univ.</li>
+                <li><a href="../images/profile/2017_DKU_Class_envi.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Environment-Bio Experiment, Department of Microbiology, Dankook Univ.</li>
+                <li><a href="../images/profile/2017_DKU_Class_stat.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Biological Statistics using SPSS, Department of Microbiology, Dankook Univ.</li>
                 <li>Graduate Assistant (2016-2017), Department of Microbiology, Dankook Univ.</li>
             </ul>
         </div>
