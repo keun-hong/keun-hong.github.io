@@ -77,10 +77,6 @@ classes: wide
 </head>
 
 <body>
-    <!-- YouTube Video Container: 영상 만들면 src에 link만 넣기
-    <div class="youtube-container">
-        <iframe class="youtube-iframe" src="https://www.youtube.com/embed/Lh2lbnKj1EU" frameborder="0" allowfullscreen></iframe>
-    </div>-->
     <div class="intro">
         <h3>Research Interests</h3> 
         <ul>
@@ -131,7 +127,7 @@ classes: wide
         <div id="non-research" class="toggle-content">
             <ul>
                 <li>Facility Manager (2021-2023), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
-                <li>Website Manager (2020-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
+                <li><a href="https://keun-hong.github.io/lablife/website/" target="_blank" style="color: inherit; ">Website Manager</a> (2020-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
                 <li><a href="https://keun-hong.github.io/lablife/nas/" target="_blank" style="color: inherit; ">NAS Sever Manager</a> (2019-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
                 <li>Teaching Assistant (2019-2022), Biochemistry, College of Veterinary Medicine, Seoul National Univ.</li>
                 <li><a href="../images/profile/2017_DKU_Class_envi.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Environment-Bio Experiment, Department of Microbiology, Dankook Univ.</li>
