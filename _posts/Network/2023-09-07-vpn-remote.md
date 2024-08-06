@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Setup] Remote Work: Overcoming SSH Blocks"
+title: "[Network] Remote Work: Overcoming SSH Blocks"
 categories: Network
 tags: [linux, windows, ssh, vpn]
 header:

@@ -96,9 +96,9 @@ classes: wide
         <ul>
             <li>PhD candidate, Veterinary Biomedical Sciences (2019-)
             <p>Comparative Medicine Disease Research Center (CDRC), Seoul National University, Seoul, KR</p></li>
-            <li>MS, Microbiology and biotechnology  (2016-2018)
+            <li>MS, Microbiology and Biotechnology  (2016-2018)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
-            <li>BS, Microbiology and biotechnology (2010-2016)
+            <li>BS, Microbiology and Biotechnology (2010-2016)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
         </ul>
         <br>
