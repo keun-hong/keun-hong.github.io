@@ -80,8 +80,8 @@ classes: wide
     <div class="intro">
         <h3>Research Interests</h3> 
         <ul>
-            <li>Evolutionary and Comparative Omics
-            <p>cross-species, cross-breeds, genomic innovation</p></li>
+            <li>Evolutionary and Vertebrate Genome Biology
+            <p>comparative, cross-species, cross-breeds, genomic innovation</p></li>
             <li>Cancer Biology (Tumor Ecology)
             <p>tumor evolution, tumor microenvironment, metastasis and relapse, immunity</p></li>
             <li>Computational Systems Biology
