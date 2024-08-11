@@ -49,7 +49,7 @@ layout: archive
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     <!-- 
-      최근 게시물에 특정 페이지 제외하기 위해 두 line (% unless & % endunless) 추가.
+      최근 게시물에 특정 페이지 제외하기 위해 두 line (% unless & % endunless)  추가.
       특정 post 게시물 내에서는 exclude_from_home: true 추가
     -->
     {% unless post.exclude_from_home %}

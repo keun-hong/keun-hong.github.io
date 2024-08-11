@@ -8,9 +8,7 @@ header:
 exclude_from_home: true
 ---
 
-This page contains a list of papers posted under the **Exploration** category.
-
-### 
+This page contains a list of papers posted under the **Exploration** category. 
 
 ### Biotechnology
 
