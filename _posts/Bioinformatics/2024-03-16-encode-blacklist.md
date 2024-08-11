@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Bioinfo] Blacklisted regions in the genome"
+title: "[BI] Blacklisted regions in the genome"
 categories: Bioinformatics
 tags: [proteomics]
 header:

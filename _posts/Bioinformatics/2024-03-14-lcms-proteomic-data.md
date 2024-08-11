@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Bioinfo] Proteomic data and nf-core pipelines"
+title: "[BI] Proteomic data and nf-core pipelines"
 categories: Bioinformatics
 tags: [proteomics]
 header:

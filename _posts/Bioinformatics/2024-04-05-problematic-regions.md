@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Bioinfo] Problematic regions and Mappability in genomic analysis"
+title: "[BI] Problematic regions and Mappability in genomic analysis"
 categories: Bioinformatics
 tags: [genomic, ucsc, encode]
 header:

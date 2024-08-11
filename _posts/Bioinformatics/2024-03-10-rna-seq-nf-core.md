@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Bioinfo] RNA-seq data processing using nf-core pipeline"
+title: "[BI] RNA-seq data processing using nf-core pipeline"
 categories: Bioinformatics
 tags: [data processing, nextflow, nf-core]
 header:

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Bioinfo] BAM to FASTQ using nf-core pipeline"
+title: "[BI] BAM to FASTQ using nf-core pipeline"
 categories: Bioinformatics
 tags: [data processing, nextflow, nf-core]
 header:

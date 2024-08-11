@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "[Network] Remote Work: Overcoming SSH Blocks"
-categories: Network
+title: "[CS] Remote Work: Overcoming SSH Blocks"
+categories: ComputerScience
 tags: [linux, windows, ssh, vpn]
 header:
   teaser: /images/thumnail/2023-09-07-vpn-remote.png

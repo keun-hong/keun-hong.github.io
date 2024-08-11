@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Bioinfo] Downloading the Singularity images of nf-core pipeline"
+title: "[BI] Downloading the Singularity images of nf-core pipeline"
 categories: Bioinformatics
 tags: [nf-core, singularity]
 header:

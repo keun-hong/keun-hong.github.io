@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Bioinfo] ChIP-seq data processing using ENCODE pipeline"
+title: "[BI] ChIP-seq data processing using ENCODE pipeline"
 categories: Bioinformatics
 tags: [data processing, ENCODE]
 header:

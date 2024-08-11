@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Bioinfo] Reference epigenome map: chromatin states"
+title: "[BI] Reference epigenome map: chromatin states"
 categories: Bioinformatics
 tags: [proteomics]
 header:
