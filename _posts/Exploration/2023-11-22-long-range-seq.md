@@ -2,14 +2,14 @@
 layout: single
 title: "[Review] Long-read sequencing technologies"
 categories: Exploration
-tags: [biotech, review]
+tags: [biotech, sequencing]
 header:
   teaser: /images/thumnail/2023-11-22-long-read-seq.png
 ---
 
-[**Sedlazeck F.J. et al. (2018) Piercing the dark matter: bioinformatics of long-range sequencing and mapping. Nature Reviews Genetics**](https://www.nature.com/articles/s41576-018-0003-4)
+[Sedlazeck F.J. et al. (2018) Piercing the dark matter: bioinformatics of long-range sequencing and mapping. Nature Reviews Genetics](https://www.nature.com/articles/s41576-018-0003-4)
 
-### Key points
+### Key Insights
 
 - As genome structure presents considerable intra- and inter-species complexity and diversity, complete understanding is a big challenge to date.
 - Despite advances with first- and second-generation sequencing complemented by other technologies, which have enabled the construction of human and other species' genomes, substantial 'dark matter' within the genome remains inaccessible due to the limitations of previous sequencing techniques.
