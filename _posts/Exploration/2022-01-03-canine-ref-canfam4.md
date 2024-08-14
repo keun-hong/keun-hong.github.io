@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Article] New canine reference genome - canFam4"
+title: "[Research] New canine reference genome - canFam4"
 categories: Exploration
 tags: [dog, reference, genome]
 header:

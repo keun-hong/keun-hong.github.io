@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Article] Key molecular pathways of canine mammary tumor development"
+title: "[Research] Key molecular pathways of canine mammary tumor development"
 categories: Exploration
 tags: [dog, tumor, dataset]
 header:
