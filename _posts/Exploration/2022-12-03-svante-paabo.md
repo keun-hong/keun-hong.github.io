@@ -8,9 +8,9 @@ header:
 
 ---
 
-As a child attending church for several years, I constantly found myself questioning the teachings I received. One particular question that I often struggled with was, "If humans evolved, then why don't we have a continuous series of fossils showing the progression from chimpanzees to humans?" Although I now see this question as naive, it was one of many that fueled my skepticism.
+As a child attending church for several years, I often found myself contemplating the teachings I received. One question that frequently came to mind was, “If humans evolved, then why don’t we have a continuous series of fossils showing the progression from chimpanzees to humans?” Now, I understand that this teaching was incorrect, but at the time, it sparked a genuine curiosity in me.
 
-This skepticism gradually turned into a deep curiosity about human evolution and religion. My doubts only grew stronger after reading Yuval Noah Harari's *Sapiens*, which explores the history of human evolution.
+This curiosity gradually evolved into a deeper interest in human evolution and religion. My exploration of these topics only deepened after reading Yuval Noah Harari’s *Sapiens*, which delves into the history of human evolution.
 
 ![xy.jpg](../../images/2022-12-03-svante-paabo/b3a28254755ea32898a275e59deda907a00cf9ec.jpg)
 
@@ -39,8 +39,6 @@ Today, I was captivated by a video from the YouTube channel "[안될과학](http
 - **Neanderthals**: They appeared outside of Africa about 400,000 years ago and lived in Europe and the Middle East, eventually going extinct around 30,000 years ago. **Homo sapiens**, on the other hand, emerged in Africa around 300,000 years ago and began spreading out of Africa approximately 70,000 years ago. For about 40,000 years, the two species coexisted in overlapping regions. Did they interbreed? Yes. On average, 1-3% of the human genome today is derived from Neanderthals, with a total of 40% of the Neanderthal genome scattered among modern humans.
 - **Denisovans**: Was there another human species that coexisted with sapiens? And if so, did they interbreed? Yes! A new species, the Denisovans, was discovered in southern Siberia. It was found that Denisovan DNA constitutes an average of 1-6% (higher than Neanderthal DNA) of the genome in some modern human populations.
 
-
-
 ![x3.jpg](../../images/2022-12-03-svante-paabo/5d5c28d0c52ffaeb74e513f128a2b9a5521482fc.jpg)
 
 ### Research on human welfare
@@ -61,7 +59,5 @@ It seems that research in Korea often tends to follow rather than lead. While ma
 Svante Pääbo’s journey from questioning established beliefs to leading groundbreaking research in human evolution is truly inspiring. His work reminds us of the importance of perseverance, curiosity, and innovation in advancing scientific knowledge.
 
 ### Referecne
-
-
 
 [The Nobel Prize in Physiology or Medicine 2022](https://www.nobelprize.org/prizes/medicine/2022/press-release/)
