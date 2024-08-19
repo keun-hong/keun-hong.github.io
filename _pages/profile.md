@@ -133,6 +133,7 @@ classes: wide
                 <li><a href="../images/profile/2017_DKU_Class_envi.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Environment-Bio Experiment, Department of Microbiology, Dankook Univ.</li>
                 <li><a href="../images/profile/2017_DKU_Class_stat.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Biological Statistics using SPSS, Department of Microbiology, Dankook Univ.</li>
                 <li>Graduate Assistant (2016-2017), Department of Microbiology, Dankook Univ.</li>
+                <li>Sergeant, Medic (2011–2013), 1st Brigade, Aviation Operations Command, Republic of Korea Army</li>
             </ul>
         </div>
         <h3 class="toggle-button" onclick="toggleVisibility('honors-awards', this)">
