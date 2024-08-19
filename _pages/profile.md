@@ -80,7 +80,7 @@ classes: wide
     <div class="intro">
         <h3>Research Interests</h3> 
         <ul>
-            <li>Evolutionary and Vertebrate Genome Biology
+            <li>Evolutionary and Mammalian Genome Biology
             <p>comparative, cross-species, cross-breeds, genomic innovation</p></li>
             <li>Cancer Biology (Tumor Ecology)
             <p>tumor evolution, tumor microenvironment, metastasis and relapse, immunity</p></li>
