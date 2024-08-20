@@ -20,6 +20,8 @@ To grasp the concept of mappability, let's refer to the abstract from [Karimzade
 
 While several tools are available for calculating mappability, this post will focus on Umap, a tool capable of calculating both genome and methylome mappability.
 
+![2024-08-19-umap-mappability_0.jpg](../../images/2024-08-19-umap-mappability/3255a92b884b8eb3089fae94d624dc939bdfe2db.jpg)
+
 ## How to use Umap?
 
 ### 1. Setup
