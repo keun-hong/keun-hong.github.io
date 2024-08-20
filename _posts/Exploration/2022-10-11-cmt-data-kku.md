@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2022-10-11-cmt-data-kku.jpg
 ---
 
-[Kim K. (2019) Whole-exome and whole-transcriptome sequencing of canine mammary gland tumors. Scientific Data](https://www.nature.com/articles/s41597-019-0149-8)
+[Kim K. et al. (2019) Whole-exome and whole-transcriptome sequencing of canine mammary gland tumors. Scientific Data](https://www.nature.com/articles/s41597-019-0149-8)
 
 As a researcher focused on pan-cancer studies, my current projects are primarily centered on breast cancer, with a particular emphasis on using canine models. Rigorous and well-constructed datasets are invaluable to my work, providing critical insights and support for ongoing research.
 

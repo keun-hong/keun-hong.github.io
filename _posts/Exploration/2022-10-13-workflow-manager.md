@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2022-10-13-workflow-manager.jpg
 ---
 
-[Wratten L. et. al. (2021) Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers. Nature Methods](https://www.nature.com/articles/s41592-021-01254-9)
+[Wratten L. et al. (2021) Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers. Nature Methods](https://www.nature.com/articles/s41592-021-01254-9)
 
 The rapid growth of high-throughput technologies has significantly transformed the landscape of biomedical research. With a single experiment now generating vast amounts of data, the complexity and volume of data have increased exponentially. This surge in data complexity, coupled with the continuous evolution of tools, parameters, and other elements required for data processing, has made it increasingly challenging to manage and maintain reproducibility in analysis.
 

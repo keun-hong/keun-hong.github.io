@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2022-10-19-spatial-transcriptomics2.jpg
 ---
 
-[Liao j. et. al. (2021) Uncovering an Organ’s Molecular Architecture at Single-Cell Resolution by Spatially Resolved Transcriptomics. Trends in Biotechnology](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(20)30140-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0167779920301402%3Fshowall%3Dtrue)
+[Liao j. et al. (2021) Uncovering an Organ’s Molecular Architecture at Single-Cell Resolution by Spatially Resolved Transcriptomics. Trends in Biotechnology](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(20)30140-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0167779920301402%3Fshowall%3Dtrue)
 
 This paper also delves into the field of Spatial Transcriptomics (ST). While the [previous review by Itai Yanai](https://keun-hong.github.io/exploration/spatial-transcriptomics1/) provided a brief history and experimental overview of NGS-based and image-based approaches, it primarily focused on the analytical aspects of ST. It offered insights into how data generated through experiments can be analyzed, the software tools available, and the strategies behind the development of these tools. However, it lacked detailed information on the experimental methods themselves, leaving a gap for those seeking to understand the techniques at a deeper level.
 

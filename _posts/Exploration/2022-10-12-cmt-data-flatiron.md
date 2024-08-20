@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2022-10-12-cmt-data-flatiron.jpg
 ---
 
-[Graim K. (2020) Modeling molecular development of breast cancer in canine mammary tumors. Genome Research](https://genome.cshlp.org/content/31/2/337.long)
+[Graim K. et al. (2020) Modeling molecular development of breast cancer in canine mammary tumors. Genome Research](https://genome.cshlp.org/content/31/2/337.long)
 
 ### **Flow**
 

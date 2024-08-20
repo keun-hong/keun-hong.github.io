@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2022-01-10-dog-aging-methylome.jpg
 ---
 
-[Wang T. et. al. (2020) Quantitative translation of dog-to-human aging by conserved remodeling of the DNA methylome. Cell Systems](https://www.cell.com/fulltext/S2405-4712(20)30203-9)
+[Wang T. et al. (2020) Quantitative translation of dog-to-human aging by conserved remodeling of the DNA methylome. Cell Systems](https://www.cell.com/fulltext/S2405-4712(20)30203-9)
 
 [In a previous post](https://keun-hong.github.io/exploration/dog10k-nsr/), I mentioned Professor Elaine A. Ostrander, a leading figure in the field of dog genomics, who has spearheaded numerous large-scale projects. Recently, she has expanded her research into the epigenome field, and this study is one example of her work.
 

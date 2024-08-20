@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2022-10-18-spatial-transcriptomics1.jpg
 ---
 
-[Rao A. el. al. (2021) Exploring tissue architecture using spatial transcriptomics. Nature](https://www.nature.com/articles/s41586-021-03634-9)
+[Rao A. et al. (2021) Exploring tissue architecture using spatial transcriptomics. Nature](https://www.nature.com/articles/s41586-021-03634-9)
 
 The structure formed by cells within tissues is closely tied to biological functions, making it essential to understand tissue architecture alongside the molecular features of individual cells. Traditional experimental techniques like immunofluorescence or in-situ hybridization allow us to visualize spatial information, but they are limited to detecting only a small number of targets (such as DNA, RNA, or proteins). On the other hand, single-cell omics methods provide a comprehensive view of molecular features at the cell level but lack spatial context.
 

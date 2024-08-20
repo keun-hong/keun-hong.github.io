@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2022-11-28-combine-cnv-tools.jpg
 ---
 
-[Coutelier M. (2021) Combining callers improves the detection of copy number variants from whole-genome sequencing. European Journal of Human Genetics](https://www.nature.com/articles/s41431-021-00983-x)
+[Coutelier M. et al. (2021) Combining callers improves the detection of copy number variants from whole-genome sequencing. European Journal of Human Genetics](https://www.nature.com/articles/s41431-021-00983-x)
 
 ### Key Insights
 

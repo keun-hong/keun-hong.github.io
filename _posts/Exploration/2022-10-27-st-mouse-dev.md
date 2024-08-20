@@ -8,7 +8,7 @@ header:
 
 ---
 
-[Chen A. el. al. (2022) Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays. Cell](https://www.sciencedirect.com/science/article/pii/S0092867422003993)
+[Chen A. et al. (2022) Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays. Cell](https://www.sciencedirect.com/science/article/pii/S0092867422003993)
 
 ### Key Insights
 

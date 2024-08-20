@@ -43,10 +43,10 @@ In conclusion, <mark>GeTMM seems to offer a balanced approach for normalization 
 
 ### Reference
 
-1. [Smid M. et. al (2018) BMC Bioinform](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2246-7)
-2. [Dillies M-A. et. al. (2021) Brief. Bioinform](https://academic.oup.com/bib/article/14/6/671/189645)
-3. [Evans C. et. al. (2017) Brief. Bioinform](https://academic.oup.com/bib/article/19/5/776/3056951)
-4. [Abbas-Aghababazadeh F. et. al. (2018) PloS one](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206312)
-5. [Abrams Z.B. et. al. (2019) BMC Bioinform](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3247-x)
-6. [Zhao Y. et. al (2021) J. Transl. Med](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-021-02936-w)
+1. [Smid M. et al (2018) BMC Bioinform](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2246-7)
+2. [Dillies M-A. et al. (2021) Brief. Bioinform](https://academic.oup.com/bib/article/14/6/671/189645)
+3. [Evans C. et al. (2017) Brief. Bioinform](https://academic.oup.com/bib/article/19/5/776/3056951)
+4. [Abbas-Aghababazadeh F. et al. (2018) PloS one](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206312)
+5. [Abrams Z.B. et al. (2019) BMC Bioinform](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3247-x)
+6. [Zhao Y. et al (2021) J. Transl. Med](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-021-02936-w)
 7. [Count normalization with DESeq2](https://hbctraining.github.io/DGE_workshop/lessons/02_DGE_count_normalization.html)
