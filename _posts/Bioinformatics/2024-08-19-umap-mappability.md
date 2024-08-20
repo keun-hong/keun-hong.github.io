@@ -12,7 +12,7 @@ In my previous posts, we explored the concept of [problematic regions](https://k
 
 ## What is genome mappability?
 
-To grasp the concept of mappability, let's refer to the abstract from [Karimzadeh M. et. al. (2018) Umap and Bismap: quantifying genome and methylome mappability. Nucleic Acids Research](https://academic.oup.com/nar/article/46/20/e120/5086676):
+To grasp the concept of mappability, let's refer to the abstract from [Karimzadeh M. et al. (2018) Umap and Bismap: quantifying genome and methylome mappability. Nucleic Acids Research](https://academic.oup.com/nar/article/46/20/e120/5086676):
 
 "Every region in a genome assembly has a property called ‘mappability,’ which <mark>measures the extent to which it can be uniquely mapped by sequence reads</mark>. <mark>In regions of lower mappability, estimates of genomic and epigenomic characteristics from sequencing assays are less reliable</mark>. These regions have increased susceptibility to spurious mapping from reads from other regions of the genome with sequencing errors or unexpected genetic variation.”
 
