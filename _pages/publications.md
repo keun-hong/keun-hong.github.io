@@ -150,7 +150,7 @@ classes: wide
 <div class="second-author">
     <strong>Extracellular vesicle-mediated transfer of miRNA-1 from primary tumor repress distant metastasis growth</strong><br>
     <p>
-    Kim H&#8224;, Lee K, <strong>Son KH</strong>, Shin T, &amp; Cho J*.<br>
+    Kim C&#8224;, Lee K, <strong>Son KH</strong>, Shin T, &amp; Cho J*.<br>
     <strong><em>Exp Mol Med.</em></strong> 2024 (<a href="https://www.nature.com/articles/s12276-024-01181-7" target="_blank" style="color: inherit; ">Article</a>, <a href="https://www.nature.com/articles/s12276-024-01181-7.pdf" target="_blank" style="color: inherit; ">PDF</a>)
     </p>
     <strong>ADAR1-dependent miR-3144-3p editing simultaneously induces MSI2 expression and suppresses SLC38A4 expression in liver cancer</strong><br>
