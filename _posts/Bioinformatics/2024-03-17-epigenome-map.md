@@ -43,6 +43,10 @@ header:
 
 ![](../../images/2024-03-17-epigenome-map/2024-03-17-21-37-38-image.png)
 
+**23 tissues from Chicken** - [2305_SciAdv) An atlas of regulatory elements in chicken: A resource for chicken genetics and genomics](https://www.science.org/doi/10.1126/sciadv.ade1204)
+
+![](../../images/2024-03-17-epigenome-map/2024-08-29-01-54-29-image.png)
+
 **Eight tissues from Pig, Cattle & Chicken** - [2103_Ncom) Functional annotations of three domestic animal genomes provide vital resources for comparative and agricultural research](https://www.nature.com/articles/s41467-021-22100-8)
 
 ![](../../images/2024-03-17-epigenome-map/2024-03-17-22-49-32-image.png)
