@@ -33,7 +33,7 @@ nextflow run nf-core/atacseq -profile singularity \
         --skip_merge_replicates
 ```
 
-- `-mito_name false`: In ATAC-seq, a significant proportion of reads are derived from mitochondrial DNA, which is filtered out. However, this step is unnecessary in ChIP-seq analysis, so setting this flag prevents the removal of these reads.
-- `-skip_merge_replicates`: Since there may be no replicates to merge, this option ensures the pipeline runs smoothly without trying to combine datasets unnecessarily.
+- `--mito_name false`: In ATAC-seq, a significant proportion of reads are derived from mitochondrial DNA, which is filtered out. However, this step is unnecessary in ChIP-seq analysis, so setting this flag prevents the removal of these reads.
+- `--skip_merge_replicates`: Since there may be no replicates to merge, this option ensures the pipeline runs smoothly without trying to combine datasets unnecessarily.
 
 This method offers a practical and efficient solution for ChIP-seq preprocessing without input controls, utilizing existing nf-core tools without requiring custom pipeline development.
