@@ -12,11 +12,11 @@ In ChIP-seq processing, having input control (either fragmented genomic DNA or I
 
 To solve this, I turned to the nf-core GitHub [issue page](https://github.com/nf-core/chipseq/issues) and found that other researchers had encountered the same problem. After exploring the discussions, I discovered a workaround: using the nf-core ATAC-seq pipeline with specific options (`--mito_name false --skip_merge_replicates`).
 
-![1.jpg](C:\Users\thsrm\OneDrive\바탕%20화면\tmp\1.jpg)
+![1.jpg](../../images/2024-09-08-chipseq-no-input/770fe68fec0eb88fb1d4ac1afd011c6aa32c1b94.jpg)
 
 Despite differences in experimental protocols, ChIP-seq, ATAC-seq, and other NGS-based methods like MBD-seq share similar preprocessing steps. These methods all involve fragmenting genomic DNA, and their resulting data often exhibit similar characteristics in the genome. This overlap allows us to repurpose the ATAC-seq pipeline for ChIP-seq processing, even in the absence of input controls.
 
-To test this approach, I ran the nf-core ATAC-seq pipeline with the two specified options on two ChIP-seq datasets. The pipeline produced high-quality outputs and comprehensive QC reports, including MultiQC summaries.
+To test this approach, I ran the nf-core ATAC-seq pipeline with the two specified options on two ChIP-seq datasets. The pipeline produced high-quality outputs and comprehensive QC reports, including [MultiQC summaries](../../images/2024-09-08-chipseq-no-input/multiqc_report.html).
 
 Here’s the exact command I used:
 
