@@ -13,50 +13,48 @@ classes: wide
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             box-sizing: border-box;
         }
+        /* Container for the whole layout */
         .container {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
+            align-items: flex-start; /* Align items at the top */
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            box-sizing: border-box;
         }
         /* Instagram gallery grid */
         .image-grid {
-            flex-basis: 60%;
+            flex-basis: 60%; /* Image section takes up 60% of the container width */
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 5px;
         }
-        /* Aspect ratio of 1:1 */
-        .image-grid a {
-            position: relative;
-            display: block;
-            padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
-        }
         .image-grid img {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
-            height: 100%;
+            height: auto;
             object-fit: cover;
         }
-        /* Twitter embed container */
+        /* Twitter embed section */
         .twitter-embed {
-            flex-basis: 39%;
+            flex-basis: 40%; /* Twitter section takes up 35% of the container width */
+            margin-left: 1%;
         }
         /* For smaller screens (max-width: 1024px) */
         @media (max-width: 1024px) {
             .container {
-                justify-content: center; /* Center items */
+                flex-wrap: wrap;
             }
-            /* Adjust grid columns */
             .image-grid {
+                flex-basis: 100%; /* Image grid takes full width */
                 grid-template-columns: repeat(3, 1fr);
             }
-            .twitter-embed blockquote {
-                width: 350px;
+            .twitter-embed {
+                flex-basis: 100%; /* Twitter embed takes full width */
+                margin-top: 20px; /* Add margin to separate from images */
             }
         }
         /* For mobile screens (max-width: 768px) */
@@ -65,29 +63,12 @@ classes: wide
                 flex-direction: column;
                 align-items: center;
             }
-            /* Make images and Twitter embed take full width */
             .image-grid {
-                flex-basis: 100%;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
             }
             .twitter-embed {
-                flex-basis: 100%;
+                width: 100%; /* Full width for Twitter embed */
                 margin-top: 20px;
-            }
-            .twitter-embed blockquote {
-                width: 100%;
-                max-width: 400px;
-                height: auto;
-            }
-        }
-        /* For very small mobile screens */
-        @media (max-width: 480px) {
-            .image-grid {
-                grid-template-columns: 1fr;
-            }
-            .twitter-embed blockquote {
-                width: 100%;
-                max-width: 350px;
             }
         }
     </style>
@@ -115,7 +96,6 @@ classes: wide
             <img src="../images/news/1902_USA.jpg" alt="1902_USA"></a>
         <a href="https://www.instagram.com/p/CVm7MVQPsD0/" target="_blank">
             <img src="../images/news/1505_DKU.jpg" alt="1505_DKU"></a>
-        <!-- Add more images as necessary -->
     </div>
     <!-- Twitter Embed -->
     <div class="twitter-embed">
