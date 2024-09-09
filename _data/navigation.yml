@@ -4,16 +4,16 @@ main:
     url: /profile/
   - title: "Publications"
     url: /publications/
-  - title: "Blog"
-    url: /categories/
+  #- title: "Blog"
+  #  url: /categories/
   #- title: "Tag"
   #  url: /tags/
-  - title: "Archives"
+  - title: "Blog"
     url: /year-archive/
   #- title: "Search"
   #  url: /search/
-  #- title: "News"
-  #  url: /news/
+  - title: "News"
+    url: /news/
 
 counts:
   - title: "Category"
