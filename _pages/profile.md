@@ -142,8 +142,9 @@ classes: wide
         </h3>
         <div id="honors-awards" class="toggle-content">
             <ul>
+                <li><a href="../images/profile/2024_FAVA_best_sci_presentation.jpg" target="_blank" style="color: inherit; ">Best Scientific Presentation Award</a> (2024), Federation of Asian Veterinary Associations Congress (FAVA)</li>
                 <li>Selected as <a href="https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=88641&authorId=41749#!/list" target="_blank" style="color: inherit; ">"한국을 빛낸 사람들 (한빛사)"</a> (People Who Shined Korea) (2023), BRIC</li>
-                <li><a href="../images/profile/2022_KSMCB_Young_Investigator.jpg" target="_blank" style="color: inherit; ">Young Scientist Award</a> (2022), KSMCB 2022</li>
+                <li><a href="../images/profile/2022_KSMCB_Young_Investigator.jpg" target="_blank" style="color: inherit; ">Young Scientist Award</a> (2022), International Conference of the Korean Society for Molecular and Cellular Biology (KSMCB)</li>
                 <li><a href="../images/profile/2022_ERD_award.png" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2022), SNU College of Veterinary Medicine ERD Day</li>
             </ul>
         </div>
@@ -153,6 +154,7 @@ classes: wide
         </h3>
         <div id="int_conf" class="toggle-content">
             <ul>
+                <li><a href="../images/profile/2024_FAVA_oral.jpg" target="_blank" style="color: inherit; ">Oral</a> & <a href="../images/profile/2024_FAVA_poster.jpg" target="_blank" style="color: inherit; ">Poster</a> Presentation, Federation of Asian Veterinary Associations Congress (FAVA) 2024 (Daejeon, KR)</li>
                 <li><a href="../images/profile/2022_KSMCB_oral.png" target="_blank" style="color: inherit; ">Oral</a> & <a href="../images/profile/2022_KSMCB_poster.png" target="_blank" style="color: inherit; ">Poster</a> Presentation (Invited Speaker), International Conference of the Korean Society for Molecular and Cellular Biology (KSMCB) 2022 (Jeju, KR)</li>
                 <li><a href="../images/profile/2015_Poster.png" target="_blank" style="color: inherit; ">Poster</a> Presentation, 2015 (KR)</li>
             </ul>
