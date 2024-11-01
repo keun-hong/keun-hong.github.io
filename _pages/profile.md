@@ -127,8 +127,8 @@ classes: wide
         <div id="non-research" class="toggle-content">
             <ul>
                 <li>Facility Manager (2021-2023), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
-                <li><a href="https://keun-hong.github.io/lablife/website/" target="_blank" style="color: inherit; ">Website Manager</a> (2020-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
-                <li><a href="https://keun-hong.github.io/lablife/nas/" target="_blank" style="color: inherit; ">NAS Sever Manager</a> (2019-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
+                <li><a href="https://keun-hong.github.io/lablife/website/" target="_blank" style="color: inherit; ">Website Administrator</a> (2020-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
+                <li><a href="https://keun-hong.github.io/lablife/nas/" target="_blank" style="color: inherit; ">NAS Server Administrator</a> (2019-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
                 <li>Teaching Assistant (2019-2022), Biochemistry, College of Veterinary Medicine, Seoul National Univ.</li>
                 <li><a href="../images/profile/2017_DKU_Class_envi.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Environment-Bio Experiment, Department of Microbiology, Dankook Univ.</li>
                 <li><a href="../images/profile/2017_DKU_Class_stat.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Biological Statistics using SPSS, Department of Microbiology, Dankook Univ.</li>
