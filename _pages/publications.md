@@ -101,8 +101,8 @@ classes: wide
     <strong>Son KH&#8224;</strong>, &amp; Cho J*.<br>
     <strong><em>bioRxiv.</em></strong> 2024 (<a href="https://www.biorxiv.org/content/10.1101/2024.07.18.604168v1.full" target="_blank" style="color: inherit; ">Article</a>, <a href="https://www.biorxiv.org/content/10.1101/2024.07.18.604168v1.full.pdf" target="_blank" style="color: inherit; ">PDF</a>)
     <span class="badges">
-        <a href="https://pypi.org/project/gencube/" target="_blank" style="color: inherit; "><img src="https://img.shields.io/pypi/v/gencube" alt="pypi version" class="badge"></a>
         <a href="https://github.com/snu-cdrc/gencube" target="_blank" style="color: inherit; "><img src="https://img.shields.io/badge/GitHub-repo-blue?logo=github" alt="GitHub repo" class="badge"></a>
+        <a href="https://pypi.org/project/gencube/" target="_blank" style="color: inherit; "><img src="https://img.shields.io/pypi/v/gencube" alt="pypi version" class="badge"></a>
     </span>
     </p>
 </div>
@@ -139,6 +139,9 @@ classes: wide
     <strong class="special-text">A Simple Guideline to Assess the Characteristics of RNA-Seq Data</strong><br>
     <strong>Son K&#8224;</strong>, Yu S, Shin W, Han K, &amp; Kang K*.<br>
     <strong><em>Biomed Res Int.</em></strong> 2018 (<a href="https://www.hindawi.com/journals/bmri/2018/2906292/" target="_blank" style="color: inherit; ">Article</a>, <a href="https://downloads.hindawi.com/journals/bmri/2018/2906292.pdf" target="_blank" style="color: inherit; ">PDF</a>)
+    <span class="badges">
+        <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110114" target="_blank" style="color: inherit; "><img src="https://img.shields.io/badge/raw_data-GEO-red" alt="GitHub repo" class="badge"></a>
+    </span>
     </p>
 </div>
 
