@@ -80,12 +80,12 @@ classes: wide
     <div class="intro">
         <h3>Research Interests</h3> 
         <ul>
-            <li>Evolutionary and Mammalian Genome Biology
-            <p>comparative, cross-species, cross-breeds, genomic innovation</p></li>
-            <li>Cancer Biology (Tumor Ecology)
-            <p>tumor evolution, tumor microenvironment, metastasis and relapse, immunity</p></li>
+            <li>Evolutionary and Vertebrate Genome Biology
+            <p>cross-species, cross-breeds, genomic innovation</p></li>
+            <li>Comparative Oncology
+            <p>anti-cancer mechanisms, cancer vulnerability</p></li>
             <li>Computational Systems Biology
-            <p>integrative multi-omics (genomics, epigenomics, proteomics), machine learning</p></li>
+            <p>integrative multi-omics (genomics, epigenomics, proteomics), AI (ML & DL)</p></li>
         </ul>
         <br>
         <h3>Education</h3>
