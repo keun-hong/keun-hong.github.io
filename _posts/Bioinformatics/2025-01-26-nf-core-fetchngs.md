@@ -7,7 +7,7 @@ header:
   teaser: /images/thumnail/2025-01-26-nf-core-fetchngs.jpg
 ---
 
-In my [previous post](https://keun-hong.github.io/database/how-to-download-ngs-data/), I discussed several methods for downloading public NGS data, including the nf-core/fetchngs pipeline. This pipeline provides three retrieval options—FTP, Aspera, and sra-tools—and in today’s post, we’ll examine how each one differs in terms of performance and the types of errors you might encounter.
+In my [previous post](https://keun-hong.github.io/bioinformatics/how-to-download-ngs-data/), I discussed several methods for downloading public NGS data, including the nf-core/fetchngs pipeline. This pipeline provides three retrieval options—FTP, Aspera, and sra-tools—and in today’s post, we’ll examine how each one differs in terms of performance and the types of errors you might encounter.
 
 ### Retrieval Methods in nf-core/fetchngs
 
