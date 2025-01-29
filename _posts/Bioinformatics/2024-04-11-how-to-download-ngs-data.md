@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "[DB] INSDC: How to download NGS raw data"
-categories: Database
+title: "[BI] How to download NGS raw data"
+categories: Bioinformatics
 tags: [public data, NGS, nextflow, nf-core]
 header:
   teaser: /images/thumnail/2024-04-11-how-to-download-ngs-data.png
