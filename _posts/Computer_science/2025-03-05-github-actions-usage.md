@@ -203,9 +203,7 @@ jobs:
    
    - In the workflow file, the push command has been modified to use the secret:
 
-```yaml
-git push https://keun-hong:\${{ secrets.MY_PAT }}@github.com/keun-hong/ensembl-beta-ftp-structure.git
-```
+![](../../images/2025-03-05-github-actions-usage/2025-03-05-16-19-31-image.png)
 
 ## 6. Commit and Push Your Workflow File
 
