@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[CS] Step-by-step guide to developing a Python-based tool"
-categories: Computer science
+categories: ComputerScience
 tags: [development, python]
 header:
   teaser: /images/thumnail/2025-03-21-python-tool-dev.jpg
@@ -36,7 +36,7 @@ cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
 
 Running the `cookiecutter` command initiates a series of prompts that ask you questions about your project's configuration, such as project name, author details, package version, and license type. By responding to these prompts according to your preferences, a customized project template is generated, matching your selections exactly, as illustrated in the image below.
 
-![2024-04-24-16-31-48-image.png](../../images/2025-03-21-python-tool-dev/828da81ce6fb31c372e29751f6942d1be7eb37d2.png)
+![01.jpg](../../images/2025-03-21-python-tool-dev/eebb0e9e00a8b080647fb73358c1b50f3d5215b1.png)
 
 ```markdown
 # Cookiecutter termplate
