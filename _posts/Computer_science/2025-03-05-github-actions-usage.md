@@ -10,7 +10,7 @@ header:
 
 In this post, I explain how I used GitHub Actions to automate a task that I needed: regularly updating file and folder structure information from the ENSEMBL Beta FTP server. I needed the updated structure data so I could count the number of species (represented by the top-level folder names) and the number of genomes (folders with names starting with "GCA_" or "GCF_") for each species. I then output the counts to a table and saved it as a text file. Below is a step-by-step guide that walks you through the process.
 
-Repository: [GitHub - keun-hong/ensembl-beta-ftp-structure](https://github.com/keun-hong/ensembl-beta-ftp-structure)
+Reference: [GitHub - snu-cdrc/gencube](https://github.com/snu-cdrc/gencube)
 
 ## 1. Create a GitHub Repository
 
