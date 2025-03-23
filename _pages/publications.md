@@ -99,7 +99,7 @@ classes: wide
     <p>
     <strong class="special-text">Gencube: Centralized retrieval and integration of multi-omics resources from leading databases</strong><br>
     <strong>Son KH&#8224;</strong>, &amp; Cho J*.<br>
-    <strong><em>Bioinformatics.</em></strong> 2025 (<a href="https://www.biorxiv.org/content/10.1101/2024.07.18.604168v1.full" target="_blank" style="color: inherit; ">Article</a>, <a href="https://www.biorxiv.org/content/10.1101/2024.07.18.604168v1.full.pdf" target="_blank" style="color: inherit; ">PDF</a>) (Accepted in Bioinformatics, March 13, 2025)
+    <strong><em>bioRxiv.</em></strong> 2024 (<a href="https://www.biorxiv.org/content/10.1101/2024.07.18.604168v1.full" target="_blank" style="color: inherit; ">Article</a>, <a href="https://www.biorxiv.org/content/10.1101/2024.07.18.604168v1.full.pdf" target="_blank" style="color: inherit; ">PDF</a>) (Accepted in Bioinformatics, March 13, 2025)
     <span class="badges">
         <a href="https://github.com/snu-cdrc/gencube" target="_blank" style="color: inherit; "><img src="https://img.shields.io/badge/GitHub-repo-blue?logo=github" alt="GitHub repo" class="badge"></a>
         <a href="https://pypi.org/project/gencube/" target="_blank" style="color: inherit; "><img src="https://img.shields.io/pypi/v/gencube" alt="pypi version" class="badge"></a>
