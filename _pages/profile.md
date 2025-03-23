@@ -80,10 +80,10 @@ classes: wide
     <div class="intro">
         <h3>Research Interests</h3> 
         <ul>
-            <li>Evolutionary and Vertebrate Genome Biology
+            <li>Evolutionary Mammalian Omics
             <p>cross-species, cross-breeds, genomic innovation</p></li>
-            <li>Comparative Oncology
-            <p>anti-cancer mechanisms, cancer vulnerability</p></li>
+            <li>Comparative Cancer Biology
+            <p>anti-cancer mechanisms & cancer vulnerability</p></li>
             <li>Computational Systems Biology
             <p>integrative multi-omics (genomics, epigenomics, proteomics), AI (ML & DL)</p></li>
         </ul>
