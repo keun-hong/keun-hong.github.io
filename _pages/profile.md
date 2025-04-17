@@ -80,12 +80,12 @@ classes: wide
     <div class="intro">
         <h3>Research Interests</h3> 
         <ul>
-            <li>Evolutionary Mammalian Omics
-            <p>cross-species, cross-breeds, genomic innovation</p></li>
+            <li>Evolutionary Animal Genomics
+            <p>cross-species & -breeds, genomic innovation</p></li>
             <li>Comparative Cancer Biology
             <p>anti-cancer mechanisms & cancer vulnerability</p></li>
-            <li>Computational Systems Biology
-            <p>integrative multi-omics (genomics, epigenomics, proteomics), AI (ML & DL)</p></li>
+            <li>Computational Multi-Omics
+            <p>genome, transcriptome, epigenome, AI (ML & DL)</p></li>
         </ul>
         <br>
         <h3>Education</h3>
@@ -145,7 +145,7 @@ classes: wide
                 <li><a href="../images/profile/2024_FAVA_best_sci_presentation.jpg" target="_blank" style="color: inherit; ">Best Scientific Presentation Award</a> (2024), Federation of Asian Veterinary Associations Congress (FAVA)</li>
                 <li>Selected as <a href="https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=88641&authorId=41749#!/list" target="_blank" style="color: inherit; ">"한국을 빛낸 사람들 (한빛사)"</a> (People Who Shined Korea) (2023), BRIC</li>
                 <li><a href="../images/profile/2022_KSMCB_Young_Investigator.jpg" target="_blank" style="color: inherit; ">Young Scientist Award</a> (2022), International Conference of the Korean Society for Molecular and Cellular Biology (KSMCB)</li>
-                <li>Thesis Presentation (2024), SNU College of Veterinary Medicine ERD Day</li>
+                <li><a href="../images/profile/2024_ERD_award.jpg" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2024), SNU College of Veterinary Medicine ERD Day</li>
                 <li><a href="../images/profile/2022_ERD_award.png" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2022), SNU College of Veterinary Medicine ERD Day</li>
             </ul>
         </div>
