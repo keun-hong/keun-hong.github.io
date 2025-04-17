@@ -173,7 +173,7 @@ classes: wide
     </p>
     <strong>Transcriptome Signatures of Canine Mammary Gland Tumors and Its Comparison to Human Breast Cancers</strong><br>
     <p>
-    Lee K&#8224;, Park H&#8224;, <strong>Son K</strong>, Shin T, &amp; Cho J*.<br>
+    Lee K&#8224;, Park H&#8224;, <strong>Son KH</strong>, Shin T, &amp; Cho J*.<br>
     <strong><em>Cancers (Basel).</em></strong> 2018 (<a href="https://www.mdpi.com/2072-6694/10/9/317" target="_blank" style="color: inherit; ">Article</a>, <a href="https://www.mdpi.com/2072-6694/10/9/317/pdf?version=1536322358" target="_blank" style="color: inherit; ">PDF</a>)
     </p>
 </div>
