@@ -106,7 +106,7 @@ classes: wide
             <li>Collaborative Research Fellow (2017-2019), Prof. Je-Yoel Cho's Lab
             <p>College of Veterinary Medicine, Seoul National University, Seoul, KR<br>
             Research topics: <u>dog epigenomics</u>, <u>cancer biomarkers</u></p></li>
-            <li>Collaborative Research Fellow (2017-2018), <a href="http://www.neornat.com/en/about/about-neornat.php" target="_blank" style="color: inherit; ">Prof. Suk Woo Nam's Lab</a>
+            <li>Collaborative Research Fellow (2017-2018), <a href="https://www.namswlab.com/" target="_blank" style="color: inherit; ">Prof. Suk Woo Nam's Lab</a>
             <p>College of Medicine, Catholic University, Seoul, KR<br>
             Research topics: <u>cancer mechanism</u>, <u>histone modification</u>, <u>miRNA-editing</u></p></li>
             <li>Collaborative Research Fellow (2017-2018), Prof. Jueng Soo You's Lab
