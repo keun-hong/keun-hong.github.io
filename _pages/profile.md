@@ -146,7 +146,7 @@ classes: wide
                 <li>Selected as <a href="https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=88641&authorId=41749#!/list" target="_blank" style="color: inherit; ">"한국을 빛낸 사람들 (한빛사)"</a> (People Who Shined Korea) (2023), BRIC</li>
                 <li><a href="../images/profile/2022_KSMCB_Young_Investigator.jpg" target="_blank" style="color: inherit; ">Young Scientist Award</a> (2022), International Conference of the Korean Society for Molecular and Cellular Biology (KSMCB)</li>
                 <li><a href="../images/profile/2024_ERD_award.jpg" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2024), SNU College of Veterinary Medicine ERD Day</li>
-                <li><a href="../images/profile/2022_ERD_award.png" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2022), SNU College of Veterinary Medicine ERD Day</li>
+                <li><a href="../images/profile/2022_ERD_award.jpg" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2022), SNU College of Veterinary Medicine ERD Day</li>
             </ul>
         </div>
         <h3 class="toggle-button" onclick="toggleVisibility('int_conf', this)">
@@ -157,8 +157,8 @@ classes: wide
             <ul>
                 <li><a href="../images/profile/2024_KSMCB_Epi.jpg" target="_blank" style="color: inherit; ">Poster</a> Presentation, Korean Society for Molecular and Cellular Biology (KSMCB) Epigenomics Division Symposium 2024 (Gangwon-do, KR)</li>
                 <li><a href="../images/profile/2024_FAVA_oral.jpg" target="_blank" style="color: inherit; ">Oral</a> & <a href="../images/profile/2024_FAVA_poster.jpg" target="_blank" style="color: inherit; ">Poster</a> Presentation, Federation of Asian Veterinary Associations Congress (FAVA) 2024 (Daejeon, KR)</li>
-                <li><a href="../images/profile/2022_KSMCB_oral.png" target="_blank" style="color: inherit; ">Oral</a> & <a href="../images/profile/2022_KSMCB_poster.png" target="_blank" style="color: inherit; ">Poster</a> Presentation (Invited Speaker), International Conference of the Korean Society for Molecular and Cellular Biology (KSMCB) 2022 (Jeju, KR)</li>
-                <li><a href="../images/profile/2015_Poster.png" target="_blank" style="color: inherit; ">Poster</a> Presentation, 2015 (KR)</li>
+                <li><a href="../images/profile/2022_KSMCB_oral.jpg" target="_blank" style="color: inherit; ">Oral</a> & <a href="../images/profile/2022_KSMCB_poster.jpg" target="_blank" style="color: inherit; ">Poster</a> Presentation (Invited Speaker), International Conference of the Korean Society for Molecular and Cellular Biology (KSMCB) 2022 (Jeju, KR)</li>
+                <li><a href="../images/profile/2015_Poster.jpg" target="_blank" style="color: inherit; ">Poster</a> Presentation, 2015 (KR)</li>
             </ul>
         </div>
         <h3 class="toggle-button" onclick="toggleVisibility('inv_talk', this)">
@@ -169,7 +169,7 @@ classes: wide
             <ul>
                 <li>Invited talk (2023), Advanced Comparative Medicine (Graduate Course), College of Veterinary Medicine, Seoul National University (Seoul, KR)<br>
                 Topic: Comparative mammalian and dog genomics</li>
-                <li><a href="../images/profile/2023_Invited_The_Hook.png" target="_blank" style="color: inherit; ">Invited talk</a> (2023), The 1st THE HOOK One-Day Camp (AI+BIO) for High School Students (Seoul, KR)<br>
+                <li><a href="../images/profile/2023_Invited_The_Hook.jpg" target="_blank" style="color: inherit; ">Invited talk</a> (2023), The 1st THE HOOK One-Day Camp (AI+BIO) for High School Students (Seoul, KR)<br>
                 Topic: Comparative genomics for genomic innovation</li>
             </ul>
         </div>
