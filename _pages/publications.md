@@ -148,7 +148,7 @@ classes: wide
     <img src="../images/publications/First_RNA-seq.jpg" alt="image">
     <p>
     <strong class="special-text">A Simple Guideline to Assess the Characteristics of RNA-Seq Data</strong><br>
-    <strong>Son K&#8224;</strong>, Yu S&#8224, Shin W, Han K, &amp; Kang K*.<br>
+    <strong>Son K&#8224;</strong>, Yu S&#8224;, Shin W, Han K, &amp; Kang K*.<br>
     <strong><em>Biomed Res Int.</em></strong> 2018 (<a href="https://www.hindawi.com/journals/bmri/2018/2906292/" target="_blank" style="color: inherit; ">Article</a>, <a href="https://downloads.hindawi.com/journals/bmri/2018/2906292.pdf" target="_blank" style="color: inherit; ">PDF</a>)
     <span class="badges">
         <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110114" target="_blank" style="color: inherit; "><img src="https://img.shields.io/badge/raw_data-GEO-red" alt="GitHub repo" class="badge"></a>
