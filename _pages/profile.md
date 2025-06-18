@@ -91,7 +91,7 @@ classes: wide
         <h3>Education</h3>
         <ul>
             <li>Ph.D, Veterinary Biomedical Sciences (2019-2025, expected)
-            <p>Comparative Medicine Disease Research Center (CDRC), Seoul National University, Seoul, KR</p></li>
+            <p>College of Veterinary Medicine, Seoul National University, Seoul, KR</p></li>
             <li>M.S., Microbiology and Biotechnology  (2016-2018)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
             <li>B.S., Microbiology and Biotechnology (2010-2016)
