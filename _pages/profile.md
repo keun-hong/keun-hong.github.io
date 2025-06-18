@@ -170,7 +170,7 @@ classes: wide
                 <li>Invited talk (2023), Advanced Comparative Medicine (Graduate Course), College of Veterinary Medicine, Seoul National University (Seoul, KR)<br>
                 Topic: Comparative mammalian and dog genomics</li>
                 <li><a href="https://youtu.be/aQV5WSibwRo?si=mldR1tCwvla-rW8q" target="_blank" style="color: inherit; ">Invited talk</a> (2023), Academic Webinar by the Biological Research Information Center (BRIC) (Online)<br>
-                Topic: Integrative mapping of the dog epigenome: Reference annotation for comparative intertissue and cross-species studies</li>
+                Topic: Integrative mapping of the dog epigenome</li>
                 <li><a href="../images/profile/2023_Invited_The_Hook.jpg" target="_blank" style="color: inherit; ">Invited talk</a> (2023), The 1st THE HOOK One-Day Camp (AI+BIO) for High School Students (Seoul, KR)<br>
                 Topic: Comparative genomics for genomic innovation</li>
             </ul>
