@@ -114,7 +114,7 @@ classes: wide
             Research topics: <u>cancer mechanism</u>, <u>chromatin remodeler (SWI/SNF complexes)</u> </p></li>
             <li>Graduate Research Associate (2016-2018), Prof. Keunsoo Kang's Lab
             <p>College of Natural Sciences, Dankook University, Cheonan, KR<br>
-            Research topics: <u>bioinformatics</u>, <u>epigenomics</u>, <u>regularoty-elements</u></p></li>
+            Research topics: <u>bioinformatics</u>, <u>epigenomics</u>, <u>regulatory elements</u></p></li>
             <li>Undergraduate Researcher (2015-2016), Prof. Keunsoo Kang's Lab
             <p>College of Natural Sciences, Dankook University, Cheonan, KR<br>
             Research topics: <u>bioinformatics</u>, <u>epigenomics</u>, <u>transcription factors</u></p></li>
