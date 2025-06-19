@@ -21,17 +21,21 @@ classes: wide
         color: gray;
         font-size: 80%;
     }
+    .color-box {
+        color: black;
+        padding-bottom: 5px;
+    }
     .black-box {
         background-color: #353535;
         color: white;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
     .gray-box {
         background-color: gray;
         color: white;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
     .first-author {
         display: flex;
@@ -42,9 +46,9 @@ classes: wide
     }
     .first-author img:not(.badge) {
         width: 300px;
-        margin-right: 20px;
     }
     .first-author p {
+        margin-left: 15px;
         font-size: 80%;
     }
     .special-text {
@@ -78,24 +82,31 @@ classes: wide
             text-align: left;
         }
         .first-author img {
-            margin: 0 auto 15px; /* 이미지 하단 마진 추가, 자동 가로 마진으로 중앙 정렬 */
             display: block; /* 이미지를 블록 레벨 요소로 설정 */
+            margin: 0 auto 15px; /* 이미지 하단 마진 추가, 자동 가로 마진으로 중앙 정렬 */
             width: 100%; /* 이미지 너비를 부모 컨테이너에 맞게 조정 */
             max-width: 300px; /* 최대 이미지 크기를 제한 */
         }
         .first-author p {
-            /* 텍스트에 대한 추가적인 스타일링이 필요하지 않음 */
+            margin-left: 0px;
         }
     }
 </style>
+
+<div class="color-box">
+    <h3>Research Focus</h3>
+</div>
+
+<div style="text-align: left;">
+  <img src="../images/publications/Publications.jpg" alt="image" width="700" style="display: block; margin-bottom: 20px;">
+</div>
 
 <div class="black-box">
     <h3>First-Authored Publications</h3>
 </div>
 
-
 <div class="first-author">
-    <img src="../images/profile/First_Gencube.jpg" alt="image">
+    <img src="../images/publications/First_Gencube.jpg" alt="image">
     <p>
     <strong class="special-text">Gencube: Centralized retrieval and integration of multi-omics resources from leading databases</strong><br>
     <strong>Son KH&#8224;</strong> &amp; Cho J*.<br>
@@ -108,7 +119,7 @@ classes: wide
 </div>
 
 <div class="first-author">
-    <img src="../images/profile/First_EpicDog.jpg" alt="image">
+    <img src="../images/publications/First_EpicDog.jpg" alt="image">
     <p>
     <strong class="special-text">Integrative mapping of the dog epigenome: reference annotation for comparative intertissue and cross-species studies</strong><br>
     <strong>Son KH&#8224;</strong>, Aldonza MBD&#8224;, Nam AR&#8224;, Lee K, Lee J, Shin K, Kang K, &amp; Cho J*.<br>
@@ -122,7 +133,7 @@ classes: wide
     </p>
 </div>
 <div class="first-author">
-    <img src="../images/profile/First_SMARCB1.jpg" alt="image">
+    <img src="../images/publications/First_SMARCB1.jpg" alt="image">
     <p>
     <strong class="special-text">Nucleoporin 210 Serves a Key Scaffold for SMARCB1 in Liver Cancer</strong><br>
     Hong SH&#8224;, <strong>Son KH&#8224;</strong>, Ha SY, Wee  TI, Choi SK, Won JE, Han HD, Ro Y, Park Y, Eun JW, Nam SW, Han J, Kang K, &amp; You JS*.<br>
@@ -134,10 +145,10 @@ classes: wide
     </p>
 </div>
 <div class="first-author">
-    <img src="../images/profile/First_RNA-seq.jpg" alt="image">
+    <img src="../images/publications/First_RNA-seq.jpg" alt="image">
     <p>
     <strong class="special-text">A Simple Guideline to Assess the Characteristics of RNA-Seq Data</strong><br>
-    <strong>Son K&#8224;</strong>, Yu S, Shin W, Han K, &amp; Kang K*.<br>
+    <strong>Son K&#8224;</strong>, Yu S&#8224;, Shin W, Han K, &amp; Kang K*.<br>
     <strong><em>Biomed Res Int.</em></strong> 2018 (<a href="https://www.hindawi.com/journals/bmri/2018/2906292/" target="_blank" style="color: inherit; ">Article</a>, <a href="https://downloads.hindawi.com/journals/bmri/2018/2906292.pdf" target="_blank" style="color: inherit; ">PDF</a>)
     <span class="badges">
         <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110114" target="_blank" style="color: inherit; "><img src="https://img.shields.io/badge/raw_data-GEO-red" alt="GitHub repo" class="badge"></a>
@@ -151,6 +162,11 @@ classes: wide
 </div>
 
 <div class="second-author">
+    <strong>CEBPD Regulates CD47 and MAP4K4 via Chromatin Accessibility in Canine Mammary Tumor Monocytes</strong><br>
+    <p>
+    Lee J&#8224;, Lee D, Shin K, <strong>Son KH</strong>, &amp; Cho J*.<br>
+    <strong><em>Sci. Rep.</em></strong> 2025 (accepted)
+    </p>
     <strong>Extracellular vesicle-mediated transfer of miRNA-1 from primary tumor repress distant metastasis growth</strong><br>
     <p>
     Kim C&#8224;, Lee K, <strong>Son KH</strong>, Shin T, &amp; Cho J*.<br>
