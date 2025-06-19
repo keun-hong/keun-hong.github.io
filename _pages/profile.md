@@ -85,7 +85,7 @@ classes: wide
             <li>Comparative Cancer Biology
             <p>anti-cancer mechanisms & cancer vulnerability</p></li>
             <li>Computational Multi-Omics
-            <p>genome, transcriptome, epigenome. proteome, AI (ML & DL)</p></li>
+            <p>genome, transcriptome, epigenome, proteome, AI (ML & DL)</p></li>
         </ul>
         <br>
         <h3>Education</h3>
@@ -102,22 +102,22 @@ classes: wide
         <br>
         <h3>Research Experience</h3>
         <ul>
-            <li>Graduate Research Associate (02/2019 – 08/2025), <a href="https://vetbio.snu.ac.kr/" target="_blank" style="color: inherit; ">Prof. Je-Yoel Cho's Lab</a>
+            <li>Graduate Research Associate, <a href="https://vetbio.snu.ac.kr/" target="_blank" style="color: inherit; ">Je-Yoel Cho</a> (02/2019 – 08/2025)
             <p>Comparative Medicine Disease Research Center (CDRC), Seoul National University, Seoul, KR<br>
             Research topics: <u>cross-breed cancer genomics</u>, <u>dog epigenomics</u></p></li>
-            <li>Collaborative Research Fellow (03/2017 – 02/2019), Prof. Je-Yoel Cho's Lab
+            <li>Collaborative Research Fellow, Je-Yoel Cho (03/2017 – 02/2019)
             <p>College of Veterinary Medicine, Seoul National University, Seoul, KR<br>
             Research topics: <u>dog epigenomics</u>, <u>cancer biomarkers</u></p></li>
-            <li>Collaborative Research Fellow (03/2017 – 02/2018), <a href="https://www.namswlab.com/" target="_blank" style="color: inherit; ">Prof. Suk Woo Nam's Lab</a>
+            <li>Collaborative Research Fellow, <a href="https://www.namswlab.com/" target="_blank" style="color: inherit; ">Suk Woo Nam</a> (03/2017 – 02/2018)
             <p>College of Medicine, Catholic University, Seoul, KR<br>
             Research topics: <u>cancer mechanism</u>, <u>histone modification</u>, <u>miRNA-editing</u></p></li>
-            <li>Collaborative Research Fellow (03/2017 – 02/2018), Prof. Jueng Soo You's Lab
+            <li>Collaborative Research Fellow, Jueng Soo You (03/2017 – 02/2018)
             <p>Research Institute of Medical Science, Konkuk University, Seoul, KR<br>
             Research topics: <u>cancer mechanism</u>, <u>chromatin remodeler (SWI/SNF complexes)</u> </p></li>
-            <li>Graduate Research Associate (03/2016 – 02/2018), Prof. Keunsoo Kang's Lab
+            <li>Graduate Research Associate, Keunsoo Kang (03/2016 – 02/2018)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR<br>
             Research topics: <u>bioinformatics</u>, <u>epigenomics</u>, <u>regulatory elements</u></p></li>
-            <li>Undergraduate Researcher (12/2014 – 02/2016), Prof. Keunsoo Kang's Lab
+            <li>Undergraduate Researcher, Keunsoo Kang (12/2014 – 02/2016)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR<br>
             Research topics: <u>bioinformatics</u>, <u>epigenomics</u>, <u>transcription factors</u></p></li>
         </ul>
