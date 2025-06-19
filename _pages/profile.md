@@ -81,41 +81,43 @@ classes: wide
         <h3>Research Interests</h3> 
         <ul>
             <li>Evolutionary Animal Genomics
-            <p>cross-species & -breeds, genomic innovation</p></li>
+            <p>cross-species and -breeds, genomic innovation</p></li>
             <li>Comparative Cancer Biology
             <p>anti-cancer mechanisms & cancer vulnerability</p></li>
             <li>Computational Multi-Omics
-            <p>genome, transcriptome, epigenome, AI (ML & DL)</p></li>
+            <p>genome, transcriptome, epigenome. proteome, AI (ML & DL)</p></li>
         </ul>
         <br>
         <h3>Education</h3>
         <ul>
-            <li>Ph.D, Veterinary Biomedical Sciences (2019-2025, expected)
+            <li>Ph.D., Veterinary Biomedical Sciences (03/2019 – 08/2025)
             <p>College of Veterinary Medicine, Seoul National University, Seoul, KR</p></li>
-            <li>M.S., Microbiology and Biotechnology  (2016-2018)
+            <li>M.S., Microbiology and Biotechnology  (03/2016 – 02/2018)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
-            <li>B.S., Microbiology and Biotechnology (2010-2016)
+            <li>B.S., Microbiology and Biotechnology (03/2010 – 02/2016)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
+            <li>Military Service (Sergeant, Medic)  (11/2011 – 09/2013)
+            <p>1st Brigade, Aviation Operations Command, Republic of Korea Army</p></li>
         </ul>
         <br>
         <h3>Research Experience</h3>
         <ul>
-            <li>Graduate Research Associate (2019-), <a href="https://vetbio.snu.ac.kr/" target="_blank" style="color: inherit; ">Prof. Je-Yoel Cho's Lab</a>
+            <li>Graduate Research Associate (02/2019 – 08/2025), <a href="https://vetbio.snu.ac.kr/" target="_blank" style="color: inherit; ">Prof. Je-Yoel Cho's Lab</a>
             <p>Comparative Medicine Disease Research Center (CDRC), Seoul National University, Seoul, KR<br>
             Research topics: <u>cross-breed cancer genomics</u>, <u>dog epigenomics</u></p></li>
-            <li>Collaborative Research Fellow (2017-2019), Prof. Je-Yoel Cho's Lab
+            <li>Collaborative Research Fellow (03/2017 – 02/2019), Prof. Je-Yoel Cho's Lab
             <p>College of Veterinary Medicine, Seoul National University, Seoul, KR<br>
             Research topics: <u>dog epigenomics</u>, <u>cancer biomarkers</u></p></li>
-            <li>Collaborative Research Fellow (2017-2018), <a href="https://www.namswlab.com/" target="_blank" style="color: inherit; ">Prof. Suk Woo Nam's Lab</a>
+            <li>Collaborative Research Fellow (03/2017 – 02/2018), <a href="https://www.namswlab.com/" target="_blank" style="color: inherit; ">Prof. Suk Woo Nam's Lab</a>
             <p>College of Medicine, Catholic University, Seoul, KR<br>
             Research topics: <u>cancer mechanism</u>, <u>histone modification</u>, <u>miRNA-editing</u></p></li>
-            <li>Collaborative Research Fellow (2017-2018), Prof. Jueng Soo You's Lab
+            <li>Collaborative Research Fellow (03/2017 – 02/2018), Prof. Jueng Soo You's Lab
             <p>Research Institute of Medical Science, Konkuk University, Seoul, KR<br>
             Research topics: <u>cancer mechanism</u>, <u>chromatin remodeler (SWI/SNF complexes)</u> </p></li>
-            <li>Graduate Research Associate (2016-2018), Prof. Keunsoo Kang's Lab
+            <li>Graduate Research Associate (03/2016 – 02/2018), Prof. Keunsoo Kang's Lab
             <p>College of Natural Sciences, Dankook University, Cheonan, KR<br>
             Research topics: <u>bioinformatics</u>, <u>epigenomics</u>, <u>regulatory elements</u></p></li>
-            <li>Undergraduate Researcher (2015-2016), Prof. Keunsoo Kang's Lab
+            <li>Undergraduate Researcher (12/2014 – 02/2016), Prof. Keunsoo Kang's Lab
             <p>College of Natural Sciences, Dankook University, Cheonan, KR<br>
             Research topics: <u>bioinformatics</u>, <u>epigenomics</u>, <u>transcription factors</u></p></li>
         </ul>
@@ -126,14 +128,13 @@ classes: wide
         </h3>
         <div id="non-research" class="toggle-content">
             <ul>
-                <li>Facility Manager (2021-2023), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
-                <li><a href="https://keun-hong.github.io/lablife/website/" target="_blank" style="color: inherit; ">Website Administrator</a> (2020-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
-                <li><a href="https://keun-hong.github.io/lablife/nas/" target="_blank" style="color: inherit; ">NAS Server Administrator</a> (2019-2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
-                <li>Teaching Assistant (2019-2022), Biochemistry, College of Veterinary Medicine, Seoul National Univ.</li>
-                <li><a href="../images/profile/2017_DKU_Class_envi.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Environment-Bio Experiment, Department of Microbiology, Dankook Univ.</li>
-                <li><a href="../images/profile/2017_DKU_Class_stat.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (2017), Biological Statistics using SPSS, Department of Microbiology, Dankook Univ.</li>
-                <li>Graduate Assistant (2016-2017), Department of Microbiology, Dankook Univ.</li>
-                <li>Sergeant, Medic (2011–2013), 1st Brigade, Aviation Operations Command, Republic of Korea Army</li>
+                <li>Facility Manager (2021 – 2023), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
+                <li><a href="https://keun-hong.github.io/lablife/website/" target="_blank" style="color: inherit; ">Website Administrator</a> (2020 – 2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
+                <li><a href="https://keun-hong.github.io/lablife/nas/" target="_blank" style="color: inherit; ">NAS Server Administrator</a> (2019 – 2024), Comparative Medicine Disease Research Center (CDRC), Seoul National Univ.</li>
+                <li>Teaching Assistant (03/2019 – 08/2022), Biochemistry, College of Veterinary Medicine, Seoul National Univ.</li>
+                <li><a href="../images/profile/2017_DKU_Class_envi.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (09/2017 – 02/2018), Environment-Bio Experiment, Department of Microbiology, Dankook Univ.</li>
+                <li><a href="../images/profile/2017_DKU_Class_stat.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (03/2017 – 08/2017), Biological Statistics using SPSS, Department of Microbiology, Dankook Univ.</li>
+                <li>Graduate Assistant (03/2016 – 02/2017), Department of Microbiology, Dankook Univ.</li>
             </ul>
         </div>
         <h3 class="toggle-button" onclick="toggleVisibility('honors-awards', this)">
@@ -143,7 +144,7 @@ classes: wide
         <div id="honors-awards" class="toggle-content">
             <ul>
                 <li><a href="../images/profile/2024_FAVA_best_sci_presentation.jpg" target="_blank" style="color: inherit; ">Best Scientific Presentation Award</a> (2024), Federation of Asian Veterinary Associations Congress (FAVA)</li>
-                <li>Selected as <a href="https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=88641&authorId=41749#!/list" target="_blank" style="color: inherit; ">"한국을 빛낸 사람들 (한빛사)"</a> (People Who Shined Korea) (2023), BRIC</li>
+                <li>Selected for <a href="https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=88641&authorId=41749#!/list" target="_blank" style="color: inherit; ">“People Who Brightened Korea”</a> (한국을 빛낸 사람들, BRIC Honoree) (2023), Biological Research Information Center (BRIC)</li>
                 <li><a href="../images/profile/2022_KSMCB_Young_Investigator.jpg" target="_blank" style="color: inherit; ">Young Scientist Award</a> (2022), International Conference of the Korean Society for Molecular and Cellular Biology (KSMCB)</li>
                 <li><a href="../images/profile/2024_ERD_award.jpg" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2024), SNU College of Veterinary Medicine ERD Day</li>
                 <li><a href="../images/profile/2022_ERD_award.jpg" target="_blank" style="color: inherit; ">Thesis Presentation</a> (2022), SNU College of Veterinary Medicine ERD Day</li>
@@ -181,15 +182,15 @@ classes: wide
         </h3>
         <div id="memberships" class="toggle-content">
             <ul>
-                <li>Student Member (2024-), <a href="https://www.favamember.org/" target="_blank" style="color: inherit; ">Federation of Asian Veterinary Associations (FAVA)</a></li>
-                <li>Associate Member (2024-), <a href="https://www.aacr.org/" target="_blank" style="color: inherit; ">American Society for Cancer Research (AACR)</a></li>
-                <li>Collaborating Member (2022-), <a href="https://www.humancellatlas.org/" target="_blank" style="color: inherit; ">Human Cell Atlas</a></li>
-                <li>Collaborating Member (2022-), <a href="https://kbiox.net/" target="_blank" style="color: inherit; ">K-BIOX</a></li>
-                <li>Student Member (2022-), <a href="https://www.ksmcb.or.kr/eng/" target="_blank" style="color: inherit; ">Korean Society for Molecular and Cellular Biology (KSMCB)</a></li>
-                <li>Student Member (2021-), <a href="http://www.khupo.org/" target="_blank" style="color: inherit; ">The Korean Human Proteome Organization (KHUPO)</a></li>
-                <li>Associate Member (2021-), <a href="https://www.ksvs.or.kr/" target="_blank" style="color: inherit; ">Korean Society of Veterinary Science</a></li>
-                <li>Student Member (2016-), <a href="https://kogo.or.kr/index.asp" target="_blank" style="color: inherit; ">Korea Genome Organization (KOGO)</a></li>
-                <li>Student Member (2015-), <a href="https://www.ksbmb.or.kr/html/?pmode=english" target="_blank" style="color: inherit; ">Korean Society for Biochemistry and Molecular Biology (KSBMB)</a></li>
+                <li>Student Member (2024 –), <a href="https://www.favamember.org/" target="_blank" style="color: inherit; ">Federation of Asian Veterinary Associations (FAVA)</a></li>
+                <li>Associate Member (2024 –), <a href="https://www.aacr.org/" target="_blank" style="color: inherit; ">American Society for Cancer Research (AACR)</a></li>
+                <li>Collaborating Member (2022 –), <a href="https://www.humancellatlas.org/" target="_blank" style="color: inherit; ">Human Cell Atlas</a></li>
+                <li>Collaborating Member (2022 –), <a href="https://kbiox.net/" target="_blank" style="color: inherit; ">K-BIOX</a></li>
+                <li>Student Member (2022 –), <a href="https://www.ksmcb.or.kr/eng/" target="_blank" style="color: inherit; ">Korean Society for Molecular and Cellular Biology (KSMCB)</a></li>
+                <li>Student Member (2021 –), <a href="http://www.khupo.org/" target="_blank" style="color: inherit; ">The Korean Human Proteome Organization (KHUPO)</a></li>
+                <li>Associate Member (2021 –), <a href="https://www.ksvs.or.kr/" target="_blank" style="color: inherit; ">Korean Society of Veterinary Science</a></li>
+                <li>Student Member (2016 –), <a href="https://kogo.or.kr/index.asp" target="_blank" style="color: inherit; ">Korea Genome Organization (KOGO)</a></li>
+                <li>Student Member (2015 –), <a href="https://www.ksbmb.or.kr/html/?pmode=english" target="_blank" style="color: inherit; ">Korean Society for Biochemistry and Molecular Biology (KSBMB)</a></li>
             </ul>
         </div>
         <h3 class="toggle-button" onclick="toggleVisibility('review', this)">
