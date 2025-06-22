@@ -87,7 +87,7 @@ classes: wide
         <!--<a href="https://www.instagram.com/p/DB1SOOzPsX_/" target="_blank">
             <img src="../images/news/2410_FAVA.jpg" alt="2410_FAVA"></a>-->
         <a href="https://www.instagram.com/p/DDuBU29vzlk/" target="_blank">
-            <img src="../images/news/2412_KSMCB.jpg" alt="2412_KSMCB">
+            <img src="../images/news/2412_KSMCB.jpg" alt="2412_KSMCB"></a>
         <a href="https://www.instagram.com/p/DB1R54KvbrH/" target="_blank">
             <img src="../images/news/2410_FAVA2.jpg" alt="2410_FAVA2"></a>
         <a href="https://www.instagram.com/p/CjVQwtbPg_B/" target="_blank">
