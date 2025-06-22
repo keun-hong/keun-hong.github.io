@@ -4,6 +4,9 @@ main:
     url: /profile/
   - title: "Publications"
     url: /publications/
+  - title: "CV"
+    url: /assets/pdf/CV_Keun_Hong_Son.pdf
+    external: true
   - title: "Blog"
     url: /categories/
   #- title: "Tag"
