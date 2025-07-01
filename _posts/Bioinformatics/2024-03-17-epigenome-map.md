@@ -13,7 +13,7 @@ header:
 
 #### Human
 
-**111 tissues/cell lines** - [1502_N) Integrative analysis of 111 reference human epigenomes](![https://www.nature.com/articles/nature14248]())
+**111 tissues/cell lines** - [1502_N) Integrative analysis of 111 reference human epigenomes](https://www.nature.com/articles/nature14248)
 
 ![](../../images/2024-03-17-epigenome-map/2024-03-17-21-53-45-image.png)
 
@@ -60,6 +60,10 @@ header:
 **Wheat** - [1907_GB) The bread wheat epigenomic map reveals distinct chromatin architectural and evolutionary features of functional genetic elements](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1746-8)
 
 ![](../../images/2024-03-17-epigenome-map/2024-03-17-22-11-26-image.png)
+
+**Tomato** - [2407_PNAS) An atlas of the tomato epigenome reveals that KRYPTONITE shapes TAD-like boundaries through the control of H3K9ac distribution](https://www.pnas.org/doi/10.1073/pnas.2400737121)
+
+![](../../images/2024-03-17-epigenome-map/2025-07-01-20-39-10-image.png)
 
 #### Comparative
 
