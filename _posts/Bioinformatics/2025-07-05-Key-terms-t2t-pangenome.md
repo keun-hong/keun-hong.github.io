@@ -4,7 +4,7 @@ title: "[BI] Key Terms in T2T Genome Assembly and Pangenomics"
 categories: Bioinformatics
 tags: [t2t, pangenome]
 header:
-  teaser: /images/thumnail/2025-07-06-Key-terms-t2t-pangenome.jpg
+  teaser: /images/thumnail/2025-07-05-Key-terms-t2t-pangenome.jpg
 ---
 
 This post summarizes essential terms and techniques used in Telomere-to-Telomere (T2T) genome assembly and pangenome research, with concise definitions and reference illustrations
@@ -37,7 +37,9 @@ This post summarizes essential terms and techniques used in Telomere-to-Telomere
 | Bionano Optical Mapping | 100 kb–Mb (molecule length) | N/A          | SV detection, scaffolding  |
 | Hi-C                    | N/A (proximity-based)       | N/A          | Chromosome scaffolding     |
 
-![Schematic of scaffolding contigs to generate a draft assembly, and then curating the draft scaffolds to generate a curated assembly.](https://training.galaxyproject.org/training-material/topics/assembly/images/vgp_assembly/scaffoldingandcuration.png)
+![Untitled.jpg](../../images/2025-07-05-Key-terms-t2t-pangenome/c6185ec84ccabeacad0d7be9b3bddd6f2d66d6de.jpg)
+
+
 
 ### 🧬 Key Genomic Regions and Concepts in T2T and Pangenome Research
 
@@ -77,7 +79,7 @@ This post summarizes essential terms and techniques used in Telomere-to-Telomere
 | **Bubble**           | Region where paths diverge and reconverge, reflecting sequence variation. |
 | **Snarl**            | A generalized bubble with complex internal connections.                   |
 
-![](../../images/2025-07-06-Key-terms-t2t-pangenome/2025-07-06-01-43-32-image.png)
+![2025-07-06-01-43-32-image.png](../../images/2025-07-05-Key-terms-t2t-pangenome/7d04b9e88e814921439f912955b2451b523eb393.png)
 
 ### Reference
 
