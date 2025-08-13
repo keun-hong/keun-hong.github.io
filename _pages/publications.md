@@ -93,14 +93,6 @@ classes: wide
     }
 </style>
 
-<div class="color-box">
-    <h3>Research Focus</h3>
-</div>
-
-<div style="text-align: left;">
-  <img src="../images/publications/Publications.jpg" alt="image" width="700" style="display: block; margin-bottom: 20px;">
-</div>
-
 <div class="black-box">
     <h3>First-Authored Publications</h3>
 </div>
@@ -192,4 +184,9 @@ classes: wide
     Lee K&#8224;, Park H&#8224;, <strong>Son KH</strong>, Shin T, &amp; Cho J*.<br>
     <strong><em>Cancers (Basel).</em></strong> 2018 (<a href="https://www.mdpi.com/2072-6694/10/9/317" target="_blank" style="color: inherit; ">Article</a>, <a href="https://www.mdpi.com/2072-6694/10/9/317/pdf?version=1536322358" target="_blank" style="color: inherit; ">PDF</a>)
     </p>
+</div>
+
+<div style="text-align: left;">
+  <br>
+  <img src="../images/publications/Publications.jpg" alt="image" width="800" style="display: block;">
 </div>
