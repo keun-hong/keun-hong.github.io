@@ -25,8 +25,6 @@ Living primates comprise two deep branches: **Strepsirrhini** (lemurs, lorises, 
 
 
 
-![wiki_phylogeny.jpg](../../images/2025-08-12-primate-phylogeny-distribution/f61fe8d255d98b1b5eb6d271b42da74e2b5e88e1.jpg)
-
 ## Building a robust primate phylogeny: two complementary approaches
 
 **1) De novo whole-genome references**
