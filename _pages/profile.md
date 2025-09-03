@@ -107,15 +107,15 @@ classes: wide
             <li>Graduate Research Associate, <a href="https://vetbio.snu.ac.kr/" target="_blank" style="color: inherit; ">Je-Yoel Cho</a> (02/2019 – 08/2025)
             <p>Comparative Medicine Disease Research Center (CDRC), Seoul National University, Seoul, KR<br>
             Research topics: <u>cross-breed cancer genomics</u>, <u>dog epigenomics</u></p></li>
-            <li>Collaborative Research Fellow, Je-Yoel Cho (03/2017 – 02/2019)
+            <li>Collaborative Research Fellow, Je-Yoel Cho (06/2017 – 02/2019)
             <p>College of Veterinary Medicine, Seoul National University, Seoul, KR<br>
             Research topics: <u>dog epigenomics</u>, <u>cancer biomarkers</u></p></li>
+            <li>Collaborative Research Fellow, Jueng Soo You (03/2017 – 02/2019)
+            <p>Research Institute of Medical Science, Konkuk University, Seoul, KR<br>
+            Research topics: <u>cancer mechanism</u>, <u>chromatin remodeler (SWI/SNF complexes)</u> </p></li>
             <li>Collaborative Research Fellow, <a href="https://www.namswlab.com/" target="_blank" style="color: inherit; ">Suk Woo Nam</a> (03/2017 – 02/2018)
             <p>College of Medicine, Catholic University, Seoul, KR<br>
             Research topics: <u>cancer mechanism</u>, <u>histone modification</u>, <u>miRNA-editing</u></p></li>
-            <li>Collaborative Research Fellow, Jueng Soo You (03/2017 – 02/2018)
-            <p>Research Institute of Medical Science, Konkuk University, Seoul, KR<br>
-            Research topics: <u>cancer mechanism</u>, <u>chromatin remodeler (SWI/SNF complexes)</u> </p></li>
             <li>Graduate Research Associate, Keunsoo Kang (03/2016 – 02/2018)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR<br>
             Research topics: <u>bioinformatics</u>, <u>epigenomics</u>, <u>regulatory elements</u></p></li>
