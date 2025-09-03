@@ -95,10 +95,10 @@ classes: wide
             <p>College of Veterinary Medicine, Seoul National University, Seoul, KR</p></li>
             <li>M.S., Microbiology and Biotechnology  (03/2016 – 02/2018)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
-            <li>Military Service (Sergeant, Medic)  (11/2011 – 09/2013)
-            <p>1st Brigade, Aviation Operations Command, Republic of Korea Army</p></li>
             <li>B.S., Microbiology and Biotechnology (03/2010 – 02/2016)
             <p>College of Natural Sciences, Dankook University, Cheonan, KR</p></li>
+            <li>Military Service (Sergeant, Medic)  (11/2011 – 09/2013)
+            <p>1st Brigade, Aviation Operations Command, Republic of Korea Army</p></li>
         </ul>
         <br>
 
