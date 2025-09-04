@@ -186,9 +186,9 @@ classes: wide
         <div id="teaching-mentoring" class="toggle-content">
             <ul>
                 <li>Teaching Assistant (03/2019 – 08/2022), Biochemistry, College of Veterinary Medicine, Seoul National Univ.</li>
-                <li><a href="../images/profile/2017_DKU_Class_envi.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (09/2017 – 02/2018), Environment-Bio Experiment, Department of Microbiology, Dankook Univ.</li>
-                <li><a href="../images/profile/2017_DKU_Class_stat.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (03/2017 – 08/2017), Biological Statistics using SPSS, Department of Microbiology, Dankook Univ.</li>
-                <li>Graduate Assistant (03/2016 – 02/2017), Department of Microbiology, Dankook Univ.</li>
+                <li><a href="../images/profile/2017_DKU_TA_envbio.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (09/2017 – 02/2018), Environment-Bio Experiment, Department of Microbiology, Dankook Univ.</li>
+                <li><a href="../images/profile/2017_DKU_TA_biostat.jpg" target="_blank" style="color: inherit; ">Teaching Assistant</a> (03/2017 – 08/2017), Biological Statistics using SPSS, Department of Microbiology, Dankook Univ.</li>
+                <li><a href="../images/profile/2016_DKU_GA.jpg" target="_blank" style="color: inherit; ">Graduate Assistant</a> (03/2016 – 02/2017), Department of Microbiology, Dankook Univ.</li>
             </ul>
         </div>
 
