@@ -157,7 +157,7 @@ classes: wide
     <strong>CEBPD Regulates CD47 and MAP4K4 via Chromatin Accessibility in Canine Mammary Tumor Monocytes</strong><br>
     <p>
     Lee J&#8224;, Lee D, Shin K, <strong>Son KH</strong>, &amp; Cho J*.<br>
-    <strong><em>Sci. Rep.</em></strong> 2025 (accepted)
+    <strong><em>Sci. Rep.</em></strong> 2025 (<a href="https://www.nature.com/articles/s41598-025-06296-z" target="_blank" style="color: inherit; ">Article</a>, <a href="https://www.nature.com/articles/s41598-025-06296-z.pdf" target="_blank" style="color: inherit; ">PDF</a>)
     </p>
     <strong>Extracellular vesicle-mediated transfer of miRNA-1 from primary tumor repress distant metastasis growth</strong><br>
     <p>
