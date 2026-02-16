@@ -1,82 +1,14 @@
 ---
 layout: single
+description: "Academic profile of Keun Hong Son — research interests, education, experience, presentations, honors, and professional activities."
 permalink: /profile/
 author_profile: true
 classes: wide
 ---
 
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>    
-        h3 {
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-left: 5px;
-        }
-        .intro ul {
-            margin-top: 4px;
-            margin-bottom: 0;
-            list-style-type: square
-        }
-        .intro p {
-            margin-top: 0;
-            margin-bottom: 0;
-            color:gray;
-            font-size: 80%;
-        }
-        .toggle-content {
-            display: none; /* Hide content by default */
-            opacity: 0; /* Start hidden */
-            max-height: 0; /* Start hidden */
-            overflow: hidden; /* Prevents content overflow */
-            transition: max-height 0.5s ease, opacity 0.5s ease; /* Smooth transition */
-            margin-bottom: 20px;
-            font-size: 80%;
-        }
-        .toggle-button {
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            user-select: none; /* Prevent text selection */
-            margin-bottom: 15px; /* Add bottom margin for gap */
-        }
-        .toggle-button .fas {
-            margin-left: 10px;
-            transition: transform 0.3s;
-        }
-        .toggle-button.active .fas {
-            transform: rotate(90deg);
-        }
-        .toggle-content.show {
-            display: block;
-            opacity: 1;
-            max-height: 1000px; /* Large enough to display the content */
-        }
-        .youtube-container {
-            width: 66.66%;
-            max-width: 100%;
-            aspect-ratio: 16 / 9;
-            margin-bottom: 40px;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-        }
-        .youtube-iframe {
-            display: block;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        @media (max-width: 600px) {
-            .youtube-container {
-                width: 100%;
-            }
-        }
-    </style>
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<body>
-    <div class="intro">
+<div class="intro">
         <div class="youtube-container">
             <iframe class="youtube-iframe"
                 src="https://www.youtube.com/embed/XbUpWeQrQRo"
@@ -245,18 +177,17 @@ classes: wide
             </ul>
         </div>
 
-    </div>
-    <!-- Toggle -->
-    <script>
-        function toggleVisibility(id, element) {
-            var content = document.getElementById(id);
-            if (content.classList.contains('show')) {
-                content.classList.remove('show');
-                element.classList.remove('active');
-            } else {
-                content.classList.add('show');
-                element.classList.add('active');
-            }
+</div>
+
+<script>
+    function toggleVisibility(id, element) {
+        var content = document.getElementById(id);
+        if (content.classList.contains('show')) {
+            content.classList.remove('show');
+            element.classList.remove('active');
+        } else {
+            content.classList.add('show');
+            element.classList.add('active');
         }
-    </script>
-</body>
+    }
+</script>

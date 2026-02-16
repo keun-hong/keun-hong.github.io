@@ -1,61 +1,10 @@
 ---
 layout: single
+description: "Latest news, conference highlights, and social media updates from Keun Hong Son."
 permalink: /news/
 author_profile: true
 classes: wide
 ---
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - Responsive Layout</title>
-    <style>
-        /* Container: images always take priority */
-        .news-container {
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        /* Image grid: always at least 65%, grows first */
-        .news-image-grid {
-            flex: 2 1 65%;
-            min-width: 0;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 5px;
-        }
-        .news-image-grid img {
-            width: 100%;
-            height: auto;
-            aspect-ratio: 1 / 1;
-            object-fit: cover;
-            border-radius: 4px;
-        }
-        /* Twitter: stays compact, max 320px */
-        .news-twitter {
-            flex: 1 1 280px;
-            max-width: 320px;
-            min-width: 250px;
-        }
-        /* When space gets tight, stack vertically */
-        @media (max-width: 820px) {
-            .news-container {
-                flex-direction: column;
-            }
-            .news-image-grid {
-                width: 100%;
-            }
-            .news-twitter {
-                width: 100%;
-                max-width: 480px;
-            }
-        }
-    </style>
-</head>
-<body>
 
 <div class="news-container">
     <!-- Instagram Gallery -->
@@ -94,6 +43,4 @@ classes: wide
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
-
-</body>
 

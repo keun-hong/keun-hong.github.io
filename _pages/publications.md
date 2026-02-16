@@ -1,5 +1,6 @@
 ---
 layout: single
+description: "Peer-reviewed publications by Keun Hong Son in evolutionary genomics, comparative epigenomics, and cancer biology."
 permalink: /publications/
 author_profile: true
 classes: wide

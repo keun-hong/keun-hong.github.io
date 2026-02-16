@@ -527,6 +527,125 @@ search: false
   }
 }
 
+/* ==========================================================================
+   Profile Page
+   ========================================================================== */
+
+/* Profile section headings */
+.intro h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5px;
+}
+.intro ul {
+  margin-top: 4px;
+  margin-bottom: 0;
+  list-style-type: square;
+}
+.intro p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: gray;
+  font-size: 80%;
+}
+
+/* Toggle (accordion) sections */
+.toggle-content {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  margin-bottom: 20px;
+  font-size: 80%;
+}
+.toggle-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  margin-bottom: 15px;
+}
+.toggle-button .fas {
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+.toggle-button.active .fas {
+  transform: rotate(90deg);
+}
+.toggle-content.show {
+  display: block;
+  opacity: 1;
+  max-height: 1000px;
+}
+
+/* YouTube embed */
+.youtube-container {
+  width: 66.66%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+.youtube-iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+@media (max-width: 600px) {
+  .youtube-container {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   News Page
+   ========================================================================== */
+
+.news-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.news-image-grid {
+  flex: 2 1 65%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+
+  img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+}
+.news-twitter {
+  flex: 1 1 280px;
+  max-width: 320px;
+  min-width: 250px;
+}
+@media (max-width: 820px) {
+  .news-container {
+    flex-direction: column;
+  }
+  .news-image-grid {
+    width: 100%;
+  }
+  .news-twitter {
+    width: 100%;
+    max-width: 480px;
+  }
+}
+
 /* Social icon brand colors in light mode */
 .author__urls .fa-orcid {
   color: #A6CE39;
