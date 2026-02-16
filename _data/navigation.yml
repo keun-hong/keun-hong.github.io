@@ -5,7 +5,7 @@ main:
   - title: "Publications"
     url: /publications/
   - title: "CV"
-    url: /assets/pdf/CV_Keun_Hong_Son.pdf
+    url: https://keun-hong.github.io/cv/CV_KeunHongSon_260216.pdf # saved in "cv" repository
     external: true
   - title: "Blog"
     url: /categories/
