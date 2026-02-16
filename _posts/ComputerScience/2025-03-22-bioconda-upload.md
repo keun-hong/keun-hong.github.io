@@ -84,6 +84,7 @@ Inside the `recipes` directory, create a folder for your package (e.g., `recipes
 
 An example `meta.yaml` might look like this:
 
+{% raw %}
 ```yaml
 package:
   name: gencube
@@ -129,15 +130,18 @@ extra:
   recipe-maintainers:
     - keun-hong
 ```
+{% endraw %}
 
 **Note on version pinning:**
 
 The `run_exports` section is crucial. It tells conda to pin your package’s version in downstream recipes to prevent API/ABI or CLI breakages. For example, if your package follows semantic versioning and you want to allow updates within the same major version, use:
 
+{% raw %}
 ```yaml
 run_exports:
   - {{ pin_subpackage("gencube", max_pin="x") }}
 ```
+{% endraw %}
 
 If you expect potential changes even within minor releases, consider a tighter pin like `max_pin="x.x"`.
 

@@ -10,74 +10,56 @@ classes: wide
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News - Responsive Layout</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        /* Container for the whole layout */
-        .container {
+        /* Container: images always take priority */
+        .news-container {
             display: flex;
-            justify-content: space-between;
-            align-items: flex-start; /* Align items at the top */
+            align-items: flex-start;
+            gap: 20px;
             width: 100%;
             max-width: 1200px;
             margin: 0 auto;
-            box-sizing: border-box;
         }
-        /* Instagram gallery grid */
-        .image-grid {
-            flex-basis: 60%; /* Image section takes up 60% of the container width */
+        /* Image grid: always at least 65%, grows first */
+        .news-image-grid {
+            flex: 2 1 65%;
+            min-width: 0;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 5px;
         }
-        .image-grid img {
+        .news-image-grid img {
             width: 100%;
             height: auto;
+            aspect-ratio: 1 / 1;
             object-fit: cover;
+            border-radius: 4px;
         }
-        /* Twitter embed section */
-        .twitter-embed {
-            flex-basis: 40%; /* Twitter section takes up 35% of the container width */
-            margin-left: 1%;
+        /* Twitter: stays compact, max 320px */
+        .news-twitter {
+            flex: 1 1 280px;
+            max-width: 320px;
+            min-width: 250px;
         }
-        /* For smaller screens (max-width: 1024px) */
-        @media (max-width: 1024px) {
-            .container {
-                flex-wrap: wrap;
-            }
-            .image-grid {
-                flex-basis: 100%; /* Image grid takes full width */
-                grid-template-columns: repeat(3, 1fr);
-            }
-            .twitter-embed {
-                flex-basis: 100%; /* Twitter embed takes full width */
-                margin-top: 20px; /* Add margin to separate from images */
-            }
-        }
-        /* For mobile screens (max-width: 768px) */
-        @media (max-width: 768px) {
-            .container {
+        /* When space gets tight, stack vertically */
+        @media (max-width: 820px) {
+            .news-container {
                 flex-direction: column;
-                align-items: center;
             }
-            .image-grid {
-                grid-template-columns: repeat(3, 1fr);
+            .news-image-grid {
+                width: 100%;
             }
-            .twitter-embed {
-                width: 100%; /* Full width for Twitter embed */
-                margin-top: 20px;
+            .news-twitter {
+                width: 100%;
+                max-width: 480px;
             }
         }
     </style>
 </head>
 <body>
 
-<div class="container">
+<div class="news-container">
     <!-- Instagram Gallery -->
-    <div class="image-grid">
+    <div class="news-image-grid">
         <a href="https://www.instagram.com/p/CuZKxFGPk0O/" target="_blank">
             <img src="../images/news/2307_SNU.jpg" alt="2307_SNU"></a>
         <a href="https://www.instagram.com/p/CZvYXxmPGwq/" target="_blank">
@@ -104,7 +86,7 @@ classes: wide
             <img src="../images/news/1911_SNU.jpg" alt="1911_SNU"></a>
     </div>
     <!-- Twitter Embed -->
-    <div class="twitter-embed">
+    <div class="news-twitter">
         <blockquote class="twitter-tweet">
             <p lang="en" dir="ltr">Exciting news! Our lab’s latest paper in @ScienceAdvances on mapping the dog epigenome is out 🐕🎶! Close collaboration with my co-first authors...</p>
             <a href="https://twitter.com/new__hong/status/1676900193747488768"></a>
@@ -114,3 +96,4 @@ classes: wide
 </div>
 
 </body>
+

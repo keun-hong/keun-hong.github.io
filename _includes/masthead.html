@@ -27,12 +27,18 @@
         </button>
         -->
         {% endif %}
+        <!-- Dark Mode Toggle -->
+        <button class="dark-mode-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark/light mode">
+          <i class="fas fa-moon icon--moon"></i>
+          <i class="fas fa-sun icon--sun"></i>
+        </button>
+
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
         </button>
-        <ul class="hidden-links hidden"></ul>   
-        
+        <ul class="hidden-links hidden"></ul>
+
       </nav>
     </div>
   </div>

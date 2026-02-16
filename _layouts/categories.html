@@ -4,6 +4,26 @@ layout: archive
 
 {{ content }}
 
+<!-- Search Bar (top of page) -->
+{%- assign search_provider = site.search_provider | default: "lunr" -%}
+{%- case search_provider -%}
+  {%- when "lunr" -%}
+    <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" style="margin-bottom: 20px;" />
+    <div id="results" class="results"></div>
+  {%- when "google" -%}
+    <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <input type="text" id="cse-search-input-box-id" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" style="margin-bottom: 20px;" />
+    </form>
+    <div id="results" class="results">
+      <gcse:searchresults-only></gcse:searchresults-only>
+    </div>
+  {%- when "algolia" -%}
+    <div class="search-searchbar"></div>
+    <div class="search-hits"></div>
+{%- endcase -%}
+
+<h1 class="page__title" style="margin-top: 1.5em;">Category</h1>
+
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
   {% if category[1].size > categories_max %}
@@ -24,25 +44,6 @@ layout: archive
     {% endfor %}
   {% endfor %}
 </ul>
-
-<!-- Search Functionality -->
-{%- assign search_provider = site.search_provider | default: "lunr" -%}
-{%- case search_provider -%}
-  {%- when "lunr" -%}
-    <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-    <div id="results" class="results"></div>
-  {%- when "google" -%}
-    <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
-    <input type="text" id="cse-search-input-box-id" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-    </form>
-    <div id="results" class="results">
-      <gcse:searchresults-only></gcse:searchresults-only>
-    </div>
-  {%- when "algolia" -%}
-    <div class="search-searchbar"></div>
-    <div class="search-hits"></div>
-{%- endcase -%}
-<!-- End of Search Functionality -->
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}

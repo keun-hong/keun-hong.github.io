@@ -53,24 +53,23 @@ classes: wide
             max-height: 1000px; /* Large enough to display the content */
         }
         .youtube-container {
-            position: relative;
-            width: 66.66%; /* Set width to 2/3 of the container */
-            max-width: 100%; /* Ensure it doesn't exceed the container's width */
-            padding-bottom: 37.5%; /* Aspect ratio 16:9 */
-            height: 0;
-            margin-bottom: 40px; /* Add some space below the video */
+            width: 66.66%;
+            max-width: 100%;
+            aspect-ratio: 16 / 9;
+            margin-bottom: 40px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
         }
         .youtube-iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
+            display: block;
             width: 100%;
             height: 100%;
+            border: none;
         }
         @media (max-width: 600px) {
             .youtube-container {
-                width: 100%; /* Full width on small screens */
-                max-width: none; /* Remove max width on small screens */
+                width: 100%;
             }
         }
     </style>
@@ -78,6 +77,16 @@ classes: wide
 
 <body>
     <div class="intro">
+        <div class="youtube-container">
+            <iframe class="youtube-iframe"
+                src="https://www.youtube.com/embed/XbUpWeQrQRo"
+                title="Research Introduction"
+                frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
         <h3>Research Interests</h3> 
         <ul>
             <li>Evolutionary Animal Genomics
