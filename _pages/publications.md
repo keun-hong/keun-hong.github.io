@@ -12,7 +12,7 @@ classes: wide
 
 {% for pub in site.data.publications.first_author %}
 <div class="pub-card pub-card--first">
-    <img src="{{ site.baseurl }}/images/publications/{{ pub.image }}" alt="{{ pub.title }}" class="pub-card__image">
+    <img src="{{ site.baseurl }}/images/publications/{{ pub.image }}" alt="{{ pub.title }}" class="pub-card__image" loading="lazy">
     <div class="pub-card__content">
         <strong class="pub-card__title">{{ pub.title }}</strong><br>
         {{ pub.authors }}<br>
@@ -52,7 +52,7 @@ classes: wide
 {% endfor %}
 </div>
 
-<div style="text-align: left;">
+<div class="pub-overview">
   <br>
-  <img src="{{ site.baseurl }}/images/publications/Publications.jpg" alt="Publications overview" width="800" style="display: block;">
+  <img src="{{ site.baseurl }}/images/publications/Publications.webp" alt="Publications overview" class="pub-overview__image" loading="lazy">
 </div>

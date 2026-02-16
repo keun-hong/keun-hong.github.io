@@ -20,7 +20,7 @@ title                    : "Keun Hong"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Keun Hong"
-description              : "I'm an evolutionary and cancer biologist"
+description              : "Keun Hong Son — evolutionary and cancer biologist specializing in comparative genomics, epigenomics, and computational multi-omics at Seoul National University"
 url                      : "https://keun-hong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "keun-hong/keun-hong.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -89,9 +89,16 @@ og_image                 : "/images/index/KH_whitebg.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Keun Hong Son"
+  links:
+    - "https://scholar.google.com/citations?user=qQy_zewAAAAJ&hl=en"
+    - "https://orcid.org/0000-0002-2583-6272"
+    - "https://github.com/keun-hong"
+    - "https://www.linkedin.com/in/keun-hong"
+    - "https://twitter.com/new__hong"
+    - "https://bsky.app/profile/keun-hong.bsky.social"
+    - "https://www.youtube.com/@keun-hong"
 
 # Analytics
 analytics:
@@ -104,7 +111,7 @@ analytics:
 # Site Author
 author:
   name             : # "Keun Hong Son"
-  avatar           : # "/images/index/KH.jpg"
+  avatar           : # "/images/index/KH_1by1.jpeg"
   bio              : # "Evolutionary & Cancer Biologist"
   location         : "South Korea"
   email            :
@@ -139,9 +146,9 @@ author:
     #- label: "Life"
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://www.instagram.com/new__hong/"
-    #- label: "Email"
-    #  icon: "fas fa-fw fa-envelope-square"
-    #  url: "newhong@snu.ac.kr"  
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "#email-copy"
 
 # Site Footer
 # footer:
