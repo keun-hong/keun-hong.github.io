@@ -578,6 +578,9 @@ search: false
   opacity: 1;
   max-height: 1000px;
 }
+.toggle-content + .toggle-button {
+  margin-top: 10px;
+}
 
 /* YouTube embed */
 .youtube-container {
