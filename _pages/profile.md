@@ -43,6 +43,9 @@ classes: wide
 
         <h3>Research Experience</h3>
         <ul>
+            <li>Postdoctoral Research Fellow, <a href="https://www.yanglab.net/" target="_blank" class="link-inherit">Jae-Hyun Yang</a> (05/2026 – present)
+            <p>Regenerative Medical Research Institute for Aging-related Diseases (reMRI), KAIST, Daejeon, KR<br>
+            Research topics: <u>evolution of aging-resistance features in mammals</u></p></li>
             <li>Graduate Research Associate, <a href="https://vetbio.snu.ac.kr/" target="_blank" class="link-inherit">Je-Yoel Cho</a> (02/2019 – 08/2025)
             <p>Comparative Medicine Disease Research Center (CDRC), Seoul National University, Seoul, KR<br>
             Research topics: <u>cross-breed cancer genomics</u>, <u>dog epigenomics</u></p></li>
